@@ -82,7 +82,7 @@ const Header: React.FC = () => {
 					
           <button
             onClick={() => setMenuOpen(!menuOpen)}
-            className="md:hidden text-gray-700 cursor-pointer hover:text-gray-400 transition-color duration-300"
+            className="md:hidden text-zinc-400 cursor-pointer hover:text-zinc-100 transition-color duration-300"
             aria-label="Toggle menu"
           >
             {menuOpen ? <X size={28} /> : <Menu size={28} />}
@@ -97,7 +97,7 @@ const Header: React.FC = () => {
 
       {/* Mobile dropdown menu */}
       {menuOpen && (
-        <div className="md:hidden   px-4 py-4 mt-1  bg-zinc-950/50    ">
+        <div className="md:hidden    px-4 py-4 mt-1  bg-zinc-950/90    ">
           <Navigation currentHash={currentHash} />
         </div>
       )}
