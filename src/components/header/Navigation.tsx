@@ -10,7 +10,7 @@ const itemVariants = {
     opacity: 1,
     y: 0,
     scale: 1,
-    transition: { delay: i * 0.05, duration: 0.1, ease: 'easeOut' },
+    transition: { delay: i * 0.05, duration: 0.4, ease: 'easeOut' },
   }),
 };
 
