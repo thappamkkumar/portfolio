@@ -2,6 +2,7 @@
 
 import { motion } from 'framer-motion';
 import Introduction from './Introduction';
+import QualificationList from './QualificationList';
 
 const fadeUp= {
   hidden: { opacity: 0, y: 30 },
@@ -22,6 +23,7 @@ export default function About() {
         <span className="border-b-5 border-red-800">About Me</span>
       </motion.h2>
       <Introduction />
+			<QualificationList />
     </section>
   );
 }
