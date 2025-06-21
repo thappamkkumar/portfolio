@@ -45,7 +45,7 @@ export default function QualificationItem({ item, index }: QualificationProps) {
 
           <Link
             href={`/certificate/${item.id}`}
-            className="text-sm text-blue-400   mt-1  inline-flex items-center gap-1  hover:underline  w-auto"
+            className="text-sm text-red-800   mt-1  inline-flex items-center gap-1  hover:underline  w-auto"
           >
             <FileBadge size={16} /> View Certificate
           </Link>

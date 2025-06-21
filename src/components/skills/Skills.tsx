@@ -39,7 +39,7 @@ const fadeUp= {
 };
 const Skills = () => {
   return (
-    <section id="skills" className="py-20 px-4 max-w-7xl mx-auto bg-zinc-950">
+    <section id="skills" className="py-20 px-4 max-w-7xl mx-auto  ">
       <motion.h2
         className="text-center text-4xl md:text-5xl font-bold text-zinc-100 mb-16"
         variants={fadeUp}

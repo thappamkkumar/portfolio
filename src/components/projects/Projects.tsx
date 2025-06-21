@@ -85,7 +85,7 @@ export default function Projects() {
 				>
           <button
             onClick={handleToggleShow}
-            className="px-6 py-2 bg-red-800 text-white rounded-lg cursor-pointer  hover:bg-red-700 transition"
+            className="px-6 py-2 bg-red-800 text-white rounded-lg cursor-pointer  hover:bg-red-900 transition"
           >
             {showAll ? 'Show Less' : 'Show More'}
           </button>
