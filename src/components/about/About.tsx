@@ -1,0 +1,27 @@
+'use client';
+
+import { motion } from 'framer-motion';
+import Introduction from './Introduction';
+
+const fadeUp= {
+  hidden: { opacity: 0, y: 30 },
+  visible: { opacity: 1, y: 0, transition: { duration: 0.6 } },
+};
+
+export default function About() {
+  return (
+    <section id="about" className=" overflow-hidden  max-w-7xl mx-auto  py-20  text-base text-zinc-400  ">
+			<motion.h2
+        className="text-center text-5xl md:text-6xl font-bold mb-18 text-zinc-100" 
+				variants={fadeUp}
+        initial="hidden"
+        whileInView="visible"
+        viewport={{ once: true }}
+				
+      >
+        <span className="border-b-5 border-red-800">About Me</span>
+      </motion.h2>
+      <Introduction />
+    </section>
+  );
+}
