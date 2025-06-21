@@ -4,6 +4,11 @@ import { motion } from 'framer-motion';
 import { GraduationCap, School, BadgeCheck } from 'lucide-react';
 import QualificationItem from './QualificationItem';
 
+const fadeUp= {
+  hidden: { opacity: 0, y: 30 },
+  visible: { opacity: 1, y: 0, transition: { duration: 0.6 } },
+};
+
 const qualifications = [
   {
     id: 'btech',
@@ -35,37 +40,28 @@ const qualifications = [
   },
 ];
 
-const fadeUpContainer = {
-  visible: { transition: { staggerChildren: 0.15 } },
-};
+
 
 export default function QualificationList() {
   return (
-    <motion.div
-      className="mt-16  "
-      initial="hidden"
-      whileInView="visible"
-      viewport={{ once: true }}
-      variants={fadeUpContainer}
-    >
-      <motion.h2
-        className="text-3xl font-semibold text-zinc-800 mb-6 text-center"
-        initial="hidden"
-        whileInView="visible"
-        viewport={{ once: true, amount: 0.5 }}
-        variants={{
-          hidden: { opacity: 0, y: 30 },
-          visible: { opacity: 1, y: 0, transition: { duration: 0.6 } },
-        }}
-      >
-        Education & Certifications
-      </motion.h2>
-			
-			<div className=" grid md:grid-cols-2 gap-6">
+    <div className="mt-20  block lg:flex  " >
+			<div className="lg:w-1/2 w-full h-auto ">
+				<motion.h2
+					className="lg:sticky lg:top-20   text-center lg:text-start  text-5xl md:text-6xl font-bold mb-18 text-zinc-200"
+					variants={fadeUp}
+					initial="hidden"
+					whileInView="visible"
+					viewport={{ once: true }}
+				>
+				<span className="border-b-5 border-red-800">Education</span>
+					 
+				</motion.h2>
+			</div>
+			<div className="lg:w-1/2 w-full flex flex-col  gap-3">
 				{qualifications.map((item, i) => (
 					<QualificationItem key={item.id} item={item} index={i} />
 				))}
 			</ div>
-    </motion.div>
+    </div>
   );
 }

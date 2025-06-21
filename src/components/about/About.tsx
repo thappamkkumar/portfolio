@@ -11,9 +11,9 @@ const fadeUp= {
 
 export default function About() {
   return (
-    <section id="about" className=" overflow-hidden  max-w-7xl mx-auto  py-20  text-base text-zinc-400  ">
+    <section id="about" className="  relative  max-w-7xl mx-auto  py-20  text-base text-zinc-400  ">
 			<motion.h2
-        className="text-center text-5xl md:text-6xl font-bold mb-18 text-zinc-100" 
+        className="text-center text-5xl md:text-6xl font-bold mb-18 text-zinc-200" 
 				variants={fadeUp}
         initial="hidden"
         whileInView="visible"

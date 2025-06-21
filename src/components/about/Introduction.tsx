@@ -20,7 +20,7 @@ export default function Introduction() {
        
 			  
       <motion.div
-        className="     w-full lg:w-1/2 pb-10 lg:pb-0 flex justify-center lg:justify-start  "
+        className=" lg:sticky lg:top-20    w-full lg:w-1/2 pb-10 lg:pb-0 flex justify-center lg:justify-start  "
         variants={fadeRight}
         initial="hidden"
         whileInView="visible"
