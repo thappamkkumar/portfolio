@@ -13,14 +13,15 @@ export default function About() {
   return (
     <section id="about" className="  relative  max-w-7xl mx-auto  py-20  text-base text-zinc-400  ">
 			<motion.h2
-        className="text-center text-5xl md:text-6xl font-bold mb-18 text-zinc-200" 
+        className="text-center text-4xl md:text-5xl font-bold text-zinc-100 mb-16" 
 				variants={fadeUp}
         initial="hidden"
         whileInView="visible"
         viewport={{ once: true }}
 				
       >
-        <span className="border-b-5 border-red-800">About Me</span>
+			  <span className="text-red-800">About</span> Me
+         
       </motion.h2>
       <Introduction />
 			<QualificationList />

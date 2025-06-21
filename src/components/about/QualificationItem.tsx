@@ -34,7 +34,7 @@ export default function QualificationItem({ item, index }: QualificationProps) {
 			initial="hidden"
 			whileInView="visible"
 			viewport={{ once: true }}
-      className="bg-zinc-900 text-zinc-400 p-5 rounded-xl   "
+      className="bg-zinc-900 text-zinc-400 p-6 rounded-xl shadow-md shadow-black/30 hover:shadow-white/30 transition-shadow duration-300  "
     >
       <div className="flex items-start gap-3">
         <Icon className="text-red-800 mt-1" size={22} />

@@ -47,7 +47,7 @@ export default function QualificationList() {
     <div className="mt-20 lg:mt-30  block lg:flex  " >
 			<div className="lg:w-1/2 w-full h-auto ">
 				<motion.h2
-					className="lg:sticky lg:top-20   text-center lg:text-start  text-5xl md:text-6xl font-bold mb-18 text-zinc-200"
+					className="lg:sticky lg:top-20   text-center lg:text-start  text-4xl md:text-5xl font-bold mb-16 text-zinc-100"
 					variants={fadeUp}
 					initial="hidden"
 					whileInView="visible"
