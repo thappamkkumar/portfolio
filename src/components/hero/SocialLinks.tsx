@@ -3,16 +3,15 @@
 import { motion } from 'framer-motion'
 import { Github, Instagram, MessageCircle } from 'lucide-react'
 import { SkillvillaIcon } from '@/components/icons/SkillvillaIcon' // update path as needed
-
+ 
 const iconVariants = {
-  hidden: { opacity: 0, y: 10, scale: 0.9 },
-  visible: (i: number) => ({
+  hidden: { opacity: 0, x: 10 },
+	visible: (i: number) => ({
     opacity: 1,
-    y: 0,
-    scale: 1,
-    transition: { delay: i * 0.2, duration: 0.4, ease: 'easeOut' },
+    x: 0, 
+    transition: { delay: i * 0.2, duration: 0.6, ease: 'easeOut' },
   }),
-}
+};
 
 const socialLinks = [
 	{ href: 'https://skillvilla.com/your-profile', icon: <SkillvillaIcon /> }, 
@@ -31,11 +30,13 @@ export default function SocialLinks() {
           href={link.href}
           target="_blank"
           rel="noopener noreferrer"
-          custom={i}
+					custom={i}
           variants={iconVariants}
-          initial="hidden"
-          animate="visible"
-          whileHover={{ scale: 1.2, color: '#991b1b' }}
+					initial="hidden"
+					whileInView="visible"
+					viewport={{ once: true }}
+          className="text-zinc-400 hover:text-red-800 transition-color"
+					
         >
           {link.icon}
         </motion.a>
