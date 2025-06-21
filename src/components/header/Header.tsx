@@ -7,6 +7,11 @@ import { navItems } from './navItems';
 import Logo from './Logo';
 import Navigation from './Navigation';
 
+const fadeDown= {
+  hidden: { opacity: 0, y: -20 },
+  visible: { opacity: 1, y: 0, transition: { duration: 0.3 } },
+};
+
 const Header: React.FC = () => {
   const [currentHash, setCurrentHash] = useState<string>('#home');
   const currentHashRef = useRef(currentHash);
@@ -69,9 +74,10 @@ const Header: React.FC = () => {
 
   return (
     <motion.header
-      initial={{ y: -40, opacity: 0 }}
-      animate={{ y: 0, opacity: 1 }}
-      transition={{ duration: 0.6, ease: 'easeOut' }}
+      variants={fadeDown}
+			initial="hidden"
+			whileInView="visible"
+			viewport={{ once: true }}
       className="fixed z-50 w-full max-h-screen top-0  px-4 py-3 overflow-auto  backdrop-blur-md"
     >
 			<div className="max-w-7xl mx-auto flex justify-between ">

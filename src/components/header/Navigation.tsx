@@ -10,7 +10,7 @@ const itemVariants = {
     opacity: 1,
     y: 0,
     scale: 1,
-    transition: { delay: i * 0.1, duration: 0.4, ease: 'easeOut' },
+    transition: { delay: i * 0.1, duration: 0.3, ease: 'easeOut' },
   }),
 };
 
@@ -27,10 +27,13 @@ const Navigation: React.FC<NavProps> = ({ currentHash }) => {
         <motion.a
           key={name}
           href={href}
+					
           custom={i}
-          initial="hidden"
-          animate="visible"
           variants={itemVariants}
+					initial="hidden"
+					whileInView="visible"
+					viewport={{ once: true }}
+					
           className={`text-center w-full md:w-auto  px-4 py-2  text-sm md:text-base transition-all duration-300 ${
             currentHash === href
               ? '  text-zinc-100 font-bold'
