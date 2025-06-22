@@ -21,7 +21,7 @@ export async function POST(req: NextRequest) {
 		
 		
     // Log or send to backend/email
-    console.log('Received contact form submission:', result.rows[0])
+   // console.log('Received contact form submission:', result.rows[0])
 
     return NextResponse.json(
       { success: true, message: 'Your message has been sent successfully!' },
