@@ -47,14 +47,13 @@ export default function QualificationList() {
     <div className="mt-20 lg:mt-30  block lg:flex  " >
 			<div className="lg:w-1/2 w-full h-auto ">
 				<motion.h2
-					className="lg:sticky lg:top-20   text-center lg:text-start  text-4xl md:text-5xl font-bold mb-16 text-zinc-100"
+					className="lg:sticky lg:top-20   text-center lg:text-start  text-4xl md:text-5xl font-bold text-zinc-100 mb-16"
 					variants={fadeUp}
 					initial="hidden"
 					whileInView="visible"
 					viewport={{ once: true }}
 				>
-				<span className="border-b-5 border-red-800">Education</span>
-					 
+					My <span className="text-red-800">Education</span>   
 				</motion.h2>
 			</div>
 			<div className="lg:w-1/2 w-full flex flex-col  gap-3">

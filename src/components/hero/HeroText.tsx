@@ -81,7 +81,7 @@ export default function HeroText() {
         variants={fadeUp}
         className="mt-6 text-zinc-400 text-base md:text-lg"
       >
-        I build beautiful and performant web applications tailored for users.
+        I specialize in building seamless digital experiences with clean code and modern design.
       </motion.p>
 
       <motion.div

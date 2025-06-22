@@ -21,14 +21,14 @@ export default function Footer() {
 			initial="hidden"
 			whileInView="visible"
 			viewport={{ once: true }}
-      className="bg-zinc-900 text-zinc-400 py-10 px-6 mt-20"
+      className="bg-zinc-900   py-10 px-6 mt-20"
     >
       <div className="max-w-7xl mx-auto grid grid-cols-1 md:grid-cols-3 gap-10 items-center text-center md:text-left">
         {/* Brand */}
         <div className="flex flex-col items-center md:items-start space-y-2">
           <Logo />
           <p className="text-sm text-zinc-400">
-            Creating modern web experiences with passion.
+            Focused on delivering quality through design and code.
           </p>
         </div>
 
