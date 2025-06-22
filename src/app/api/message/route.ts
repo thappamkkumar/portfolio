@@ -1,6 +1,7 @@
-import { NextResponse } from 'next/server';
+import { NextRequest, NextResponse } from 'next/server';
+import pool from '@/lib/db'; 
 
-export async function POST(req: Request) {
+export async function POST(req: NextRequest) {
   try {
     const body = await req.json();
     const { name, email, message } = body;
@@ -11,9 +12,16 @@ export async function POST(req: Request) {
         { status: 400 }
       );
     }
+		
+		// Insert into DB
+    const insertQuery = `INSERT INTO message (name, email, message) VALUES ($1, $2, $3 ) RETURNING *;`;
+		const result = await pool.query(insertQuery, [name, email, message]);
 
+    
+		
+		
     // Log or send to backend/email
-    console.log('Received contact form submission:', { name, email, message });
+    console.log('Received contact form submission:', result.rows[0])
 
     return NextResponse.json(
       { success: true, message: 'Your message has been sent successfully!' },
