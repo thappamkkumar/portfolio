@@ -61,7 +61,7 @@ export default function Introduction() {
         <br />
         <p className="text-center lg:text-left">
 					<span className="hidden lg:inline-block w-[30px] h-[10px]  me-3 border-t-4 border-red-800"></span>
-					I work confidently across the full stack, using technologies like Laravel, React.js, Next.js, Tailwind CSS, Bootstrap, MySQL, and PostgreSQL..
+					I work confidently across the full stack, using technologies like Laravel, React.js, Next.js, Tailwind CSS, Bootstrap, MySQL, and PostgreSQL. 
         </p>
 				 <br />
 				<p className="text-center lg:text-left">
