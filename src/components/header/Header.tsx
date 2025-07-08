@@ -7,7 +7,7 @@ import { navItems } from './navItems';
 import Logo from './Logo';
 import Navigation from './Navigation';
 
-const fadeRight= {
+const fadeDown= {
   hidden: { opacity: 0, y: -20 },
   visible: { opacity: 1, y: 0, transition: { duration: 0.3 } },
 };
@@ -74,7 +74,7 @@ const Header: React.FC = () => {
 
   return (
     <motion.header
-      variants={fadeRight}
+      variants={fadeDown}
 			initial="hidden"
 			whileInView="visible"
 			viewport={{ once: true }}
