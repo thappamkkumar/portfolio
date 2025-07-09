@@ -1,6 +1,6 @@
 "use client";
 
-import Image from "next/image";
+import { memo } from "react";
 import { motion } from "framer-motion";
 
 const fadeRight = {
@@ -17,7 +17,7 @@ interface HeroImageProps {
   images: string[];
 }
 
-export default function HeroImage({ currentImage, images }: HeroImageProps) {
+function HeroImage({ currentImage, images }: HeroImageProps) {
   return (
     <motion.div
       variants={fadeRight}
@@ -26,14 +26,14 @@ export default function HeroImage({ currentImage, images }: HeroImageProps) {
       className="hidden lg:block flex-1 relative group"
     >
       <div className="relative w-full h-[350px] rounded-xl overflow-hidden shadow-2xl transform group-hover:scale-105 transition duration-500">
-        <Image
+        <img
           src={images[currentImage]}
           alt="Hero Screenshot"
-          fill
-          className="object-fill rounded-xl border-4 border-white/10"
-          priority
+          className="w-full h-full object-fill rounded-xl border-4 border-white/10"
         />
       </div>
     </motion.div>
   );
 }
+
+export default memo(HeroImage);

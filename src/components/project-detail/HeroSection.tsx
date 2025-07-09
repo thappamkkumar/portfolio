@@ -1,16 +1,14 @@
 "use client";
 
-import { useEffect, useState } from "react";
-import HeroText from "./HeroText";
-import HeroImage from "./HeroImage";
-
- 
+import { useEffect, useMemo, useState } from "react";
+import HeroText from "./hero/HeroText";
+import HeroImage from "./hero/HeroImage";
 
 interface HeroSectionProps {
   title: string;
   tagline: string;
+  titles: string[]; // fixed type
   images: string[];
-  titles: string;
   liveDemoUrl?: string;
   codeUrl?: string;
   scrollToId?: string;
@@ -19,11 +17,11 @@ interface HeroSectionProps {
 export default function HeroSection({
   title,
   tagline,
-  images,
   titles,
+  images,
   liveDemoUrl,
   codeUrl,
-  scrollToId = "project-content",
+  scrollToId = "#overview",
 }: HeroSectionProps) {
   const [currentImage, setCurrentImage] = useState(0);
   const [text, setText] = useState("");
@@ -31,17 +29,19 @@ export default function HeroSection({
   const [subIndex, setSubIndex] = useState(0);
   const [deleting, setDeleting] = useState(false);
 
+  // ??? Memoize images to avoid re-renders
+  const memoizedImages = useMemo(() => images, [images]);
+
   // Slideshow logic
   useEffect(() => {
     const interval = setInterval(() => {
-      setCurrentImage((prev) => (prev + 1) % images.length);
+      setCurrentImage((prev) => (prev + 1) % memoizedImages.length);
     }, 3000);
     return () => clearInterval(interval);
-  }, [images.length]);
+  }, [memoizedImages]);
 
   // Typing animation
   useEffect(() => {
-    if (index === titles.length) setIndex(0);
     const currentTitle = titles[index];
 
     if (subIndex === currentTitle.length + 1 && !deleting) {
@@ -61,12 +61,11 @@ export default function HeroSection({
     }, deleting ? 40 : 80);
 
     return () => clearTimeout(timeout);
-  }, [subIndex, deleting, index]);
+  }, [subIndex, deleting, index, titles]);
 
   return (
-    <section className="relative w-full h-[95vh] bg-zinc-950 text-white overflow-hidden">
-      <div className="max-w-7xl mx-auto px-6 py-12 h-full flex    items-end  lg:items-center justify-between gap-10">
-        
+    <section className="  w-full max-w-7xl     min-h-[95vh] mx-auto px-6 py-12 bg-zinc-950   overflow-hidden flex items-end lg:items-center justify-between gap-10">
+       
         <HeroText
           title={title}
           text={text}
@@ -75,8 +74,8 @@ export default function HeroSection({
           codeUrl={codeUrl}
           scrollToId={scrollToId}
         />
-				<HeroImage currentImage={currentImage} images={images} />
-      </div>
+        <HeroImage currentImage={currentImage} images={memoizedImages} />
+       
     </section>
   );
 }
