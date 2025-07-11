@@ -21,9 +21,7 @@ export default function MultiVendorEcommerce() {
 
       </div>
 			
-			<div className="px-6 h-screen">
-			
-      </div>
+			 
     </main>
   );
 }

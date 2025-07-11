@@ -30,7 +30,7 @@ export default function FeatureCategory({ category, features }: FeatureCategoryP
   return (
     <section className="mb-12">
 			<motion.h3
-        className="text-2xl md:text-3xl font-bold text-red-800  mb-8"
+        className="text-2xl md:text-3xl font-bold text-zinc-100 underline mb-8"
         variants={fadeUp}
         initial="hidden"
         whileInView="visible"

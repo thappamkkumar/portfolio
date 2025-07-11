@@ -43,7 +43,7 @@ export default function LazyImage({ src, alt, aspectRatio = '16/9' }: LazyImageP
           src={src}
           alt={alt}
           fill
-          className="object-cover transition-opacity duration-500 rounded-xl"
+          className="object-fill transition-opacity duration-500 rounded-lg"
           sizes="(max-width: 768px) 100vw, 800px"
         />
       )}

@@ -38,7 +38,7 @@ export default function FeatureCard({ title, description, points = [], image }: 
           initial="hidden"
           whileInView="visible"
           viewport={{ once: true }}
-          className="text-xl font-semibold text-white"
+          className="text-xl font-semibold text-red-800    "
         >
           {title}
         </motion.h3>
@@ -78,7 +78,7 @@ export default function FeatureCard({ title, description, points = [], image }: 
         initial="hidden"
         whileInView="visible"
         viewport={{ once: true }}
-        className="mt-2"
+        className=" p-4"
       >
         <FeatureImage
           src={image}
