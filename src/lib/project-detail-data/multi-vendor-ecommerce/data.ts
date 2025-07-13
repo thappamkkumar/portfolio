@@ -36,7 +36,7 @@ export const heroProps = {
     "/project-doc/multi-vendor-ecommerse/admin/category-list-page.png",
     "/project-doc/multi-vendor-ecommerse/admin/product-list-page.png",
     "/project-doc/multi-vendor-ecommerse/admin/order-list-page.png",
-    "/project-doc/multi-vendor-ecommerse/admin/transection-list-page.png",
+    "/project-doc/multi-vendor-ecommerse/admin/transaction-list-page.png",
     "/project-doc/multi-vendor-ecommerse/admin/payment-list-page.png",
     "/project-doc/multi-vendor-ecommerse/admin/profile-page.png",
     "/project-doc/multi-vendor-ecommerse/admin/logout-page.png",

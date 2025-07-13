@@ -78,7 +78,7 @@ const Header: React.FC = () => {
 			initial="hidden"
 			whileInView="visible"
 			viewport={{ once: true }}
-      className="fixed z-50 w-full max-h-screen top-0  px-4 py-3 overflow-auto  backdrop-blur-md"
+      className="fixed z-50 w-full max-h-screen top-0  px-4 py-3 overflow-auto bg-zinc-950/20  backdrop-blur-md"
     >
 			<div className="max-w-7xl mx-auto flex justify-between ">
         

@@ -2,6 +2,8 @@ import HeroSection from "@/components/project-detail/HeroSection";
 import TechStack from "@/components/project-detail/TechStack";
 import Overview from "@/components/project-detail/overview/multi-vendor-ecommerse/Overview";
 import Feature from "@/components/project-detail/feature/Feature";
+import MultiVendorEcommerseHeader from "@/components/project-detail/header/MultiVendorEcommerseHeader";
+import ScrollToTopButton from "@/components/common/ScrollToTopButton";
 
 import {
   heroProps, 
@@ -11,7 +13,8 @@ import {
 
 export default function MultiVendorEcommerce() {
   return (
-    <main>
+    <main >
+			<MultiVendorEcommerseHeader data={...featureProps}/>
       <HeroSection {...heroProps} />
       <div className="px-6">
         <Overview />
@@ -21,6 +24,7 @@ export default function MultiVendorEcommerce() {
 
       </div>
 			
+			<ScrollToTopButton />
 			 
     </main>
   );

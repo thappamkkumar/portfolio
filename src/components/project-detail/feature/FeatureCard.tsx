@@ -1,7 +1,7 @@
 'use client';
 
 import { motion } from 'framer-motion';
-import FeatureImage from "./FeatureImage";
+import FeatureImage from './FeatureImage';
 
 const fadeUp = {
   hidden: { opacity: 0, y: 20 },
@@ -24,21 +24,27 @@ const detailLi = {
 interface FeatureItemProps {
   title: string;
   description?: string;
-	points?: string[];
+  points?: string[];
   image: string;
-   
+  id: string;
 }
 
-export default function FeatureCard({ title, description, points = [], image }: FeatureItemProps) {
+export default function FeatureCard({
+  title,
+  description,
+  points = [],
+  image,
+  id,
+}: FeatureItemProps) {
   return (
-    <div className="bg-zinc-900 rounded-xl shadow-md border border-zinc-800 overflow-hidden">
+    <div id={id} className="bg-zinc-900 rounded-xl shadow-md border border-zinc-800 overflow-hidden">
       <div className="p-4 space-y-3">
         <motion.h3
           variants={fadeUp}
           initial="hidden"
           whileInView="visible"
           viewport={{ once: true }}
-          className="text-xl font-semibold text-red-800    "
+          className="text-xl font-semibold text-red-800"
         >
           {title}
         </motion.h3>
@@ -78,12 +84,9 @@ export default function FeatureCard({ title, description, points = [], image }: 
         initial="hidden"
         whileInView="visible"
         viewport={{ once: true }}
-        className=" p-4"
+        className="p-4"
       >
-        <FeatureImage
-          src={image}
-          alt={title}
-        />
+        <FeatureImage src={image} alt={title} />
       </motion.div>
     </div>
   );

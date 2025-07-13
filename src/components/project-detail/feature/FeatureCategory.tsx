@@ -1,9 +1,7 @@
-
 'use client';
 
 import { motion } from 'framer-motion';
 import FeatureCard from './FeatureCard';
-
 
 const fadeUp = {
   hidden: { opacity: 0, y: 20 },
@@ -14,7 +12,6 @@ const fadeUp = {
   },
 };
 
-
 interface Feature {
   title: string;
   description: string;
@@ -22,28 +19,37 @@ interface Feature {
 }
 
 interface FeatureCategoryProps {
+  catId: string;
   category: string;
   features: Feature[];
 }
 
-export default function FeatureCategory({ category, features }: FeatureCategoryProps) {
+export default function FeatureCategory({ catId, category, features }: FeatureCategoryProps) {
   return (
     <section className="mb-12">
-			<motion.h3
+      <motion.h3
         className="text-2xl md:text-3xl font-bold text-zinc-100 underline mb-8"
         variants={fadeUp}
         initial="hidden"
         whileInView="visible"
         viewport={{ once: true }}
       >
-       {category}
+        {category}
       </motion.h3>
-       
-			<div className="space-y-6">
-				{features.map((feature, idx) => (
-					<FeatureCard key={idx} {...feature} />
-				))}
-			</div>
+
+      <div className="space-y-6">
+        {features.map((feature, idx) => {
+          const safeId = `${feature.title.replace(/\s+/g, '-').toLowerCase()}-${catId}-${idx}`;
+
+          return (
+            <FeatureCard
+              key={safeId}
+              id={safeId}
+              {...feature}
+            />
+          );
+        })}
+      </div>
     </section>
   );
 }

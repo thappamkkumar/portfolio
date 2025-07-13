@@ -2,6 +2,7 @@
 
 import { motion } from 'framer-motion';  
 import FeatureCategory from './FeatureCategory';
+
 const fadeUp = {
   hidden: { opacity: 0, y: 20 },
   visible: {
@@ -10,7 +11,6 @@ const fadeUp = {
     transition: { duration: 0.6, ease: 'easeOut' },
   },
 };
-
 
 interface Feature {
   title: string;
@@ -41,7 +41,7 @@ export default function Feature({ data }: FeaturesSectionProps) {
       </motion.h2>
 
       {data.map((group, idx) => (
-        <FeatureCategory key={idx} category={group.category} features={group.features} />
+        <FeatureCategory key={idx} catId={idx.toString()} category={group.category} features={group.features} />
       ))}
     </section>
   );
