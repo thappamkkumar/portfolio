@@ -1,31 +1,35 @@
+
+import Header from "@/components/project-detail/Header";
 import HeroSection from "@/components/project-detail/HeroSection";
 import TechStack from "@/components/project-detail/TechStack";
 import Overview from "@/components/project-detail/overview/multi-vendor-ecommerse/Overview";
 import Feature from "@/components/project-detail/feature/Feature";
-import MultiVendorEcommerseHeader from "@/components/project-detail/header/MultiVendorEcommerseHeader";
+ 
 import ScrollToTopButton from "@/components/common/ScrollToTopButton";
 
 import {
   heroProps, 
   techStackProps,
   featureProps,
-} from "@/lib/project-detail-data/multi-vendor-ecommerce/data";
+} from "@/lib/project-detail-data/multi-vendor-ecommerse/data";
 
 export default function MultiVendorEcommerce() {
   return (
-    <main >
-			<MultiVendorEcommerseHeader data={...featureProps}/>
-      <HeroSection {...heroProps} />
-      <div className="px-6">
-        <Overview />
-        <TechStack {...techStackProps} />
-				
-				<Feature data={...featureProps} />
+    <  >
+			<Header data={...featureProps}/>
+			<main>
+				<HeroSection {...heroProps} />
+				<div className="px-6">
+					<Overview />
+					<TechStack {...techStackProps} />
+					
+					<Feature data={...featureProps} />
 
-      </div>
-			
-			<ScrollToTopButton />
-			 
-    </main>
+				</div>
+				
+				<ScrollToTopButton />
+				 
+			</main>
+    </>
   );
 }

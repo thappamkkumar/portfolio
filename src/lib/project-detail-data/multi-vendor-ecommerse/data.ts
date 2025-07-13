@@ -87,7 +87,7 @@ export const featureProps = [
 						'User must enter the OTP to verify their email and complete registration',
 						'Error handling displays friendly messages for duplicate emails or OTP timeouts',
 						'New accounts remain inactive until email verification is complete',
-						'Secure password hashing and API validations prevent duplicate accounts and spam'
+						'Secure password hashing and  validations prevent duplicate accounts and spam'
 					],
           image: '/project-doc/multi-vendor-ecommerse/register-page.png',
         },

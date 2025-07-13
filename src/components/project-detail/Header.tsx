@@ -27,7 +27,7 @@ const scrollToIdWithOffset = (id: string, offset = -80) => {
   window.scrollTo({ top: y, behavior: 'smooth' });
 };
 
-const MultiVendorEcommerseHeader: React.FC<FeaturesSectionProps> = ({ data }) => {
+const Header: React.FC<FeaturesSectionProps> = ({ data }) => {
   const router = useRouter();
   const [featureBox, setFeatureBox] = useState(false);
 	const boxRef = useRef<HTMLDivElement>(null);
@@ -138,4 +138,4 @@ const MultiVendorEcommerseHeader: React.FC<FeaturesSectionProps> = ({ data }) =>
   );
 };
 
-export default MultiVendorEcommerseHeader;
+export default Header;
