@@ -225,8 +225,7 @@ export const featureProps = [
 					title: 'Category Page',
 					description: 'Displays a list of all product categories for users to explore.',
 					points: [
-						"Shows all available product categories",
-						"Each category is represented with an image and name",
+						"Shows all available product categories", 
 						"Clicking on a category navigates to its product listing page"
 					],
 					image: '/project-doc/multi-vendor-ecommerse/customer/categories-page.png',
@@ -832,7 +831,7 @@ export const featureProps = [
 					image: '/project-doc/multi-vendor-ecommerse/admin/product-filter-by-category-page.png',
 				},
 				{
-					title: 'Product Detail Page (Admin)',
+					title: 'Product Detail Page',
 					description: 'Provides full information and controls for managing a single product, including status toggling and reviewing customer interactions.',
 					points: [
 						"**Top section** includes: product thumbnail and buttons to **Activate** or **Deactivate** the product",
