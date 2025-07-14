@@ -15,7 +15,7 @@ export default function ProjectCard({ project }: { project: any }) {
         height={450}
         className="w-full h-56 object-cover"
       />
-      <div className="p-5">
+      <div className="pt-5">
         <h3 className="text-xl font-semibold text-white mb-2">
           {project.title}
         </h3>

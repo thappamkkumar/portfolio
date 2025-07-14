@@ -32,6 +32,7 @@ export default function Introduction() {
             alt="Mukesh Kumar"
             fill
             className="object-cover   z-10    "
+						sizes="(max-width: 1024px) 100vw, 450px"
             priority
           />
 					<div className="absolute top-8  left-8 z-9 w-full h-full  border border-15 border-red-800    ">

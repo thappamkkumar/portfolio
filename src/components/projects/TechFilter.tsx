@@ -25,9 +25,9 @@ export default function TechFilter({
   return (
     <div className="flex flex-wrap gap-3 justify-center mb-12  ">
       <motion.button
-        onClick={() => setActiveTech(null)}
-        className={`px-3 py-1 rounded-full text-sm font-medium border transition ${
-          activeTech === null
+        onClick={() => setActiveTech('All')}
+        className={`px-3 py-1 rounded-full text-sm font-medium border transition cursor-pointer ${
+          (activeTech === null || activeTech === 'All')
             ? 'bg-red-800 text-white border-red-800'
             : 'bg-zinc-900 text-zinc-300 border-zinc-700 hover:border-red-800 hover:text-red-500'
         }`}
@@ -44,7 +44,7 @@ export default function TechFilter({
         <motion.button
           key={tech}
           onClick={() => setActiveTech(tech)}
-          className={`px-3 py-1 rounded-full text-sm font-medium border transition ${
+          className={`px-3 py-1 rounded-full text-sm font-medium border transition cursor-pointer ${
             activeTech === tech
               ? 'bg-red-800 text-white border-red-800'
               : 'bg-zinc-900 text-zinc-300 border-zinc-700 hover:border-red-800 hover:text-red-500'

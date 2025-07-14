@@ -7,7 +7,7 @@ const projectList = [
     imageUrl: '/projects/skillvilla.png',
     previewUrl: 'https://example.com/skillvilla',
     docsUrl: '/project-detail/skillvilla',
-    tech: ['HTML', 'CSS', 'Bootstrap',  'JavaScript', 'React Js', 'Redux', 'Axios', 'PHP', 'Laravel', 'WebSocket', 'WebRTC', 'JWT', 'MySQL',  ],
+    tech: ['HTML', 'CSS', 'Bootstrap',  'JavaScript', 'React Js', 'Redux', 'Axios', 'PHP', 'Laravel', 'WebSocket', 'WebRTC', 'JWT', 'MySQL', ],
   },
   {
     id: 'multi-vendor-ecommerce',
@@ -17,7 +17,7 @@ const projectList = [
     imageUrl: '/projects/multi-vendor-ecommerse.png',
     previewUrl: 'https://example.com/multivendor',
     docsUrl: '/project-detail/multi-vendor-ecommerce',
-    tech: ['HTML', 'CSS', 'Bootstrap',  'JavaScript', 'PHP', 'Laravel', 'MySQL', 'cURL',  ],
+    tech: ['HTML', 'CSS', 'Bootstrap',  'JavaScript', 'PHP', 'Laravel', 'MySQL', 'cURL'],
   },
   {
     id: 'ecommerce',
@@ -27,7 +27,7 @@ const projectList = [
     imageUrl: '/projects/ecommerce.png',
     previewUrl: 'https://example.com/ecommerce',
     docsUrl: '/project-detail/ecommerce',
-    tech: ['HTML', 'CSS', 'Bootstrap',  'JavaScript', 'PHP', 'Laravel', 'MySQL', 'cURL', ],
+    tech: ['HTML', 'CSS', 'Bootstrap',  'JavaScript', 'PHP', 'Laravel', 'MySQL', 'cURL'],
   },
   {
     id: 'job-portal',
@@ -37,7 +37,38 @@ const projectList = [
     imageUrl: '/projects/job-portal.png',
     previewUrl: '',
     docsUrl: '/project-detail/job-portal',
-    tech: ['HTML', 'CSS', 'JavaScript', 'PHP', 'MySQL',   ],
+    tech: ['HTML', 'CSS', 'JavaScript', 'PHP', 'MySQL'],
+  },
+  
+  {
+    id: 'contact-card',
+    title: 'Contact Card System',
+    description:
+      'Simple contact management platform that stores and displays contact info as styled cards.',
+    imageUrl: '/projects/contact-cards.png',
+    previewUrl: '',
+    docsUrl: '/project-detail/contact-card',
+    tech: ['HTML', 'CSS', 'JavaScript', 'React Js', 'Redux', 'PHP', 'MySQL'],
+  },
+  {
+    id: 'image-gallery',
+    title: 'Image Gallery',
+    description:
+      'A responsive gallery web app that displays images in grid layout with React Js and PHP backend.',
+    imageUrl: '/projects/image-gallery.png',
+    previewUrl: '',
+    docsUrl: '/project-detail/image-gallery',
+    tech: ['HTML', 'CSS', 'JavaScript', 'React Js', 'PHP', 'MySQL'],
+  },
+	{
+    id: 'three-level-auth',
+    title: 'Three-Level Password Authentication',
+    description:
+      'Security project with three-layer login: text, image, and graphical passwords.',
+    imageUrl: '/projects/three-level-password.png',
+    previewUrl: '',
+    docsUrl: '/project-detail/three-level-auth',
+    tech: ['HTML', 'CSS', 'JavaScript', 'PHP', 'MySQL'],
   },
   {
     id: 'digital-whiteboard',
@@ -60,43 +91,13 @@ const projectList = [
     tech: ['Java'],
   },
   {
-    id: 'three-level-auth',
-    title: 'Three-Level Password Authentication',
-    description:
-      'Security project with three-layer login: text, image, and graphical passwords.',
-    imageUrl: '/projects/three-level-password.png',
-    previewUrl: '',
-    docsUrl: '/project-detail/three-level-auth',
-    tech: ['HTML', 'CSS', 'JavaScript', 'PHP', 'MySQL', ],
-  },
-  {
-    id: 'image-gallery',
-    title: 'Image Gallery',
-    description:
-      'A responsive gallery web app that displays images in grid layout with React Js and PHP backend.',
-    imageUrl: '/projects/image-gallery.png',
-    previewUrl: '',
-    docsUrl: '/project-detail/image-gallery',
-    tech: ['HTML', 'CSS', 'JavaScript','React Js', 'PHP', 'MySQL', ],
-  },
-  {
-    id: 'contact-card',
-    title: 'Contact Card System',
-    description:
-      'Simple contact management platform that stores and displays contact info as styled cards.',
-    imageUrl: '/projects/contact-cards.png',
-    previewUrl: '',
-    docsUrl: '/project-detail/contact-card',
-    tech: ['HTML', 'CSS', 'JavaScript', 'React Js','Redux', 'PHP', 'MySQL', ],
-  },
-  {
     id: 'image-puzzle',
     title: 'Image Puzzle',
     description:
       'A simple puzzle game where users solve scrambled images by rearranging tiles.',
     imageUrl: '/projects/image-puzzle.png',
     previewUrl: '',
-    docsUrl:'/project-detail/image-puzzle',
+    docsUrl: '/project-detail/image-puzzle',
     tech: ['HTML', 'CSS', 'JavaScript'],
   },
   {
@@ -107,9 +108,8 @@ const projectList = [
     imageUrl: '/projects/calculator.png',
     previewUrl: '',
     docsUrl: '/project-detail/calculator',
-    tech: ['HTML', 'CSS', 'JavaScript', 'React Js', ],
+    tech: ['HTML', 'CSS', 'JavaScript', 'React Js'],
   },
 ];
-
 
 export default projectList;
