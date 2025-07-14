@@ -37,7 +37,7 @@ export default function ProjectCard({ project }: { project: any }) {
             <Link
               href={project.previewUrl}
               target="_blank"
-              className="inline-flex items-center gap-1 text-red-800 hover:underline"
+              className="inline-flex items-center gap-1 text-red-700 hover:underline"
             >
               <ExternalLink size={16} /> Preview
             </Link>
@@ -45,7 +45,7 @@ export default function ProjectCard({ project }: { project: any }) {
           {project.docsUrl && (
             <Link
               href={project.docsUrl} 
-              className="inline-flex items-center gap-1 text-zinc-300 hover:text-red-800 transition"
+              className="inline-flex items-center gap-1 text-zinc-300 hover:text-red-700 transition"
             >
               <BookOpen size={16} /> Docs
             </Link>

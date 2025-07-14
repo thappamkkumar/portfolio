@@ -71,10 +71,10 @@ export default function HeroText() {
 
       <motion.h2
         variants={fadeUp}
-        className="mt-4 text-2xl md:text-3xl font-medium text-red-800/80 min-h-[2.5rem]"
+        className="mt-4 text-2xl md:text-3xl font-medium text-red-700 min-h-[2.5rem]"
       >
         <span>{text}</span>
-        <span className="border-r-2 border-red-800 animate-pulse ml-1" />
+        <span className="border-r-2 border-red-700 animate-pulse ml-1" />
       </motion.h2>
 
       <motion.p
@@ -90,7 +90,7 @@ export default function HeroText() {
       >
         <a
           href="#contact"
-          className="px-6  py-3 w-full flex justify-center items-center gap-2  bg-red-800 text-white   hover:bg-red-900 transition"
+          className="px-6  py-3 w-full flex justify-center items-center gap-2  bg-red-700 text-white  rounded-md   hover:bg-red-900 transition"
         >
           <Mail /> <strong>GET IN TOUCH</strong>
         </a>
@@ -98,7 +98,7 @@ export default function HeroText() {
            href="/resume/mukesh_kumar_resume.pdf"
 					download
           rel="noopener noreferrer"
-          className="px-6  py-3 w-full flex justify-center items-center gap-2  border border-red-800 text-red-800  hover:bg-red-900/10 transition"
+          className="px-6  py-3 w-full flex justify-center items-center gap-2  border border-red-700 text-red-700  rounded-md  hover:bg-red-700/10 transition"
         >
           <Download /> <strong>GET MY RESUME </strong>
         </a>

@@ -79,7 +79,7 @@ export default function ContactForm() {
             type="text"
             id="name"
             required
-            className="w-full px-4 py-2 border border-zinc-700 rounded-lg focus:outline-none focus:ring-2 focus:ring-red-800 bg-zinc-800 text-white"
+            className="w-full px-4 py-2 border border-zinc-700 rounded-lg focus:outline-none focus:ring-2 focus:ring-red-700 bg-zinc-800 text-white"
           />
         </div>
 
@@ -91,7 +91,7 @@ export default function ContactForm() {
             type="email"
             id="email"
             required
-            className="w-full px-4 py-2 border border-zinc-700 rounded-lg focus:outline-none focus:ring-2 focus:ring-red-800 bg-zinc-800 text-white"
+            className="w-full px-4 py-2 border border-zinc-700 rounded-lg focus:outline-none focus:ring-2 focus:ring-red-700 bg-zinc-800 text-white"
           />
         </div>
 
@@ -103,7 +103,7 @@ export default function ContactForm() {
             id="message"
             rows={5}
             required
-            className="w-full px-4 py-2 border border-zinc-700 rounded-lg focus:outline-none focus:ring-2 focus:ring-red-800 bg-zinc-800 text-white"
+            className="w-full px-4 py-2 border border-zinc-700 rounded-lg focus:outline-none focus:ring-2 focus:ring-red-700 bg-zinc-800 text-white"
           />
         </div>
 
@@ -111,7 +111,7 @@ export default function ContactForm() {
           type="submit"
           disabled={isSubmitting} // ? disable while submitting
           className={`w-full md:w-auto px-6 py-2 rounded-lg transition-all cursor-pointer
-            ${isSubmitting ? 'bg-red-800/70 cursor-not-allowed' : 'bg-red-800 hover:bg-red-900'} text-white`}
+            ${isSubmitting ? 'bg-red-800/70 cursor-not-allowed' : 'bg-red-700 hover:bg-red-900'} text-white`}
         >
           {isSubmitting ? 'Sending...' : 'Send Message'} {/* ? Button label changes */}
         </button>

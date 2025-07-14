@@ -20,7 +20,7 @@ export default function About() {
         viewport={{ once: true }}
 				
       >
-			  <span className="text-red-800">About</span> Me
+			  <span className="text-red-700">About</span> Me
          
       </motion.h2>
       <Introduction />

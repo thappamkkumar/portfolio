@@ -32,7 +32,7 @@ const SkillCard: FC<SkillCardProps> = ({ title, icon: Icon, skills, index }) => 
       custom={index}
     >
       <div className="flex items-center gap-3 mb-5">
-        <Icon className="text-red-800" size={28} />
+        <Icon className="text-red-700" size={28} />
         <h3 className="text-2xl font-semibold text-zinc-100">{title}</h3>
       </div>
 
@@ -40,7 +40,7 @@ const SkillCard: FC<SkillCardProps> = ({ title, icon: Icon, skills, index }) => 
         {skills.map((skill) => (
           <span
             key={skill}
-            className="bg-zinc-800 text-zinc-200 text-sm px-3 py-1 rounded-full border border-zinc-700 hover:bg-red-800 hover:text-white transition"
+            className="bg-zinc-800 text-zinc-200 text-sm px-3 py-1 rounded-full border border-zinc-700 hover:bg-red-700 hover:text-white transition"
           >
             {skill}
           </span>

@@ -44,7 +44,7 @@ export default function FeatureCard({
           initial="hidden"
           whileInView="visible"
           viewport={{ once: true }}
-          className="text-xl font-semibold text-red-800"
+          className="text-xl font-semibold text-red-700"
         >
           {title}
         </motion.h3>

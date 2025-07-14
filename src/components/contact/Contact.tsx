@@ -20,7 +20,7 @@ export default function Contact() {
         whileInView="visible"
         viewport={{ once: true }}
       > 
-				 <span className="text-red-800">Contact</span> Me
+				 <span className="text-red-700">Contact</span> Me
       </motion.h2>
 
       <motion.div

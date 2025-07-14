@@ -33,13 +33,13 @@ export default function TechStack({ stack }: TechStackProps) {
 		>
        
 			<motion.h2
-        className="flex items-center gap-3  text-xl md:text-2xl font-bold text-red-800 mb-2"
+        className="flex items-center gap-3  text-xl md:text-2xl font-bold text-red-700 mb-2"
 				variants={fadeUp}
         initial="hidden"
         whileInView="visible"
         viewport={{ once: true }}
       > 
-				 <Wrench className=" " /> <span>Tech Stack</span>
+				 <Wrench   /> <span>Tech Stack</span>
       </motion.h2>
 			
       <ul 

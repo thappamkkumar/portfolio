@@ -35,7 +35,7 @@ export default function SocialLinks() {
 					initial="hidden"
 					whileInView="visible"
 					viewport={{ once: true }}
-          className="text-zinc-400 hover:text-red-800 transition-color"
+          className="text-zinc-400 hover:text-red-700 transition-color"
 					
         >
           {link.icon}

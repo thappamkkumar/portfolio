@@ -107,7 +107,7 @@ export default function Projects() {
         whileInView="visible"
         viewport={{ once: true }}
       >
-        My <span className="text-red-800">Projects</span>
+        My <span className="text-red-700">Projects</span>
       </motion.h2>
  
       <TechFilter
@@ -151,7 +151,7 @@ export default function Projects() {
           <button
             onClick={handleNext}
             disabled={currentPage >= totalPages - 1}
-            className="px-6 py-2 bg-red-800 text-white rounded-lg disabled:opacity-50 cursor-pointer hover:bg-red-900 transition"
+            className="px-6 py-2 bg-red-700 text-white rounded-lg disabled:opacity-50 cursor-pointer hover:bg-red-900 transition"
           >
             Next
           </button>

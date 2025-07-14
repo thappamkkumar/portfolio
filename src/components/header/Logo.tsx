@@ -14,7 +14,7 @@ const Logo = () => (
 	whileInView="visible"
 	viewport={{ once: true }}
 >
-  <span className="text-lg bg-red-800 text-white rounded-md px-2 py-1">Mk</span>
+  <span className="text-lg bg-red-700 text-white rounded-md px-2 py-1">Mk</span>
   <span>Portfolio</span>
 </motion.h1>
 

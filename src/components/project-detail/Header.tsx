@@ -70,7 +70,7 @@ const Header: React.FC<FeaturesSectionProps> = ({ data }) => {
 
         <div className="w-full flex justify-center items-center">
           <h1 className="text-xl font-bold flex items-center gap-1">
-            <span className="text-lg bg-red-800 text-white rounded-md px-2 py-1">Mk</span>
+            <span className="text-lg bg-red-700 text-white rounded-md px-2 py-1">Mk</span>
             <span>Portfolio</span>
           </h1>
         </div>

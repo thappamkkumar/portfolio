@@ -53,7 +53,7 @@ export default function QualificationList() {
 					whileInView="visible"
 					viewport={{ once: true }}
 				>
-					My <span className="text-red-800">Education</span>   
+					My <span className="text-red-700">Education</span>   
 				</motion.h2>
 			</div>
 			<div className="lg:w-1/2 w-full flex flex-col  gap-3">

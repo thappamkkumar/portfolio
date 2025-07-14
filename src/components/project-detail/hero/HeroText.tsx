@@ -81,7 +81,7 @@ export default function HeroText({
             href={liveDemoUrl}
             target="_blank"
             rel="noopener noreferrer"
-            className="px-6  py-3 w-full flex justify-center items-center gap-2  bg-red-800 text-white   hover:bg-red-900 transition"
+            className="px-6  py-3 w-full flex justify-center items-center gap-2  bg-red-700 text-white rounded-md   hover:bg-red-900 transition"
           >
             <ExternalLink /> <strong>Live Demo</strong>
           </a>
@@ -91,7 +91,7 @@ export default function HeroText({
             href={codeUrl}
             target="_blank"
             rel="noopener noreferrer"
-            className="px-6  py-3 w-full flex justify-center items-center gap-2  border border-red-800 text-red-800  hover:bg-red-900/10 transition"
+            className="px-6  py-3 w-full flex justify-center items-center gap-2  border border-red-700 text-red-700 rounded-md  hover:bg-red-700/10 transition"
           >
             <Github /> <strong>View Code</strong>
           </a>

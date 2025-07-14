@@ -29,7 +29,7 @@ export default function TechFilter({
         className={`px-3 py-1 rounded-full text-sm font-medium border transition cursor-pointer ${
           (activeTech === null || activeTech === 'All')
             ? 'bg-red-800 text-white border-red-800'
-            : 'bg-zinc-900 text-zinc-300 border-zinc-700 hover:border-red-800 hover:text-red-500'
+            : 'bg-zinc-900 text-zinc-300 border-zinc-700 hover:border-red-700 hover:text-red-700'
         }`}
 				
 				variants={fadeLeft}
@@ -46,8 +46,8 @@ export default function TechFilter({
           onClick={() => setActiveTech(tech)}
           className={`px-3 py-1 rounded-full text-sm font-medium border transition cursor-pointer ${
             activeTech === tech
-              ? 'bg-red-800 text-white border-red-800'
-              : 'bg-zinc-900 text-zinc-300 border-zinc-700 hover:border-red-800 hover:text-red-500'
+              ? 'bg-red-700 text-white border-red-700'
+              : 'bg-zinc-900 text-zinc-300 border-zinc-700 hover:border-red-700 hover:text-red-700'
           }`}
 					variants={fadeLeft}
 					initial="hidden"

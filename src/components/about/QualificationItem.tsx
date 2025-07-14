@@ -37,7 +37,7 @@ export default function QualificationItem({ item, index }: QualificationProps) {
       className="bg-zinc-900 text-zinc-400 p-6 rounded-xl shadow-md shadow-black/30 hover:shadow-white/30 transition-shadow duration-300  "
     >
       <div className="flex items-start gap-3">
-        <Icon className="text-red-800 mt-1" size={22} />
+        <Icon className="text-red-700 mt-1" size={22} />
         <div className="flex flex-col gap-1 ">
           <h3 className="text-xl font-semibold text-zinc-300">{item.title}</h3>
           <p className="  ">{item.org}</p>
@@ -45,7 +45,7 @@ export default function QualificationItem({ item, index }: QualificationProps) {
 
           <Link
             href={`/certificate/${item.id}`}
-            className="text-sm text-red-800   mt-1  inline-flex items-center gap-1  hover:underline  w-auto"
+            className="text-sm text-red-700   mt-1  inline-flex items-center gap-1  hover:underline  w-auto"
           >
             <FileBadge size={16} /> View Certificate
           </Link>

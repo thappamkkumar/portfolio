@@ -21,7 +21,7 @@ const Skills = () => {
         viewport={{ once: true }}
       >
 			
-        My <span className="text-red-800">Skills</span>
+        My <span className="text-red-700">Skills</span>
       </motion.h2>
 
       <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">

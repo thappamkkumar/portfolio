@@ -35,7 +35,7 @@ export default function Introduction() {
 						sizes="(max-width: 1024px) 100vw, 450px"
             priority
           />
-					<div className="absolute top-8  left-8 z-9 w-full h-full  border border-15 border-red-800    ">
+					<div className="absolute top-8  left-8 z-9 w-full h-full  border border-15 border-red-700    ">
 						 
 					</div>
         </div>
@@ -51,22 +51,22 @@ export default function Introduction() {
       >
 				 
         <p className="text-center lg:text-left  ">
-					<span className="hidden lg:inline-block w-[30px] h-[10px]  me-3 border-t-4 border-red-800"></span>
+					<span className="hidden lg:inline-block w-[30px] h-[10px]  me-3 border-t-4 border-red-700"></span>
 					I’m Mukesh Kumar, a dedicated Full Stack Web Developer with a strong passion for building dynamic and user-focused web applications. Although I’m a fresher with no formal industry experience, I’ve developed several real-world projects independently that reflect the standards and complexity of production environments.
         </p>
         <br />
 				<p className="text-center lg:text-left">
-					<span className="hidden lg:inline-block w-[30px] h-[10px]  me-3 border-t-4 border-red-800"></span>
+					<span className="hidden lg:inline-block w-[30px] h-[10px]  me-3 border-t-4 border-red-700"></span>
 					My work includes building complete e-commerce platforms, a professional media-sharing application, and a multi-vendor marketplace — all from scratch. These projects have sharpened my ability to design scalable architectures, write clean code, and deliver responsive user interfaces.
 				</p>
         <br />
         <p className="text-center lg:text-left">
-					<span className="hidden lg:inline-block w-[30px] h-[10px]  me-3 border-t-4 border-red-800"></span>
+					<span className="hidden lg:inline-block w-[30px] h-[10px]  me-3 border-t-4 border-red-700"></span>
 					I work confidently across the full stack, using technologies like Laravel, React.js, Next.js, Tailwind CSS, Bootstrap, MySQL, and PostgreSQL. 
         </p>
 				 <br />
 				<p className="text-center lg:text-left">
-					<span className="hidden lg:inline-block w-[30px] h-[10px]  me-3 border-t-4 border-red-800"></span>
+					<span className="hidden lg:inline-block w-[30px] h-[10px]  me-3 border-t-4 border-red-700"></span>
 					I’m always exploring new tools and frameworks, and I’m eager to join a team where I can contribute, learn, and grow by solving real-world problems through thoughtful and modern web development.
         </p>
       </motion.div>

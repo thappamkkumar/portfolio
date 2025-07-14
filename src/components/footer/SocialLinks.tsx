@@ -21,7 +21,7 @@ export default function SocialLinks() {
           href={link.href}
           target="_blank"
           rel="noopener noreferrer" 
-          className="text-zinc-400 hover:bg-red-800 hover:text-white  hover:scale-110 p-2 rounded-full transition-color duration-300"
+          className="text-zinc-400 hover:bg-red-700 hover:text-white  hover:scale-110 p-2 rounded-full transition-color duration-300"
 					
         >
           {link.icon}

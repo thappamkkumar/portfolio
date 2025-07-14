@@ -45,7 +45,7 @@ export default function ContactDetails() {
             href={info.href}
             target="_blank"
             rel="noopener noreferrer"
-            className="text-zinc-400 inline-flex items-center gap-3 hover:text-red-800 transition"
+            className="text-zinc-400 inline-flex items-center gap-3 hover:text-red-700 transition"
           >
             {info.icon}
             <span>{info.value}</span>

@@ -37,7 +37,7 @@ export default function Feature({ data }: FeaturesSectionProps) {
         whileInView="visible"
         viewport={{ once: true }}
       >
-        Screenshots <span className="text-red-800">&</span> Features
+        Screenshots <span className="text-red-700">&</span> Features
       </motion.h2>
 
       {data.map((group, idx) => (
