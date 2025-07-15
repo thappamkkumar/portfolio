@@ -59,7 +59,7 @@ export default function Overview() {
           whileInView="visible"
           viewport={{ once: true }}
         >
-          <li>Built entirely with Java (Swing)</li>
+          <li>Built entirely with Java (Swing, AWT)</li>
           <li>Supports freehand drawing with adjustable pencil colors</li>
           <li>Stroke width customization for pencil and eraser</li>
           <li>Filled and outlined shape tools: rectangle, circle, etc.</li>
