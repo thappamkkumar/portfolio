@@ -1,5 +1,4 @@
-// app/project-detail/multi-vendor-ecommerce/data.ts
-
+ 
 export const heroProps = {
  title: "StyleLoop",
   tagline: "A sleek single-vendor eCommerce web app built with Laravel",

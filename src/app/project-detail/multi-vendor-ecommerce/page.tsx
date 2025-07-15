@@ -15,7 +15,7 @@ import {
 
 export default function MultiVendorEcommerce() {
   return (
-    <  >
+    <>
 			<Header data={...featureProps}/>
 			<main>
 				<HeroSection {...heroProps} />

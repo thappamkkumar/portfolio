@@ -1,5 +1,4 @@
-// app/project-detail/multi-vendor-ecommerce/data.ts
-
+ 
 export const heroProps = {
   title: "ShopHub",
   tagline: "A powerful multi-vendor eCommerce web app built with Laravel",

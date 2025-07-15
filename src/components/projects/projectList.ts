@@ -48,7 +48,7 @@ const projectList = [
     imageUrl: '/projects/contact-cards.png',
     previewUrl: '',
     docsUrl: '/project-detail/contact-card',
-    tech: ['HTML', 'CSS', 'JavaScript', 'React Js', 'Redux', 'PHP', 'MySQL'],
+    tech: ['HTML', 'CSS', 'Sass', 'JavaScript', 'React Js', 'Redux', 'PHP', 'MySQL'],
   },
   {
     id: 'image-gallery',
