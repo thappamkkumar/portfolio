@@ -11,7 +11,7 @@ const projectList = [
   },
   {
     id: 'multi-vendor-ecommerce',
-    title: 'Multi-Vendor E-commerce Platform',
+    title: 'ShopHub – Multi Vendor E-commerce Platform',
     description:
       'An extended version of the e-commerce platform with vendor functionality. Includes full admin panel and vendor dashboard for managing products and orders.',
     imageUrl: '/projects/multi-vendor-ecommerse.png',
@@ -21,7 +21,7 @@ const projectList = [
   },
   {
     id: 'ecommerce',
-    title: 'E-commerce Web App',
+    title: 'StyleLoop – E-commerce Web App',
     description:
       'A basic e-commerce website where users can browse, cart, and purchase products. Admin panel supports product and order management.',
     imageUrl: '/projects/ecommerce.png',

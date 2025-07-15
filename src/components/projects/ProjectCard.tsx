@@ -7,13 +7,13 @@ import Link from 'next/link';
 
 export default function ProjectCard({ project }: { project: any }) {
   return (
-    <div className="h-full bg-zinc-900 p-6 rounded-xl shadow-md shadow-black/30 hover:shadow-white/30 transition-shadow duration-300">
+    <div className="h-full bg-zinc-900 p-6 rounded-xl   shadow-md shadow-black/30 hover:shadow-white/30 transition-shadow duration-300">
       <Image
         src={project.imageUrl}
         alt={project.title}
         width={800}
         height={450}
-        className="w-full h-56 object-cover"
+        className="w-full h-56 object-cover	 rounded-lg"
       />
       <div className="pt-5">
         <h3 className="text-xl font-semibold text-white mb-2">

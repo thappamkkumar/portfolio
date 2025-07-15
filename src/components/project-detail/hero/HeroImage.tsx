@@ -28,7 +28,7 @@ function HeroImage({ currentImage, images }: HeroImageProps) {
       <div className="relative w-full h-[350px] rounded-xl overflow-hidden shadow-2xl transform group-hover:scale-105 transition duration-500">
         <img
           src={images[currentImage]}
-          alt="Hero Screenshot"
+          alt={images[currentImage]}
           className="w-full h-full object-fill rounded-xl border-4 border-white/10"
         />
       </div>
