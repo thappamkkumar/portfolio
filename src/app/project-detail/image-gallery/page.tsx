@@ -1,16 +1,36 @@
  
-import Header from '@/components/header/Header'; 
+import Header from "@/components/project-detail/Header";
+import HeroSection from "@/components/project-detail/HeroSection";
+import TechStack from "@/components/project-detail/TechStack";
+import Overview from "@/components/project-detail/overview/image-gallery/Overview";
+import Feature from "@/components/project-detail/feature/Feature";
  
+import ScrollToTopButton from "@/components/common/ScrollToTopButton";
 
-export default function Ecommerce() {
+import {
+  heroProps, 
+  techStackProps,
+  featureProps,
+} from "@/lib/project-detail-data/image-gallery/data";
+
+
+export default function ImageGallery() {
   return (
-    <main className=" ">
-        
-			<Header/>
-			
-			<span className="block pt-50 text-8xl text-center">
-			image-gallery Platform
-			</span>
-    </main>
+    <>
+			<Header data={...featureProps}/>
+			<main>
+				<HeroSection {...heroProps} />
+				<div className="px-6">
+					<Overview />
+					<TechStack {...techStackProps} />
+					
+					<Feature data={...featureProps} />
+
+				</div>
+				
+				<ScrollToTopButton />
+				 
+			</main>
+    </>
   );
 }

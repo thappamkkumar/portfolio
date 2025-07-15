@@ -27,11 +27,12 @@ export const heroProps = {
 export const techStackProps = {
   stack: [
     "React Js",
-    "PHP",
-    "MySQL",
-    "JSX",
+		"Redux",
+		"JSX",
     "CSS", 
-    "Sass",   
+    "Sass",  
+    "PHP",
+    "MySQL", 
   ],
 };
 
