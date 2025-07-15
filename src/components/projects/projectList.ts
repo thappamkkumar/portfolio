@@ -60,16 +60,7 @@ const projectList = [
     docsUrl: '/project-detail/image-gallery',
     tech: ['HTML', 'CSS', 'JavaScript', 'React Js', 'PHP', 'MySQL'],
   },
-	{
-    id: 'three-level-auth',
-    title: 'Three-Level Password Authentication',
-    description:
-      'Security project with three-layer login: text, image, and graphical passwords.',
-    imageUrl: '/projects/three-level-password.png',
-    previewUrl: '',
-    docsUrl: '/project-detail/three-level-auth',
-    tech: ['HTML', 'CSS', 'JavaScript', 'PHP', 'MySQL'],
-  },
+	 
   {
     id: 'digital-whiteboard',
     title: 'Digital Whiteboard',
@@ -100,16 +91,7 @@ const projectList = [
     docsUrl: '/project-detail/image-puzzle',
     tech: ['HTML', 'CSS', 'JavaScript'],
   },
-  {
-    id: 'calculator',
-    title: 'Basic Calculator',
-    description:
-      'Performs basic arithmetic operations like addition, subtraction, multiplication, and division.',
-    imageUrl: '/projects/calculator.png',
-    previewUrl: '',
-    docsUrl: '/project-detail/calculator',
-    tech: ['HTML', 'CSS', 'JavaScript', 'React Js'],
-  },
+   
 ];
 
 export default projectList;
