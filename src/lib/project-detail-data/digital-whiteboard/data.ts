@@ -36,7 +36,7 @@ export const heroProps = {
 			"/project-doc/digital-whiteboard/save.jpg",  
   ],
   liveDemoUrl: "",
-	codeUrl: "https://github.com/your-repo/whiteboard",  
+	codeUrl: "https://github.com/thappamkkumar/whiteboard",  
   scrollToId: "#overview",
 };
 

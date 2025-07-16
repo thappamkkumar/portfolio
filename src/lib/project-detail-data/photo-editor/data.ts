@@ -36,7 +36,7 @@ export const heroProps = {
 		 
   ],
   liveDemoUrl: "",
-	codeUrl: "https://github.com/your-repo/photoeditor",  
+	codeUrl: "https://github.com/thappamkkumar/photo-editor",  
   scrollToId: "#overview",
 };
 

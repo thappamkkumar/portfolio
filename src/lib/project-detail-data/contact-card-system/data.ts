@@ -18,7 +18,7 @@ export const heroProps = {
 			"/project-doc/contact-card/img7.png",  
   ],
   liveDemoUrl: "",
-	codeUrl: "https://github.com/your-repo/contact-card-system",  
+	codeUrl: "https://github.com/thappamkkumar/contact-card",  
   scrollToId: "#overview",
 };
 

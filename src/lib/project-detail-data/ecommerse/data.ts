@@ -45,7 +45,7 @@ export const heroProps = {
 		 
   ],
   liveDemoUrl: "https://your-live-demo.com",
-  codeUrl: "https://github.com/your-repo/styleloop",
+  codeUrl: "https://github.com/thappamkkumar/E-Commerce",
   scrollToId: "#overview",
 };
 

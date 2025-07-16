@@ -48,7 +48,7 @@ export const heroProps = {
 			"/project-doc/job-portal/admin/admin-update-contact-page.png", 
   ],
   liveDemoUrl: "",
-  codeUrl: "https://github.com/your-repo/job-portal",
+  codeUrl: "https://github.com/thappamkkumar/job-portal",
   scrollToId: "#overview",
 };
 

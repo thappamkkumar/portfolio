@@ -16,7 +16,7 @@ export const heroProps = {
 			"/project-doc/image-gallery/img5.png",  
   ],
   liveDemoUrl: "",
-	codeUrl: "https://github.com/your-repo/imagegallery",  
+	codeUrl: "https://github.com/thappamkkumar/image-gallery",  
   scrollToId: "#overview",
 };
 

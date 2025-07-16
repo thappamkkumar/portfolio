@@ -14,7 +14,7 @@ export const heroProps = {
 			"/project-doc/image-puzzle/img3.png", 
   ],
   liveDemoUrl: "",
-	codeUrl: "https://github.com/your-repo/imagepuzzle",  
+	codeUrl: "https://github.com/thappamkkumar/image-puzzle",  
   scrollToId: "#overview",
 };
 

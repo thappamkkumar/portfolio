@@ -41,7 +41,7 @@ export const heroProps = {
     "/project-doc/multi-vendor-ecommerse/admin/logout-page.png",
   ],
   liveDemoUrl: "https://your-live-demo.com",
-  codeUrl: "https://github.com/your-repo/shophub",
+  codeUrl: "https://github.com/thappamkkumar/multi-vendor-ecommerse",
   scrollToId: "#overview",
 };
 
