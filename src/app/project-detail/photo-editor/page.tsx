@@ -14,7 +14,7 @@ import {
 } from "@/lib/project-detail-data/photo-editor/data";
 
 
-export default function ContactCardSystem() {
+export default function PhotoEditor() {
   return (
     <>
 			<Header data={...featureProps}/>

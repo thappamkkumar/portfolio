@@ -14,7 +14,7 @@ import {
 } from "@/lib/project-detail-data/image-puzzle/data";
 
 
-export default function ContactCardSystem() {
+export default function ImagePuzzle() {
   return (
     <>
 			<Header data={...featureProps}/>
