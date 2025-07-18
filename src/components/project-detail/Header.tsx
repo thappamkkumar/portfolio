@@ -105,7 +105,7 @@ const Header: React.FC<FeaturesSectionProps> = ({ data }) => {
 
 							{data.map((categoryData, catIndex) => (
 								<div key={`${categoryData.category}-${catIndex}`} className="mb-4">
-									<h3 className="font-semibold text-lg text-red-800 mb-1">{categoryData.category}</h3>
+									<h3 className="font-semibold text-lg text-red-700 mb-1">{categoryData.category}</h3>
 									<ul className="grid grid-cols-2 sm:grid-cols-3 gap-2  ">
 										{categoryData.features.map((feature, idx) => {
 											const id = `${feature.title.replace(/\s+/g, '-').toLowerCase()}-${catIndex}-${idx}`;

@@ -21,7 +21,7 @@ export default function Overview() {
         whileInView="visible"
         viewport={{ once: true }}
       >
-        Project <span className="text-red-800">Overview</span>
+        Project <span className="text-red-700">Overview</span>
       </motion.h2>
 
       <div className="space-y-6 text-lg text-zinc-400 leading-relaxed">
