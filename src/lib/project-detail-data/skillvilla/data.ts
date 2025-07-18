@@ -411,7 +411,173 @@ export const featureProps = [
 					"Smooth navigation between multiple stories from the same user",
 				],
 				image: '/project-doc/skillvilla/customer/5-story/2-story-detail-page.png',
+			},
+			{
+				title: 'Create Post Page',
+				description: 'Allows users to create and share posts with media attachments, tagged users, and categorized content for better discovery.',
+				points: [
+					"Users can upload one or multiple attachments (images or videos)",
+					"Supports tagging other users in the post",
+					"Option to select one or more categories to improve visibility and search relevance",
+					"Text field for adding a description or caption to the post",
+					"User-friendly interface with preview support for selected media",
+					"Input validations and upload progress feedback",
+					"Optimized for both desktop and mobile devices",
+				],
+				image: '/project-doc/skillvilla/customer/6-create/1-post-page.png',
+			},
+			{
+				title: 'Create Story Page',
+				description: 'Enables users to share quick moments through stories - supporting both images and videos, each visible for 24 hours.',
+				points: [
+					"Users can upload one story at a time, up to a total of 10 consecutive stories",
+					"Supports both image and video formats for story content",
+					"Instant preview before uploading to ensure correct selection",
+					"Each story automatically expires and disappears after 24 hours",
+					"Clean, focused UI designed for fast mobile interaction",
+					"Progress feedback and validation to prevent unsupported file types",
+					"Allows adding multiple stories in a seamless flow",
+				],
+				image: '/project-doc/skillvilla/customer/6-create/2-story-page.png',
+			},
+			{
+				title: 'Create Community Page',
+				description: 'Allows users to build and manage their own communities by defining visibility, content rules, and member access.',
+				points: [
+					"Form to enter community name and upload a cover image",
+					"Option to set community privacy: Public or Private",
+					"Control over content sharing: allow everyone or only selected members",
+					"Rich-text description field for defining the purpose or rules of the community",
+					"Clear guidance and validations to ensure required inputs are filled",
+					"Supports future edits and updates by the creator/admin",
+					"Simple and intuitive layout for fast creation on both mobile and desktop",
+				],
+				image: '/project-doc/skillvilla/customer/6-create/3-community-page.png',
+			},
+			{
+				title: 'Create Workfolio Page',
+				description: 'A showcase builder that allows users to highlight their professional work, skills, or projects with rich media content.',
+				points: [
+					"Users can enter a title and choose a relevant category for the work",
+					"Detailed description field to explain the project, skills used, and outcomes",
+					"Upload up to 50 images to visually represent the work",
+					"Support for uploading a single video to provide deeper insight or demo",
+					"Allows attaching supporting files like PDFs or ZIPs (e.g., case studies, source code)",
+					"Organized layout with previews and validation for each media/file type",
+					"Workfolios are added to the user's profile and visible to other users or recruiters",
+				],
+				image: '/project-doc/skillvilla/customer/6-create/4-workfolio-page.png',
+			},
+			{
+				title: 'Create Problem Page',
+				description: 'Allows users to post real-world challenges or technical problems to get guidance, support, or expert solutions from the community.',
+				points: [
+					"Users can input a clear and concise problem title",
+					"Detailed description box to explain the issue or context",
+					"Option to upload supporting material including images, PDFs, or ZIP files",
+					"Field to attach an external URL (e.g., GitHub repo, demo link, docs)",
+					"Helps gather responses, solutions, and discussions from skilled users",
+					"Organized input sections with helpful validation and upload feedback",
+					"Encourages community engagement and real-time problem-solving",
+				],
+				image: '/project-doc/skillvilla/customer/6-create/5-problem-page.png',
+			},
+			{
+				title: 'Company Detail Setup Page',
+				description: "Before posting a job, users must provide their company's profile information to ensure credibility and transparency.",
+				points: [
+					"Upload a company logo for branding and visual identity",
+					"Input fields for company name and industry type",
+					"Rich-text field for writing about the company's mission, culture, or services",
+					"Optional website URL to provide external company reference",
+					"Full address field for location-based filtering and applications",
+					"Contact details including official email and phone number",
+					"Field to input company's established year for legitimacy",
+					"This setup only needs to be done once and can be edited later",
+				],
+				image: '/project-doc/skillvilla/customer/6-create/6-company-register-page.png',
+			},
+			{
+				title: 'Create Job Page',
+				description: 'Enables users to post job opportunities with complete details, targeting relevant candidates efficiently.',
+				points: [
+					"Enter a clear and specific job title to attract the right applicants",
+					"Set salary amount and select payment type: hourly, daily, monthly, or yearly",
+					"Detailed description field to outline job responsibilities and expectations",
+					"List required skills to filter and match suitable candidates",
+					"Choose job location and employment type: full-time, part-time, internship, or contract",
+					"Set an application deadline to manage applicant timelines",
+					"Input official email and phone for candidate communication",
+					"Select preferred communication language for better clarity",
+					"Include a checkbox to indicate if the job allows work-from-home flexibility",
+					"All fields validated with clean, responsive UI optimized for all screens",
+				],
+				image: '/project-doc/skillvilla/customer/6-create/8-job-page.png',
+			},
+			{
+				title: 'Add Test Question Page',
+				description: 'Allows job posters to create a basic eligibility test that candidates must pass in order to apply for a job.',
+				points: [
+					"Enter a clear and concise test question to assess candidate suitability",
+					"Provide four multiple-choice options for each question",
+					"Select the correct answer from the given options",
+					"Supports adding multiple questions per job post for stronger filtering",
+					"Only candidates who pass the test can proceed to apply",
+					"Improves quality of applications by pre-screening based on knowledge or skills",
+					"Simple, user-friendly form layout with real-time validations",
+				],
+				image: '/project-doc/skillvilla/customer/6-create/9-add-question-page.png',
+			},
+			{
+				title: 'Create Freelance Gig Page',
+				description: 'Allows users to post freelance projects, set expectations, and receive bids from interested freelancers based on skill and budget.',
+				points: [
+					"Enter a specific and descriptive freelance gig title",
+					"Select experience level required: Beginner, Intermediate, or Expert",
+					"Provide a detailed description outlining scope, deliverables, and expectations",
+					"List the key skills needed to complete the freelance work",
+					"Set an application deadline to define when bidding closes",
+					"Specify estimated project duration (in days or weeks)",
+					"Set a budget range by entering minimum and maximum amounts in USD",
+					"Choose a payment type (e.g., fixed, hourly) to define how freelancers will be paid",
+					"Helps attract skilled freelancers and streamline the bidding process",
+				],
+				image: '/project-doc/skillvilla/customer/6-create/10-freelance-page.png',
+			},
+			{
+				title: 'Company Profile Page',
+				description: "Displays the registered company's public profile with all essential business information for job seekers to view and verify.",
+				points: [
+					"Showcases company logo, name, and industry for clear identity",
+					"Displays company description to highlight mission and work culture",
+					"Includes company website, email, phone, and address for contact reference",
+					"Shows the established year for trust and authenticity", 
+					"Public view allows job seekers to explore before applying",
+				],
+				image: '/project-doc/skillvilla/customer/7-company/1-company-profile-page.png',
+			},
+			{
+				title: 'Update Company Profile Page',
+				description: 'Allows company representatives to update or edit their company information at any time to keep the profile current and accurate.',
+				points: [
+					"Editable fields for logo, name, industry, and description",
+					"Allows updates to website link, contact email, phone, and address",
+					"Enables changes to the company's established year and branding",
+					"Form includes input validations and helpful hints",
+					"Instant update reflected across all job postings and public views",
+					"Responsive design ensures smooth editing across devices",
+				],
+				image: '/project-doc/skillvilla/customer/7-company/2-company-profile-update-page.png',
 			}
+
+
+
+
+
+
+
+
+
 
 
 
