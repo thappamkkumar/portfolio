@@ -86,7 +86,10 @@ export default function FeatureCard({
         viewport={{ once: true }}
         className="p-4"
       >
-        <FeatureImage src={image} alt={title} />
+				{
+					image &&  <FeatureImage src={image} alt={title} />
+				}
+       
       </motion.div>
     </div>
   );
