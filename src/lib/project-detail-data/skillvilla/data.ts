@@ -29,49 +29,49 @@ export const heroProps = {
 			
 			//customer view images
 			//home view
-			"/project-doc/skillvilla/customer/1-home/home-page.png", 
+			"/project-doc/skillvilla/customer/01-home/home-page.png", 
 			
 			//explore view
-			"/project-doc/skillvilla/customer/2-explore/1-explore-users-page.png", 
-			"/project-doc/skillvilla/customer/2-explore/2-explore-community-page.png", 
-			"/project-doc/skillvilla/customer/2-explore/3-explore-post-page.png", 
-			"/project-doc/skillvilla/customer/2-explore/4-explore-workfolio-page.png", 
-			"/project-doc/skillvilla/customer/2-explore/5-explore-problem-page.png", 
-			"/project-doc/skillvilla/customer/2-explore/6-explore-job-page.png", 
-			"/project-doc/skillvilla/customer/2-explore/7-explore-freelance-page.png", 
+			"/project-doc/skillvilla/customer/02-explore/1-explore-users-page.png", 
+			"/project-doc/skillvilla/customer/02-explore/2-explore-community-page.png", 
+			"/project-doc/skillvilla/customer/02-explore/3-explore-post-page.png", 
+			"/project-doc/skillvilla/customer/02-explore/4-explore-workfolio-page.png", 
+			"/project-doc/skillvilla/customer/02-explore/5-explore-problem-page.png", 
+			"/project-doc/skillvilla/customer/02-explore/6-explore-job-page.png", 
+			"/project-doc/skillvilla/customer/02-explore/7-explore-freelance-page.png", 
 		
 			//chat view
 			"/project-doc/skillvilla/customer/3-chat/1-chat-page.png",
 
 			//community view			
-			"/project-doc/skillvilla/customer/4-community/1-my-community-page.png",  
-			"/project-doc/skillvilla/customer/4-community/2-joined-community-page.png",  
-			"/project-doc/skillvilla/customer/4-community/3-communiy-detail-page.png",  
+			"/project-doc/skillvilla/customer/04-community/1-my-community-page.png",  
+			"/project-doc/skillvilla/customer/04-community/2-joined-community-page.png",  
+			"/project-doc/skillvilla/customer/04-community/3-communiy-detail-page.png",  
 			
 			//story view
-			"/project-doc/skillvilla/customer/5-story/1-story-page.png", 
-			"/project-doc/skillvilla/customer/5-story/2-story-detail-page.png",
+			"/project-doc/skillvilla/customer/05-story/1-story-page.png", 
+			"/project-doc/skillvilla/customer/05-story/2-story-detail-page.png",
 
 			//create content view
-			"/project-doc/skillvilla/customer/6-create/1-post-page.png", 
-			"/project-doc/skillvilla/customer/6-create/2-story-page.png", 
-			"/project-doc/skillvilla/customer/6-create/3-community-page.png", 
-			"/project-doc/skillvilla/customer/6-create/4-workfolio-page.png", 
-			"/project-doc/skillvilla/customer/6-create/5-problem-page.png", 
-			"/project-doc/skillvilla/customer/6-create/6-company-register-page.png", 
-			"/project-doc/skillvilla/customer/6-create/7-job-home-page.png", 
-			"/project-doc/skillvilla/customer/6-create/8-job-page.png", 
-			"/project-doc/skillvilla/customer/6-create/9-add-question-page.png", 
-			"/project-doc/skillvilla/customer/6-create/10-freelance-page.png", 
+			"/project-doc/skillvilla/customer/06-create/01-post-page.png", 
+			"/project-doc/skillvilla/customer/06-create/02-story-page.png", 
+			"/project-doc/skillvilla/customer/06-create/03-community-page.png", 
+			"/project-doc/skillvilla/customer/06-create/04-workfolio-page.png", 
+			"/project-doc/skillvilla/customer/06-create/05-problem-page.png", 
+			"/project-doc/skillvilla/customer/06-create/06-company-register-page.png", 
+			"/project-doc/skillvilla/customer/06-create/07-job-home-page.png", 
+			"/project-doc/skillvilla/customer/06-create/08-job-page.png", 
+			"/project-doc/skillvilla/customer/06-create/09-add-question-page.png", 
+			"/project-doc/skillvilla/customer/06-create/10-freelance-page.png", 
 			
 			//company view
-			"/project-doc/skillvilla/customer/7-company/1-company-profile-page.png", 
-			"/project-doc/skillvilla/customer/7-company/2-company-profile-update-page.png", 
+			"/project-doc/skillvilla/customer/07-company/1-company-profile-page.png", 
+			"/project-doc/skillvilla/customer/07-company/2-company-profile-update-page.png", 
 			
 			//user profile view
-			"/project-doc/skillvilla/customer/8-profile/1-user-profile-page.png", 
-			"/project-doc/skillvilla/customer/8-profile/2-update-user-profile-page.png", 
-			"/project-doc/skillvilla/customer/8-profile/3-other-user-profile-page.png", 
+			"/project-doc/skillvilla/customer/08-profile/1-user-profile-page.png", 
+			"/project-doc/skillvilla/customer/08-profile/2-update-user-profile-page.png", 
+			"/project-doc/skillvilla/customer/08-profile/3-other-user-profile-page.png", 
 			 
   ],
   liveDemoUrl: "https://example.com/skillvilla",
@@ -230,7 +230,7 @@ export const featureProps = [
 					"Real-time updates through WebSocket for live content delivery (if enabled)",
 					"Responsive and clean UI using React JS and Bootstrap",
 				],
-				image: '/project-doc/skillvilla/customer/1-home/home-page.png',
+				image: '/project-doc/skillvilla/customer/01-home/home-page.png',
 			},
 			{
 				title: 'Explore Page',
@@ -254,7 +254,7 @@ export const featureProps = [
 					"Interest-based user suggestions shown by default",
 					"Smooth transitions and   infinite scroll support",
 				],
-				image: '/project-doc/skillvilla/customer/2-explore/1-explore-users-page.png',
+				image: '/project-doc/skillvilla/customer/02-explore/1-explore-users-page.png',
 			},
 			{
 				title: 'Explore - Community',
@@ -265,7 +265,7 @@ export const featureProps = [
 					"Each community card displays cover image, community name, and total members", 
 					"Responsive grid layout for smooth discovery across devices",
 				],
-				image: '/project-doc/skillvilla/customer/2-explore/2-explore-community-page.png',
+				image: '/project-doc/skillvilla/customer/02-explore/2-explore-community-page.png',
 			},
 			{
 				title: 'Explore - Posts',
@@ -277,7 +277,7 @@ export const featureProps = [
 					"Lightweight and fast-loading for a smooth browsing experience",
 					"Supports infinite scroll for deep content discovery",
 				],
-				image: '/project-doc/skillvilla/customer/2-explore/3-explore-post-page.png',
+				image: '/project-doc/skillvilla/customer/02-explore/3-explore-post-page.png',
 			},
 			{
 				title: 'Explore - Workfolio',
@@ -290,7 +290,7 @@ export const featureProps = [
 					"Action buttons for viewing details, sharing, or saving the workfolio",
 					"Responsive design with clean card-based layout",
 				],
-				image: '/project-doc/skillvilla/customer/2-explore/4-explore-workfolio-page.png',
+				image: '/project-doc/skillvilla/customer/02-explore/4-explore-workfolio-page.png',
 			},
 			{
 				title: 'Explore - Problem',
@@ -301,7 +301,7 @@ export const featureProps = [
 					"Each problem card displays the title, posted by (user ID), and total number of solutions received", 
 					"Encourages community knowledge-sharing and problem-solving",
 				],
-				image: '/project-doc/skillvilla/customer/2-explore/5-explore-problem-page.png',
+				image: '/project-doc/skillvilla/customer/02-explore/5-explore-problem-page.png',
 			},
 			{
 				title: 'Explore - Jobs',
@@ -315,7 +315,7 @@ export const featureProps = [
 					"Dropdown menu with options to view job details, share, or save for later",
 					 
 				],
-				image: '/project-doc/skillvilla/customer/2-explore/6-explore-job-page.png',
+				image: '/project-doc/skillvilla/customer/02-explore/6-explore-job-page.png',
 			},
 			{
 				title: 'Explore - Freelance',
@@ -330,7 +330,7 @@ export const featureProps = [
 					"Dropdown menu for viewing details, sharing, or saving for later",
 					 
 				],
-				image: '/project-doc/skillvilla/customer/2-explore/7-explore-freelance-page.png',
+				image: '/project-doc/skillvilla/customer/02-explore/7-explore-freelance-page.png',
 			},
 			{
 				title: 'Chat System',
@@ -344,7 +344,7 @@ export const featureProps = [
 					"Shared content appears as interactive preview cards with title, thumbnail",
 					"Fully responsive UI with smooth transitions for desktop and mobile",
 				],
-				image: '/project-doc/skillvilla/customer/3-chat/1-chat-page.png',
+				image: '/project-doc/skillvilla/customer/03-chat/1-chat-page.png',
 			},
 			{
 				title: 'Community - My Communities',
@@ -356,7 +356,7 @@ export const featureProps = [
 					"Clean, scrollable layout optimized for both mobile and desktop",
 					
 				],
-				image: '/project-doc/skillvilla/customer/4-community/1-my-community-page.png',
+				image: '/project-doc/skillvilla/customer/04-community/1-my-community-page.png',
 			},
 			{
 				title: 'Community - Joined Communities',
@@ -368,7 +368,7 @@ export const featureProps = [
 					"Clean card layout optimized for mobile and desktop views",
 					
 				],
-				image: '/project-doc/skillvilla/customer/4-community/2-joined-community-page.png',
+				image: '/project-doc/skillvilla/customer/04-community/2-joined-community-page.png',
 			},
 			{
 				title: 'Community - Detail Page',
@@ -382,7 +382,7 @@ export const featureProps = [
 					"Admin controls to edit or delete the community",
 					"Fully responsive layout for both users and community admins",
 				],
-				image: '/project-doc/skillvilla/customer/4-community/3-communiy-detail-page.png',
+				image: '/project-doc/skillvilla/customer/04-community/3-communiy-detail-page.png',
 			},
 			{
 				title: 'Story Page',
@@ -395,7 +395,7 @@ export const featureProps = [
 					"Supports both image and video thumbnails with smooth previews",
 					"Mobile-optimized and styled for fast interactions and seamless transitions",
 				],
-				image: '/project-doc/skillvilla/customer/5-story/1-story-page.png',
+				image: '/project-doc/skillvilla/customer/05-story/1-story-page.png',
 			},
 			{
 				title: 'Story Detail Page',
@@ -410,7 +410,7 @@ export const featureProps = [
 					"Allows real-time interaction and engagement within the 24-hour life of a story",
 					"Smooth navigation between multiple stories from the same user",
 				],
-				image: '/project-doc/skillvilla/customer/5-story/2-story-detail-page.png',
+				image: '/project-doc/skillvilla/customer/05-story/2-story-detail-page.png',
 			},
 			{
 				title: 'Create Post Page',
@@ -424,7 +424,7 @@ export const featureProps = [
 					"Input validations and upload progress feedback",
 					"Optimized for both desktop and mobile devices",
 				],
-				image: '/project-doc/skillvilla/customer/6-create/1-post-page.png',
+				image: '/project-doc/skillvilla/customer/06-create/01-post-page.png',
 			},
 			{
 				title: 'Create Story Page',
@@ -438,7 +438,7 @@ export const featureProps = [
 					"Progress feedback and validation to prevent unsupported file types",
 					"Allows adding multiple stories in a seamless flow",
 				],
-				image: '/project-doc/skillvilla/customer/6-create/2-story-page.png',
+				image: '/project-doc/skillvilla/customer/06-create/02-story-page.png',
 			},
 			{
 				title: 'Create Community Page',
@@ -452,7 +452,7 @@ export const featureProps = [
 					"Supports future edits and updates by the creator/admin",
 					"Simple and intuitive layout for fast creation on both mobile and desktop",
 				],
-				image: '/project-doc/skillvilla/customer/6-create/3-community-page.png',
+				image: '/project-doc/skillvilla/customer/06-create/03-community-page.png',
 			},
 			{
 				title: 'Create Workfolio Page',
@@ -466,7 +466,7 @@ export const featureProps = [
 					"Organized layout with previews and validation for each media/file type",
 					"Workfolios are added to the user's profile and visible to other users or recruiters",
 				],
-				image: '/project-doc/skillvilla/customer/6-create/4-workfolio-page.png',
+				image: '/project-doc/skillvilla/customer/06-create/04-workfolio-page.png',
 			},
 			{
 				title: 'Create Problem Page',
@@ -480,7 +480,7 @@ export const featureProps = [
 					"Organized input sections with helpful validation and upload feedback",
 					"Encourages community engagement and real-time problem-solving",
 				],
-				image: '/project-doc/skillvilla/customer/6-create/5-problem-page.png',
+				image: '/project-doc/skillvilla/customer/06-create/05-problem-page.png',
 			},
 			{
 				title: 'Company Detail Setup Page',
@@ -495,7 +495,7 @@ export const featureProps = [
 					"Field to input company's established year for legitimacy",
 					"This setup only needs to be done once and can be edited later",
 				],
-				image: '/project-doc/skillvilla/customer/6-create/6-company-register-page.png',
+				image: '/project-doc/skillvilla/customer/06-create/06-company-register-page.png',
 			},
 			{
 				title: 'Create Job Page',
@@ -512,7 +512,7 @@ export const featureProps = [
 					"Include a checkbox to indicate if the job allows work-from-home flexibility",
 					"All fields validated with clean, responsive UI optimized for all screens",
 				],
-				image: '/project-doc/skillvilla/customer/6-create/8-job-page.png',
+				image: '/project-doc/skillvilla/customer/06-create/08-job-page.png',
 			},
 			{
 				title: 'Add Test Question Page',
@@ -526,7 +526,7 @@ export const featureProps = [
 					"Improves quality of applications by pre-screening based on knowledge or skills",
 					"Simple, user-friendly form layout with real-time validations",
 				],
-				image: '/project-doc/skillvilla/customer/6-create/9-add-question-page.png',
+				image: '/project-doc/skillvilla/customer/06-create/09-add-question-page.png',
 			},
 			{
 				title: 'Create Freelance Gig Page',
@@ -542,7 +542,7 @@ export const featureProps = [
 					"Choose a payment type (e.g., fixed, hourly) to define how freelancers will be paid",
 					"Helps attract skilled freelancers and streamline the bidding process",
 				],
-				image: '/project-doc/skillvilla/customer/6-create/10-freelance-page.png',
+				image: '/project-doc/skillvilla/customer/06-create/10-freelance-page.png',
 			},
 			{
 				title: 'Company Profile Page',
@@ -554,7 +554,7 @@ export const featureProps = [
 					"Shows the established year for trust and authenticity", 
 					"Public view allows job seekers to explore before applying",
 				],
-				image: '/project-doc/skillvilla/customer/7-company/1-company-profile-page.png',
+				image: '/project-doc/skillvilla/customer/07-company/1-company-profile-page.png',
 			},
 			{
 				title: 'Update Company Profile Page',
@@ -567,8 +567,57 @@ export const featureProps = [
 					"Instant update reflected across all job postings and public views",
 					"Responsive design ensures smooth editing across devices",
 				],
-				image: '/project-doc/skillvilla/customer/7-company/2-company-profile-update-page.png',
+				image: '/project-doc/skillvilla/customer/07-company/2-company-profile-update-page.png',
+			},
+			{
+				title: 'Logged-in User Profile Page',
+				description: 'A personalized profile dashboard for users to manage their identity, showcase activity, and connect with the community.',
+				points: [
+					"Profile image with a camera icon to upload or change avatar easily",
+					"Displays user's full name, unique user ID, follower & following counts",
+					"Three-dot dropdown menu includes a Share Profile option",
+					"Edit button for updating personal details, interests, and bio",
+					"Navigation bar with tabs: Post, Workfolio, Problem, Job, Freelance - each linking to user's content",
+					"Details section shows email, mobile number, village/city, state, country, and interest tags",
+					"Includes an About section for a personal introduction or biography",
+					"Mobile-responsive design with smooth navigation and intuitive layout",
+				],
+				image: '/project-doc/skillvilla/customer/08-profile/1-user-profile-page.png',
+			},
+			{
+				title: 'Edit / Update Profile Page',
+				description: 'This page allows users to manage and update their personal profile information, ensuring their account remains accurate and up-to-date.',
+				points: [
+					"Update profile image with live preview and upload support",
+					"Edit name, email, and mobile number with real-time validation",
+					"Location fields include village/city, state, and country selectors",
+					"Manage interests through tag-based input for better content targeting",
+					"Update the About section with personal bio or introduction",
+					"Fields include input validation, character limits, and error handling",
+					"Responsive form layout for seamless experience on all screen sizes",
+					"Save button to commit changes with success confirmation feedback",
+				],
+				image: '/project-doc/skillvilla/customer/08-profile/2-update-user-profile-page.png',
+			},
+			{
+				title: 'Other User Profile Page',
+				description: 'This page displays the public profile of another user, allowing visitors to explore their work, follow them, or start a conversation.',
+				points: [
+					"Shows user's profile image, full name, and unique user ID",
+					"Displays total followers and following counts",
+					 
+					"Includes Follow / Following button to connect with the user",
+					"Message button to start a chat directly from their profile",
+					"Three-dot dropdown with actions like Share Profile",
+					"Tab navigation to view their Posts, Workfolio, Problems, Jobs, and Freelance gigs",
+					"Detailed section with email, location info, and interests",
+					"About section for user's biography or introduction",
+				],
+				image: '/project-doc/skillvilla/customer/08-profile/3-other-user-profile-page.png',
 			}
+
+
+
 
 
 
