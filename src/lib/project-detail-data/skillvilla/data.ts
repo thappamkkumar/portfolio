@@ -73,52 +73,71 @@ export const heroProps = {
 			"/project-doc/skillvilla/customer/08-profile/2-update-user-profile-page.png", 
 			"/project-doc/skillvilla/customer/08-profile/3-other-user-profile-page.png", 
 		
-	//posts
-		"/project-doc/skillvilla/customer/09-posts/1-post-page.png", 
-		"/project-doc/skillvilla/customer/09-posts/2-my-post-page.png", 
-		"/project-doc/skillvilla/customer/09-posts/3-tagged-post-page.png", 
-		"/project-doc/skillvilla/customer/09-posts/4-saved-post-page.png", 
-		"/project-doc/skillvilla/customer/09-posts/5-post-detail-page.png",  
-		
-	//workfolios
-		"/project-doc/skillvilla/customer/10-workfolios/1-workfolio-page.png", 
-		"/project-doc/skillvilla/customer/10-workfolios/2-my-workfolio-page.png", 
-		"/project-doc/skillvilla/customer/10-workfolios/3-saved-workfolio-page.png", 
-		"/project-doc/skillvilla/customer/10-workfolios/4-workfolio-detial-page.png", 
-	
-	//problems
-		"/project-doc/skillvilla/customer/11-problems/1-problem-page.png", 
-		"/project-doc/skillvilla/customer/11-problems/2-my-problem-page.png", 
-		"/project-doc/skillvilla/customer/11-problems/3-saved-problem-page.png", 
-		"/project-doc/skillvilla/customer/11-problems/4-problem-detail-page.png",
+		//posts
+			"/project-doc/skillvilla/customer/09-posts/1-post-page.png", 
+			"/project-doc/skillvilla/customer/09-posts/2-my-post-page.png", 
+			"/project-doc/skillvilla/customer/09-posts/3-tagged-post-page.png", 
+			"/project-doc/skillvilla/customer/09-posts/4-saved-post-page.png", 
+			"/project-doc/skillvilla/customer/09-posts/5-post-detail-page.png",  
 			
-	//jobs
-		"/project-doc/skillvilla/customer/12-jobs/01-job-page.png",
-		"/project-doc/skillvilla/customer/12-jobs/02-my-job-page.png",
-		"/project-doc/skillvilla/customer/12-jobs/03-applied-job-page.png",
-		"/project-doc/skillvilla/customer/12-jobs/04-saved-job-page.png",
-		"/project-doc/skillvilla/customer/12-jobs/05-job-detail-for-candidate-page.png",
-		"/project-doc/skillvilla/customer/12-jobs/06-job-detail-for-recriuter-page.png",
-		"/project-doc/skillvilla/customer/12-jobs/07-apply-job-instruction-page.png",
-		"/project-doc/skillvilla/customer/12-jobs/08-apply-job-test-page.png",
-		"/project-doc/skillvilla/customer/12-jobs/09-apply-job-page.png",
-		"/project-doc/skillvilla/customer/12-jobs/10-job-application-page.png",
-		"/project-doc/skillvilla/customer/12-jobs/11-job-application-detail-page.png",
-		 
+		//workfolios
+			"/project-doc/skillvilla/customer/10-workfolios/1-workfolio-page.png", 
+			"/project-doc/skillvilla/customer/10-workfolios/2-my-workfolio-page.png", 
+			"/project-doc/skillvilla/customer/10-workfolios/3-saved-workfolio-page.png", 
+			"/project-doc/skillvilla/customer/10-workfolios/4-workfolio-detial-page.png", 
 		
-	//freelance
-		"/project-doc/skillvilla/customer/13-freelances/1-freelance-page.png", 
-		"/project-doc/skillvilla/customer/13-freelances/2-my-freelance-page.png", 
-		"/project-doc/skillvilla/customer/13-freelances/3-applied-freelance-page.png", 
-		"/project-doc/skillvilla/customer/13-freelances/4-saved-freelace-page.png", 
-		"/project-doc/skillvilla/customer/13-freelances/5-freelance-detail-page.png", 
-		"/project-doc/skillvilla/customer/13-freelances/6-freelance-add-bid-page.png", 
-		"/project-doc/skillvilla/customer/13-freelances/7-bids-on-freelance-page.png", 
- 
+		//problems
+			"/project-doc/skillvilla/customer/11-problems/1-problem-page.png", 
+			"/project-doc/skillvilla/customer/11-problems/2-my-problem-page.png", 
+			"/project-doc/skillvilla/customer/11-problems/3-saved-problem-page.png", 
+			"/project-doc/skillvilla/customer/11-problems/4-problem-detail-page.png",
+				
+		//jobs
+			"/project-doc/skillvilla/customer/12-jobs/01-job-page.png",
+			"/project-doc/skillvilla/customer/12-jobs/02-my-job-page.png",
+			"/project-doc/skillvilla/customer/12-jobs/03-applied-job-page.png",
+			"/project-doc/skillvilla/customer/12-jobs/04-saved-job-page.png",
+			"/project-doc/skillvilla/customer/12-jobs/05-job-detail-for-candidate-page.png",
+			"/project-doc/skillvilla/customer/12-jobs/06-job-detail-for-recriuter-page.png",
+			"/project-doc/skillvilla/customer/12-jobs/07-apply-job-instruction-page.png",
+			"/project-doc/skillvilla/customer/12-jobs/08-apply-job-test-page.png",
+			"/project-doc/skillvilla/customer/12-jobs/09-apply-job-page.png",
+			"/project-doc/skillvilla/customer/12-jobs/10-job-application-page.png",
+			"/project-doc/skillvilla/customer/12-jobs/11-job-application-detail-page.png",
+			 
+			
+		//freelance
+			"/project-doc/skillvilla/customer/13-freelances/1-freelance-page.png", 
+			"/project-doc/skillvilla/customer/13-freelances/2-my-freelance-page.png", 
+			"/project-doc/skillvilla/customer/13-freelances/3-applied-freelance-page.png", 
+			"/project-doc/skillvilla/customer/13-freelances/4-saved-freelace-page.png", 
+			"/project-doc/skillvilla/customer/13-freelances/5-freelance-detail-page.png", 
+			"/project-doc/skillvilla/customer/13-freelances/6-freelance-add-bid-page.png", 
+			"/project-doc/skillvilla/customer/13-freelances/7-bids-on-freelance-page.png", 
+	 
+			
+		//logout
+			"/project-doc/skillvilla/customer/14-logout/logout-page.png", 
 		
-	//logout
-		"/project-doc/skillvilla/customer/14-logout/logout-page.png", 
 		
+		//admin 
+		"/project-doc/skillvilla/login/admin-login-page.png", 
+		"/project-doc/skillvilla/admin/01-dashboard-page.png", 
+		"/project-doc/skillvilla/admin/02-users-page.png", 
+		"/project-doc/skillvilla/admin/03-communities-page.png", 
+		"/project-doc/skillvilla/admin/04-stories-page.png", 
+		"/project-doc/skillvilla/admin/05-posts-page.png", 
+		"/project-doc/skillvilla/admin/06-workfolios-page.png", 
+		"/project-doc/skillvilla/admin/07-problems-page.png", 
+		"/project-doc/skillvilla/admin/08-companies-page.png", 
+		"/project-doc/skillvilla/admin/09-jobs-page.png", 
+		"/project-doc/skillvilla/admin/10-freelances-page.png", 
+		"/project-doc/skillvilla/admin/11-messages-page.png", 
+		"/project-doc/skillvilla/admin/12-message-reply-page.png", 
+		"/project-doc/skillvilla/admin/13-profile-page.png", 
+		"/project-doc/skillvilla/admin/14-profile-update-page.png", 
+		"/project-doc/skillvilla/admin/15-logout-page.png", 
+			
 		
 		
   ],
@@ -1134,7 +1153,219 @@ export const featureProps = [
 	{
 		category: 'Admin',
 		features: [ 
-		
+			{
+				title: 'Admin Dashboard',
+				description: "The central command center for administrators to monitor and manage the entire SkillVilla platform's activity and growth in real-time.",
+				points: [
+					"Displays key statistics: total users, communities, stories, posts, portfoli	os, problems, companies, jobs, and plans",
+					"Interactive graphs with toggles for daily or monthly data visualization",
+					"Graphs dynamically switch between metrics like users, posts, jobs, messages, and more",
+					"Provides a clear overview of platform usage trends and growth patterns",
+					"Helps identify platform engagement, content creation rate, and feature utilization",
+					"Designed for quick insights and smooth administrative control"
+				],
+				image: '/project-doc/skillvilla/admin/01-dashboard-page.png',
+			},
+			{
+				title: 'User Management ',
+				description: 'This page allows administrators to view and manage all users registered on SkillVilla in a structured and efficient manner.',
+				points: [
+					"Displays a paginated list of all platform users with Next and Previous buttons",
+					"User data presented in a clean table layout: profile image, name, email, role, and status",
+					"Status field indicates whether the user is Active, Deactivated or Banned",
+					"Includes a 'More' button with a dropdown that offers actions like viewing user details",
+					"Streamlines administrative tasks related to user access and moderation",
+					"Designed for clarity and control, supporting both monitoring and decision-making"
+				],
+				image: '/project-doc/skillvilla/admin/02-users-page.png	',
+			},
+			{
+				title: 'Community Management',
+				description: 'This admin interface displays and manages all user-created communities on SkillVilla. It offers structured data in tabular form with pagination for smooth moderation.',
+				points: [
+					"Paginated list of communities with Next and Previous navigation",
+					"Table layout shows: community image, name, creator, privacy setting (public/private), and total members",
+					"Each row includes a dropdown in the 'More' column with a 'Detail' button to view complete community information",
+					"Allows admins to review, monitor, or take action on user-created communities",
+					"Supports efficient oversight of community engagement, growth, and content moderation"
+				],
+				image: '/project-doc/skillvilla/admin/03-communities-page.png',
+			},
+			{
+				title: 'Story Management',
+				description: 'This admin panel page displays a real-time list of all user-posted stories that are automatically removed after 24 hours of posting. It supports moderation and tracking of story content.',
+				points: [
+					"Stories are shown in a tabular format for easy administration",
+					"Each row displays: Story (image or video thumbnail), posted by (user ID or name), posted time (relative format), and commands (actions)",
+					"Stories auto-expire and are deleted 24 hours after posting -	 no manual deletion required",
+					"Includes a 'More' dropdown with a 'Detail' button to view full story content and user details",
+					"Helps admin monitor short-term user engagement and flag inappropriate story content before expiry"
+				],
+				image: '/project-doc/skillvilla/admin/04-stories-page.png',
+			},
+			{
+				title: 'Post Management',
+				description: 'This admin panel page allows administrators to view and manage user-generated posts across the platform. It provides post analytics and moderation tools in a paginated table view.',
+				points: [
+					"Posts are listed in a paginated table format with Next and Previous buttons for navigation",
+					"Each table row contains: Post (thumbnail of image/video), Posted By (user name or ID), Total Likes, Total Comments, and Post Date",
+					"The 'More' column has a dropdown menu with a 'Detail' button to view full content and metadata of the selected post",
+					"Useful for moderation, reviewing engagement, and managing inappropriate or spammy posts"
+				],
+				image: '/project-doc/skillvilla/admin/05-posts-page.png',
+			},
+			{
+				title: 'Portfolio Management',
+				description: 'This page in the admin panel lists all the workfolios (user portfolios) uploaded by users on the platform. Admins can monitor and access details about creative or professional work shared by users.',
+				points: [
+					"Displays a paginated table of all portfolios uploaded by users",
+					"Each row includes: Title of the Work, Uploaded By (user ID), Rating (0-5 stars), Total Reviews, and Post Date",
+					"Includes a 'More' column with a dropdown menu containing a 'Detail' button to view full workfolio content and reviews",
+					"Enables content moderation, review management, and platform quality control for user workfolios"
+				],
+				image: '/project-doc/skillvilla/admin/06-workfolios-page.png',
+			},
+			{
+				title: 'Problem Management',
+				description: 'This page in the admin dashboard provides a list of problems or queries submitted by users seeking solutions. Admins can view and manage user-generated problem posts to ensure quality and adherence to community standards.',
+				points: [
+					"Displays a paginated table of all user-submitted problems",
+					"Each row includes: Title of the problem, Asked By (user name or ID), Total Solutions received, and Post Date",
+					"A 'More' column includes a dropdown menu with a 'Detail' button to navigate to the full problem content and related solutions",
+					"Enables moderation and removal of inappropriate or low-quality problem content",
+					"Supports pagination with 'Next' and 'Previous' navigation for easier browsing"
+				],
+				image: '/project-doc/skillvilla/admin/07-problems-page.png',
+			},
+			{
+				title: 'Company Management',
+				description: 'This admin panel page displays all registered companies added by users to post job vacancies. It enables admin oversight of employers and hiring entities within the platform.',
+				points: [
+					"Displays a paginated table listing all companies registered by users",
+					"Each company row contains: Company Logo, Company Name, Managed By (user ID who registered the company), Industry, Established Year, and Total Jobs posted under that company",
+					"Includes a 'More' column with a dropdown containing a 'Detail' button to view complete company information",
+					"Supports navigation with pagination buttons (Next and Previous)",
+					"Helps monitor employer activity and manage hiring-related data across the platform"
+				],
+				image: '/project-doc/skillvilla/admin/08-companies-page.png',
+			},
+			{
+				title: 'Job Management',
+				description: 'This admin page provides an overview of all job listings posted on the platform. Admins can monitor hiring activity, track posted jobs, and access related applications.',
+				points: [
+					"Displays a paginated table listing all job vacancies posted by users",
+					"Each job row includes: Job Title, Posted By (user ID), Salary, Expiry Date (application deadline), Total Applications on that job, and Post Date",
+					"Includes a 'More' column with a dropdown that contains a 'Detail' button to view full job information",
+					"Pagination with Next and Previous buttons allows navigation through job records",
+					"Useful for monitoring active and expired job listings and ensuring content quality"
+				],
+				image: '/project-doc/skillvilla/admin/09-jobs-page.png',
+			},
+			{
+				title: 'Freelance Management',
+				description: 'This admin page displays a list of freelance gigs posted by users. Admins can track freelance activity, bids, and review job post content.',
+				points: [
+					"Paginated table showing all freelance gigs posted by users",
+					"Each row displays: Title, Posted By (User ID), Budget (Min-Max range), Bid Deadline (last date to place bids), Total Bids, and Post Date",
+					"Includes a 'More' column with a dropdown that contains a 'Detail' button to view complete freelance post info",
+					"Next and Previous buttons for navigating between pages",
+					"Helpful for overseeing user-generated freelance content and application traffic"
+				],
+				image: '/project-doc/skillvilla/admin/10-freelances-page.png',
+			},
+			{
+				title: 'Messages Management',
+				description: 'This admin page displays all messages sent by users or visitors (including non-logged-in users). It helps the admin track general inquiries or support requests.',
+				points: [
+					"Paginated table view of received messages",
+					"Each row includes: Name of sender, Email, Message (short preview), Date, and Time of submission",
+					"Includes a 'More' column with a dropdown that contains a 'Detail' button to view full message content",
+					"Messages can come from both registered users and public visitors",
+					"Next and Previous buttons for navigating through the paginated list"
+				],
+				image: '/project-doc/skillvilla/admin/11-messages-page.png',
+			},
+			{
+				title: 'Message Detail & Reply',
+				description: 'This page allows the admin to view the full message sent by a user or visitor and respond to it via email directly from the platform.',
+				points: [
+					"Displays full message details including: User Name, Email, and the complete message content",
+					"Admin reply section with a large text area for writing a response",
+					"Send button to deliver the admin's reply directly to the user's or visitor's email address",
+					"Helps maintain communication with users or handle support queries effectively",
+					"Simple and direct interface focused on reading and replying"
+				],
+				image: '/project-doc/skillvilla/admin/12-message-reply-page.png',
+			},
+			
+			{
+				title: 'Admin Profile',
+				description: "This page displays and manages the admin's personal profile information including editable contact and location details.",
+				points: [
+					"Admin profile image with a   camera icon overlay to update/change the image",
+					"Beside the image, shows Admin Name and Admin User ID",
+					"Edit button available to modify admin details",
+					"Detail section includes the following fields:",
+					"- Email",
+					"- Mobile Number",
+					"- Village / City",
+					"- State",
+					"- Country"
+				],
+				image: '/project-doc/skillvilla/admin/13-profile-page.png',
+			},
+			{
+				title: 'Update Admin Profile',
+				description: 'Allows admin to update basic personal details and change password with real-time field-based updates and secure email verification.',
+				points: [
+					"The page is divided into two sections: **Basic Details** and **Password Update**",
+
+					"**Basic Details Section**",
+					"- Editable fields: User ID, Name, Mobile Number, Village/City, State, Country",
+					"- Updates are sent to the backend automatically when user edits and clicks outside the input field (auto-save)",
+					"- Email update flow:",
+					" Admin enters new email",
+					" 'Send OTP' button appears   sends OTP to the new email",
+					" OTP input field appears upon sending",
+					" Once OTP is verified successfully, email gets updated",
+
+					"**Password Update Section**",
+					"- Fields: Current Password, New Password, Re-enter New Password",
+					"- On clicking 'Update Password':",
+					"Current password is validated",
+					"New password is checked for strength and matched",
+					"If valid, password is securely updated"
+				],
+				image: '/project-doc/skillvilla/admin/14-profile-update-page.png',
+			},
+			{
+				title: 'Logout',
+				description: 'Confirmation page shown to admin before logging out of the SkillVilla dashboard.',
+				points: [
+					"Displays message: **'Are you sure you want to logout''**",
+					"Two action buttons: **YES** and **NOT**",
+					"- Clicking **NOT** navigates back to the previous page without logging out",
+					"- Clicking **YES** performs the following:",
+					"Logs out the admin (clears session/auth tokens)",
+					"Redirects to the **Landing Page** of the application", 
+				],
+				image: '/project-doc/skillvilla/admin/15-logout-page.png',
+			}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 		], 
 	},
  
