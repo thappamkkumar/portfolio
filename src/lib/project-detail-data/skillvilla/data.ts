@@ -964,7 +964,130 @@ export const featureProps = [
 					"Helps employers make informed decisions by evaluating both technical and personal qualifications"
 				],
 				image: '/project-doc/skillvilla/customer/12-jobs/11-job-application-detail-page.png',
+			},
+			{
+				title: 'Freelance Page',
+				description: 'Displays freelance gigs shared by users, tailored to user interests and search filters for easier discovery and engagement.',
+				points: [
+					"Shows freelance title with uploader's image and user ID",
+					"Displays total reviews and average rating for the freelancer",
+					"Clearly lists minimum and maximum budget with specified payment type (e.g., hourly, fixed)",
+					"Highlights required skills needed for the freelance project",
+					"Includes a Save button for bookmarking gigs",
+					"Dropdown menu with options to view details or share the freelance listing",
+					"Supports infinite scroll or pagination for browsing multiple gigs",
+					"Optimized for matching users with relevant freelance opportunities based on their interests"
+				],
+				image: '/project-doc/skillvilla/customer/13-freelances/1-freelance-page.png',
+			},
+			{
+				title: 'My Freelance Page',
+				description: 'Displays all freelance gigs posted by the logged-in user, allowing them to manage and monitor proposals efficiently.',
+				points: [
+					"Shows each freelance gig with title, uploader image, and user ID",
+					"Displays total reviews and average rating on the freelancer's profile",
+					"Includes minimum and maximum budget with the payment type",
+					"Lists required skills for each freelance post",
+					"Includes a 'Total Bids' button to view all proposals received for the gig",
+					"Dropdown menu includes options like 'Detail', 'Share', and 'Delete'",
+					"No Save button is shown since these are self-posted gigs",
+					"Provides quick access for editing, monitoring, or managing the posted freelance work"
+				],
+				image: '/project-doc/skillvilla/customer/13-freelances/2-my-freelance-page.png',
+			},
+			{
+				title: 'Applied Freelance / Bid History Page',
+				description: 'Displays all freelance gigs where the logged-in user has placed a bid, along with the current status of their application.',
+				points: [
+					"Lists all freelance gigs where the user has submitted a bid",
+					"Displays gig title, uploader image, user ID, rating, and budget range",
+					"Shows required skills for each freelance opportunity",
+					"Replaces the 'Place Bid' button with current bid status such as 'Bid Placed', 'Accepted', or 'Rejected'",
+					"Allows users to monitor the progress of their freelance applications",
+					"Includes a dropdown menu for viewing details or sharing the gig",
+					"Organized for quick reference to ongoing, successful, or rejected freelance bids",
+					"Helps users track outcomes and take further action where necessary"
+				],
+				image: '/project-doc/skillvilla/customer/13-freelances/3-applied-freelance-page.png',
+			},
+			{
+				title: 'Saved Freelance Page',
+				description: 'Displays all freelance gigs that the logged-in user has saved for later review or application.',
+				points: [
+					"Lists all saved freelance opportunities in one place",
+					"Each card shows the freelance gig's title, uploader's image and user ID",
+					"Displays rating and total reviews received by the freelancer",
+					"Shows budget range (minimum to maximum) along with payment type",
+					"Lists required skills for the gig clearly",
+					"Instead of a 'Save' button, shows a highlighted 'Saved' state",
+					"Includes dropdown menu with options like 'View Details' and 'Share'",
+					"Helps users keep track of gigs they are interested in without bidding immediately"
+				],
+				image: '/project-doc/skillvilla/customer/13-freelances/4-saved-freelace-page.png',
+			},
+			{
+				title: 'Freelance Detail Page',
+				description: 'Displays the full detail of a freelance gig, allowing users to review, save, share, or place a bid.',
+				points: [
+					"Shows detailed freelance gig info including title, uploader's image and user ID",
+					"Displays total rating and review count for the freelancer",
+					"Includes a dropdown menu with 'Share', 'Save', and 'Delete' (only visible if the logged-in user is the owner)",
+					"Includes comprehensive gig details: experience level, duration, deadline to apply, and budget range",
+					"Lists required skills clearly for better candidate targeting",
+					"Displays a well-formatted description of the freelance work",
+					"Has a bidding section for users to apply with a form including cover letter, bid amount, payment type, and delivery time",
+					"Once a bid is placed, the form is hidden and the user sees their submitted bid",
+					
+				],
+				image: '/project-doc/skillvilla/customer/13-freelances/5-freelance-detail-page.png',
+			},
+			{
+				title: 'Bid Place  ',
+				description: 'This section allows users to submit a bid for a freelance gig, including all necessary application details.',
+				points: [
+					"Includes a form with fields for cover letter, bid amount, payment type (e.g., fixed, hourly), and delivery time",
+					"Validates all input fields before submission to ensure complete and accurate data",
+					"Displays user-friendly errors and prompts for missing or invalid fields",
+					"Once submitted, hides the form and shows the user's placed bid with details",
+					"Prevents duplicate bids for the same freelance gig by the same user",
+					"Enhances trust and professionalism by collecting comprehensive bid information"
+				],
+				image: '/project-doc/skillvilla/customer/13-freelances/6-freelance-add-bid-page.png',
+			},
+			{
+				title: 'Freelance Bids List',
+				description: 'This page displays all bids submitted for a specific freelance gig, accessible only to the gig owner.',
+				points: [
+					"Shows the freelance gig title along with total number of bids received",
+					"Each bid card displays candidate's profile image, name, and user ID",
+					"Displays candidate's average rating and total reviews from previous work",
+					"Shows cover letter submitted by the bidder for clear context",
+					"Includes bid amount and proposed delivery time",
+					"Displays the current status of the bid (e.g., Pending or Submitted, Accepted, Rejected)",
+					"Provides a status update button for the owner to accept or reject bids directly"
+				],
+				image: '/project-doc/skillvilla/customer/13-freelances/7-bids-on-freelance-page.png',
+			},
+			{
+				title: 'Logout Confirmation',
+				description: 'A confirmation prompt ensuring the user intentionally chooses to log out of their SkillVilla account.',
+				points: [
+					"Displays a clear message asking for logout confirmation",
+					`"Are you sure you want to logout?" prompt enhances user clarity`,
+					"Two-button options: 'Yes' to proceed with logout, 'No' to cancel",
+					"On confirmation, securely logs out and redirects to the public landing page",
+					"Simple and minimal interface for a smooth user experience"
+				],
+				image: '/project-doc/skillvilla/customer/14-logout/logout-page.png',
 			}
+
+
+
+
+
+
+
+
 
 
 
