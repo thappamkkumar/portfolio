@@ -615,6 +615,380 @@ export const featureProps = [
 				],
 				image: '/project-doc/skillvilla/customer/08-profile/3-other-user-profile-page.png',
 			},
+			{
+				title: 'Post Page',
+				description: 'Displays a dynamic feed of posts shared by followed users, allowing interaction through likes, comments, shares, and saves.',
+				points: [
+					"Shows posts from users the logged-in user follows",
+					"Each post displays uploader's image, name, and user ID",
+					"Three-dot dropdown menu in header includes a Detail button",
+					"Post body supports image or video (with thumbnail preview)",
+					"Footer section with interactive Like, Comment, Share, and Save buttons",
+					"Real-time updates to like and comment counts",
+					"Optimized for infinite scrolling with smooth content loading",
+					"Fully responsive layout with touch-friendly controls",
+				],
+				image: '/project-doc/skillvilla/customer/09-posts/1-post-page.png',
+			},
+			{
+				title: 'My Post Page',
+				description: 'Displays all the posts uploaded by the logged-in user, offering quick access to manage or view details of each post.',
+				points: [
+					"Lists only the posts created by the logged-in user",
+					"Each post card shows user image, name, and user ID",
+					"Post content includes image or video thumbnail",
+					"Interactive Like, Comment, Share, and Save buttons in footer",
+					"Dropdown menu includes both Detail and Delete options",
+					"Delete button allows the user to remove their own post with confirmation prompt",
+					"Posts are sorted chronologically with infinite scroll support",
+					"Designed with a clean, responsive layout for all devices",
+				],
+				image: '/project-doc/skillvilla/customer/09-posts/2-my-post-page.png',
+			},
+			{
+				title: 'Tagged Post Page',
+				description: "Displays all posts where the logged-in user has been tagged by others, helping users track content they're mentioned in.",
+				points: [
+					"Lists all posts that tag the logged-in user",
+					"Each post card includes uploader's image, name, and user ID",
+					"Displays media (image or video) associated with the post",
+					"Footer actions include Like, Comment, Share, and Save buttons",
+					"Three-dot dropdown menu with Detail view option",
+					"Helps users stay engaged with content they're involved in",
+					"Supports infinite scrolling for a seamless experience",
+					"Fully responsive and styled to match the global theme",
+				],
+				image: '/project-doc/skillvilla/customer/09-posts/3-tagged-post-page.png',
+			},
+			{
+				title: 'Saved Post Page',
+				description: 'Displays all posts that have been saved by the logged-in user for future reference and easy access.',
+				points: [
+					"Shows a personalized list of saved posts by the user",
+					"Post cards include uploader's image, name, and user ID",
+					"Media section supports images and video thumbnails",
+					"Footer includes interactive buttons for Like, Comment, Share, and Unsave",
+					"Dropdown menu includes Detail view option",
+					"Enables users to manage saved content conveniently",
+					"Real-time unsave functionality without page reload",
+					"Infinite scrolling support with responsive design",
+				],
+				image: '/project-doc/skillvilla/customer/09-posts/4-saved-post-page.png',
+			},
+			{
+				title: 'Post Detail Page',
+				description: 'Displays the full details of a selected post, including user information, media attachments, tags, and interactive actions.',
+				points: [
+					"Shows uploader's image, name, and user ID at the top",
+					"Three-dot dropdown includes Delete option only for post owner",
+					"Displays all attached images or videos with next/prev navigation",
+					"Action buttons: Like, Comment, Save, and Share",
+					"Clearly displays post tags and categories for context and discovery",
+					"Includes a full description of the post below media",
+					"Designed for deep engagement and content visibility",
+					"Fully responsive with optimized layout for all screen sizes",
+				],
+				image: '/project-doc/skillvilla/customer/09-posts/5-post-detail-page.png',
+			},
+			{
+				title: 'Workfolio Page',
+				description: 'Displays works uploaded by followed users, helping users discover projects, case studies, or portfolios shared within their network.',
+				points: [
+					"Shows a feed of workfolios uploaded by followed users",
+					"Each workfolio card includes title,  and uploader's user ID and profile image",
+					"Displays total number of reviews and average rating on work",
+					"Three-dot dropdown menu includes options for Detail view, Share, and Save",
+					"Helps users showcase and explore creative or professional work",
+					"Supports infinite scrolling for a continuous discovery experience",
+					"Visually clean and responsive card layout for all devices",
+				],
+				image:'/project-doc/skillvilla/customer/10-workfolios/1-workfolio-page.png',
+			},
+			{
+				title: 'My Workfolio Page',
+				description: 'Displays all workfolios uploaded by the logged-in user, offering tools to manage and present their showcased work effectively.',
+				points: [
+					"Shows a list of workfolios uploaded by the logged-in user",
+					"Each card includes title, cover image, and user ID",
+					"Displays total reviews and average rating on   work",
+					"Three-dot dropdown includes: Detail, Share, Save, and Delete options",
+					"Allows quick access and management of personal project showcases",
+					"Organized card-based layout with clear visual hierarchy",
+					"Supports responsive design and smooth UX across devices",
+				],
+				image: '/project-doc/skillvilla/customer/10-workfolios/2-my-workfolio-page.png',
+			},
+			{
+				title: 'Saved Workfolio Page',
+				description: 'Shows a curated collection of workfolios saved by the logged-in user for later viewing, inspiration, or sharing.',
+				points: [
+					"Displays a grid/list of workfolios that the user has saved",
+					"Each card includes title, thumbnail image, and uploader's user ID",
+					"Shows total review count and average rating on the work",
+					"Three-dot dropdown with options: View Details, Share, and Unsave",
+					"Helps users bookmark high-quality work for reference or hiring",
+					"Clean, responsive UI for easy browsing across all devices",
+					"Infinite scroll or pagination to navigate large saved collections",
+				],
+				image: '/project-doc/skillvilla/customer/10-workfolios/3-saved-workfolio-page.png',
+			},
+			{
+				title: 'Workfolio Detail Page',
+				description: 'Displays the full details of a selected workfolio including uploader information, visuals, descriptions, and user reviews.',
+				points: [
+					"Shows the workfolio title, uploader's image, and user ID at the top",
+					"Displays overall review count and average star rating",
+					"Dropdown menu with options: Share, Save, and Delete (only for owner)",
+					"Includes categories and a detailed description of the work",
+					"Shows all attached images in a gallery layout or slider",
+					"Review section is split into two parts: Add Review and Review List",
+					"Users can rate and write feedback on the workfolio",
+					"Displays a list of all existing reviews with ratings and reviewer info",
+					"Responsive design ensures smooth experience across devices",
+				],
+				image: '/project-doc/skillvilla/customer/10-workfolios/4-workfolio-detial-page.png',
+			},
+			{
+				title: 'Problem Page',
+				description: 'Displays a feed of user-submitted problems with quick access to key info and actions. Problems are fetched with infinite scrolling.',
+				points: [
+					"Loads a list of problems submitted by users with infinite scroll",
+					"Each problem card shows the title, uploader's image, and user ID",
+					"Displays total number of solutions submitted for each problem",
+					"Three-dot dropdown includes: Share, Detail, and Save options",
+					"Clean layout optimized for readability and browsing",
+					"Encourages peer-to-peer help by surfacing recent and relevant issues",
+					"Responsive across mobile, tablet, and desktop devices",
+				],
+				image: '/project-doc/skillvilla/customer/11-problems/1-problem-page.png',
+			},
+			{
+				title: 'My Problem Page',
+				description: 'Displays a list of problems asked by the logged-in user, providing full control over visibility and management.',
+				points: [
+					"Shows all problems submitted by the logged-in user",
+					"Each card includes title, user image, and user ID",
+					"Displays total number of solutions per problem",
+					"Three-dot dropdown includes: Detail, Share, Save, and Delete (only for owner)",
+					"Allows users to manage, track, or remove their problem posts",
+					"Helpful for reviewing user's own technical queries or follow-ups",
+					"Supports infinite scrolling for seamless navigation",
+				],
+				image: '/project-doc/skillvilla/customer/11-problems/2-my-problem-page.png',
+			},
+			{
+				title: 'Saved Problem Page',
+				description: 'Allows users to view and manage all the problems they have bookmarked for future reference or follow-up.',
+				points: [
+					"Displays a list of problems that the user has saved",
+					"Each problem card shows title, uploader image, and user ID",
+					"Includes total number of solutions submitted",
+					"Three-dot dropdown provides options: Detail, Share, and Unsave",
+					"Helps users keep track of important or relevant problem discussions",
+					"Designed for quick review and revisiting unresolved issues",
+					"Supports infinite scroll for easy exploration",
+				],
+				image: '/project-doc/skillvilla/customer/11-problems/3-saved-problem-page.png',
+			},
+			{
+				title: 'Problem Detail Page',
+				description: 'This page provides full details of a specific problem posted by a user and allows others to contribute solutions.',
+				points: [
+					"Displays problem title, uploader's image and user ID",
+					"Shows total number of submitted solutions",
+					"Dropdown menu includes options: Share, Save, and Delete (only if owner)",
+					"Includes a detailed description of the problem",
+					"Solution submission form with text area and optional file attachments",
+					"List of all submitted solutions with clear formatting",
+					"Encourages community-driven problem-solving and expert contributions",
+					"Streamlined layout for clear focus on problem and responses"
+				],
+				image: '/project-doc/skillvilla/customer/11-problems/4-problem-detail-page.png',
+			},
+			{
+				title: 'Job Page',
+				description: 'Displays a curated list of job opportunities posted by users followed by the logged-in user, making it easy to discover relevant roles.',
+				points: [
+					"Shows job title with company logo and name for clear branding",
+					"Displays uploader's image and user ID for quick identity reference",
+					"Includes job details like location, employment type, salary, and required skills",
+					"Apply and Save buttons for quick actions",
+					"Dropdown menu with options like View Detail and Save for later",
+					"Highlights jobs based on professional connections and interests",
+					"Clean layout optimized for job seekers to scan and act quickly",
+					"Supports infinite scrolling for continuous discovery"
+				],
+				image: '/project-doc/skillvilla/customer/12-jobs/01-job-page.png',
+			},
+			{
+				title: 'My Job Page',
+				description: 'Displays job listings created by the logged-in user, allowing them to manage their posted job opportunities efficiently.',
+				points: [
+					"Shows job title, company name and logo, and basic job details like location, employment type, salary, and required skills",
+					"Displays uploader's image and user ID to identify the job poster",
+					"Replaces Apply and Save buttons with 'Applications' and 'Add Question' buttons for management",
+					"'Applications' button navigates to view and manage applicant submissions",
+					"'Add Question' button allows setting up skill assessment tests for applicants",
+					"Dropdown menu includes options like View Detail, Share and Delete",
+					"Helps users maintain oversight of all jobs they've posted",
+					"Supports infinite scroll for seamless job management"
+				],
+				image: '/project-doc/skillvilla/customer/12-jobs/02-my-job-page.png',
+			},
+			{
+				title: 'Applied Jobs Page',
+				description: 'Displays all jobs that the logged-in user has applied for, helping them track application status and manage their job search effectively.',
+				points: [
+					"Lists jobs where the user has already submitted an application",
+					"Shows job title, company name and logo, location, employment type, salary, and required skills",
+					"Displays uploader's image and user ID",
+					"Instead of the 'Apply' button, it shows the current application status (e.g., Pending, Reviewed, Shortlisted, Rejected, Accepted)",
+					"Supports sorting or filtering based on application status",
+					"Helps users easily revisit and monitor their job application history",
+					"Includes dropdown options like View Detail and Save for later reference"
+				],
+				image: '/project-doc/skillvilla/customer/12-jobs/03-applied-job-page.png',
+			},
+			{
+				title: 'Saved Jobs Page',
+				description: 'Displays a list of jobs that the logged-in user has bookmarked or saved for future reference and application.',
+				points: [
+					"Shows all jobs the user has saved across the platform",
+					"Each job card includes job title, company logo and name, location, employment type, salary, and required skills",
+					"Displays uploader's image and user ID",
+					"Includes 'Apply' and 'Saved' buttons for quick action",
+					"Dropdown menu for each job with options like View Details and Share",
+					"Useful for managing and revisiting job opportunities of interest",
+					"Supports infinite loading or pagination for seamless navigation"
+				],
+				image: '/project-doc/skillvilla/customer/12-jobs/04-saved-job-page.png',
+			},
+			{
+				title: 'Job Detail Page (Candidate View)',
+				description: 'Presents full job information to job seekers with options to apply, save, and track application status.',
+				points: [
+					"Displays all relevant job information: title, company logo and name, salary, required skills, location, and employment type",
+					"Shows job description, communication language, work-from-home status, and deadline",
+					"Includes 'Apply' button or current status if already applied",
+					"'Save button to bookmark job for later",
+					"No test or question section visible for users unless eligible",
+					"Dropdown menu with options like Share and View Company Profile"
+				],
+				image: '/project-doc/skillvilla/customer/12-jobs/05-job-detail-for-candidate-page.png',
+			},
+			{
+				title: 'Job Detail Page (Owner View)',
+				description: 'Allows job posters to manage and view complete job details along with candidate applications and test configurations.',
+				points: [
+					"Displays complete job details: title, company, salary, skills, location, etc.",
+					"Shows posted job's application deadline, employment type, and communication language",
+					"Includes test configuration if any: view, edit, or add questions",
+					"'Total Applications' button to view list of applicants",
+					"'Add Question' button to include screening questions for the job",
+					"'Edit Test Timing' button for managing test window settings",
+					"Dropdown with options like Edit, Share, or Delete job post"
+				],
+				image: '/project-doc/skillvilla/customer/12-jobs/06-job-detail-for-recriuter-page.png',
+			},
+			{
+				title: 'Job Apply Instruction Page',
+				description: 'Guides candidates through the application process by outlining the required steps before submitting a job application.',
+				points: [
+					"Displays clear instructions for applying to a job in two steps",
+					"Step 1: Complete and pass the required test (if assigned by the job poster)",
+					"Step 2: Submit the job application with a resume and an optional or required introduction video",
+					"Ensures candidates understand the prerequisites before proceeding",
+					"Helps reduce incomplete or invalid job applications",
+					"Clean UI with emphasis on clarity and guidance",
+					"Prevents users from skipping the test step if it's mandatory"
+				],
+				image: '/project-doc/skillvilla/customer/12-jobs/07-apply-job-instruction-page.png',
+			},
+			{
+				title: 'Job Test Page',
+				description: 'An interactive assessment interface for job applicants to prove their eligibility before submitting an application.',
+				points: [
+					"Displays one question at a time with 4 multiple-choice options",
+					"User selects one option per question",
+					"Includes navigation buttons: Next and Previous to move between questions",
+					"Visible timer counts down the total duration of the test",
+					"Test auto-submits upon timer completion",
+					"User can also finish the test manually using the 'Finish Test' button (visible on the last question)",
+					"Automatically evaluates responses upon submission",
+					"Instant result feedback: Pass leads to next application step, Fail returns to instruction page with a failure message",
+					"Ensures only eligible and prepared candidates can apply for the job"
+				],
+				image: '/project-doc/skillvilla/customer/12-jobs/08-apply-job-test-page.png',
+			},
+			{
+				title: 'Job Apply Page',
+				description: 'Final step in the job application process where candidates submit their resume and introduction video after clearing the eligibility test.',
+				points: [
+					"Allows applicants to upload their professional resume in PDF ",
+					"Provides field to upload an introduction video ",
+			
+					"Validates file formats and size for secure submissions",
+					"Submit button becomes active only after both required fields are completed",
+					"After submission, application status is tracked under 'Applied Jobs'",
+					"Helps employers review not just qualifications but also communication and presentation skills"
+				],
+				image: '/project-doc/skillvilla/customer/12-jobs/09-apply-job-page.png',
+			},
+			{
+				title: 'Job Application List Page',
+				description: 'Displays all applications received for a specific job, allowing job owners to track and review candidates efficiently.',
+				points: [
+					"Shows the job title at the top along with the total number of applications",
+					"Lists all submitted applications for the selected job",
+					"Each application card includes candidate's image, name, and user ID",
+					"Displays current application status (e.g., Submitted, Reviewed, Selected, Rejected)",
+					"Includes date when the application was submitted",
+					"'Detail' button to view full application details and resume/video if provided",
+					"Allows job owners to manage candidates and proceed with the hiring process"
+				],
+				image: '/project-doc/skillvilla/customer/12-jobs/10-job-application-page.png',
+			},
+			{
+				title: 'Application Detail Page',
+				description: "Provides a comprehensive view of a candidate's job application, including personal details, test results, resume, and interview readiness.",
+				points: [
+					"Displays candidate profile image, name, and user ID at the top",
+					"Shows test result status with score in percentage",
+					"Application status section with an update button (e.g., Pending or Submitted, Accepted, Rejected)",
+					"Includes contact details like email, mobile number, and full address",
+					"Option to view and download the uploaded resume",
+					"Embeds introduction video for better candidate evaluation",
+					"Provides Accept and Reject buttons for quick hiring decisions",
+					"Displays all test questions with the applicant's selected answers",
+					"Clearly marks each answer as correct or incorrect, including the correct option for wrong answers",
+					"Helps employers make informed decisions by evaluating both technical and personal qualifications"
+				],
+				image: '/project-doc/skillvilla/customer/12-jobs/11-job-application-detail-page.png',
+			}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+			
 
 
 
