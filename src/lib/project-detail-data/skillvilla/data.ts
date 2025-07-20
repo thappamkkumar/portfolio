@@ -10,16 +10,16 @@ export const heroProps = {
   ],
   images: [   
 	
-			//public view images
+		//public view images
 			"/project-doc/skillvilla/public/small-home-page.png", 
 			"/project-doc/skillvilla/public/about-page.png", 
 			
-			//sign up view images
+		//sign up view images
 			"/project-doc/skillvilla/sign-up/email-verify-page.png", 
 			"/project-doc/skillvilla/sign-up/otp-verify-page.png", 
 			"/project-doc/skillvilla/sign-up/generate-password-page.png",
 
-			//login view images			
+		//login view images			
 			"/project-doc/skillvilla/login/login-page.png", 
 			
 			//forgot password view images
@@ -27,11 +27,11 @@ export const heroProps = {
 			"/project-doc/skillvilla/forgot-password/verify-otp-page.png", 
 			"/project-doc/skillvilla/forgot-password/generate-new-password-page.png", 
 			
-			//customer view images
-			//home view
+		//customer view images
+		//home view
 			"/project-doc/skillvilla/customer/01-home/home-page.png", 
 			
-			//explore view
+		//explore view
 			"/project-doc/skillvilla/customer/02-explore/1-explore-users-page.png", 
 			"/project-doc/skillvilla/customer/02-explore/2-explore-community-page.png", 
 			"/project-doc/skillvilla/customer/02-explore/3-explore-post-page.png", 
@@ -40,19 +40,19 @@ export const heroProps = {
 			"/project-doc/skillvilla/customer/02-explore/6-explore-job-page.png", 
 			"/project-doc/skillvilla/customer/02-explore/7-explore-freelance-page.png", 
 		
-			//chat view
-			"/project-doc/skillvilla/customer/3-chat/1-chat-page.png",
+		//chat view
+			"/project-doc/skillvilla/customer/03-chat/1-chat-page.png",
 
-			//community view			
+		//community view			
 			"/project-doc/skillvilla/customer/04-community/1-my-community-page.png",  
 			"/project-doc/skillvilla/customer/04-community/2-joined-community-page.png",  
 			"/project-doc/skillvilla/customer/04-community/3-communiy-detail-page.png",  
 			
-			//story view
+		//story view
 			"/project-doc/skillvilla/customer/05-story/1-story-page.png", 
 			"/project-doc/skillvilla/customer/05-story/2-story-detail-page.png",
 
-			//create content view
+		//create content view
 			"/project-doc/skillvilla/customer/06-create/01-post-page.png", 
 			"/project-doc/skillvilla/customer/06-create/02-story-page.png", 
 			"/project-doc/skillvilla/customer/06-create/03-community-page.png", 
@@ -64,15 +64,63 @@ export const heroProps = {
 			"/project-doc/skillvilla/customer/06-create/09-add-question-page.png", 
 			"/project-doc/skillvilla/customer/06-create/10-freelance-page.png", 
 			
-			//company view
+		//company view
 			"/project-doc/skillvilla/customer/07-company/1-company-profile-page.png", 
 			"/project-doc/skillvilla/customer/07-company/2-company-profile-update-page.png", 
 			
-			//user profile view
+		//user profile view
 			"/project-doc/skillvilla/customer/08-profile/1-user-profile-page.png", 
 			"/project-doc/skillvilla/customer/08-profile/2-update-user-profile-page.png", 
 			"/project-doc/skillvilla/customer/08-profile/3-other-user-profile-page.png", 
-			 
+		
+	//posts
+		"/project-doc/skillvilla/customer/09-posts/1-post-page.png", 
+		"/project-doc/skillvilla/customer/09-posts/2-my-post-page.png", 
+		"/project-doc/skillvilla/customer/09-posts/3-tagged-post-page.png", 
+		"/project-doc/skillvilla/customer/09-posts/4-saved-post-page.png", 
+		"/project-doc/skillvilla/customer/09-posts/5-post-detail-page.png",  
+		
+	//workfolios
+		"/project-doc/skillvilla/customer/10-workfolios/1-workfolio-page.png", 
+		"/project-doc/skillvilla/customer/10-workfolios/2-my-workfolio-page.png", 
+		"/project-doc/skillvilla/customer/10-workfolios/3-saved-workfolio-page.png", 
+		"/project-doc/skillvilla/customer/10-workfolios/4-workfolio-detial-page.png", 
+	
+	//problems
+		"/project-doc/skillvilla/customer/11-problems/1-problem-page.png", 
+		"/project-doc/skillvilla/customer/11-problems/2-my-problem-page.png", 
+		"/project-doc/skillvilla/customer/11-problems/3-saved-problem-page.png", 
+		"/project-doc/skillvilla/customer/11-problems/4-problem-detail-page.png",
+			
+	//jobs
+		"/project-doc/skillvilla/customer/12-jobs/01-job-page.png",
+		"/project-doc/skillvilla/customer/12-jobs/02-my-job-page.png",
+		"/project-doc/skillvilla/customer/12-jobs/03-applied-job-page.png",
+		"/project-doc/skillvilla/customer/12-jobs/04-saved-job-page.png",
+		"/project-doc/skillvilla/customer/12-jobs/05-job-detail-for-candidate-page.png",
+		"/project-doc/skillvilla/customer/12-jobs/06-job-detail-for-recriuter-page.png",
+		"/project-doc/skillvilla/customer/12-jobs/07-apply-job-instruction-page.png",
+		"/project-doc/skillvilla/customer/12-jobs/08-apply-job-test-page.png",
+		"/project-doc/skillvilla/customer/12-jobs/09-apply-job-page.png",
+		"/project-doc/skillvilla/customer/12-jobs/10-job-application-page.png",
+		"/project-doc/skillvilla/customer/12-jobs/11-job-application-detail-page.png",
+		 
+		
+	//freelance
+		"/project-doc/skillvilla/customer/13-freelances/1-freelance-page.png", 
+		"/project-doc/skillvilla/customer/13-freelances/2-my-freelance-page.png", 
+		"/project-doc/skillvilla/customer/13-freelances/3-applied-freelance-page.png", 
+		"/project-doc/skillvilla/customer/13-freelances/4-saved-freelace-page.png", 
+		"/project-doc/skillvilla/customer/13-freelances/5-freelance-detail-page.png", 
+		"/project-doc/skillvilla/customer/13-freelances/6-freelance-add-bid-page.png", 
+		"/project-doc/skillvilla/customer/13-freelances/7-bids-on-freelance-page.png", 
+ 
+		
+	//logout
+		"/project-doc/skillvilla/customer/14-logout/logout-page.png", 
+		
+		
+		
   ],
   liveDemoUrl: "https://example.com/skillvilla",
 	codeUrl: "",  
@@ -1081,56 +1129,12 @@ export const featureProps = [
 				image: '/project-doc/skillvilla/customer/14-logout/logout-page.png',
 			}
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-			
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-			
-
+		], 
+	},
+	{
+		category: 'Admin',
+		features: [ 
+		
 		], 
 	},
  

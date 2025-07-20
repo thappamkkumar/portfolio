@@ -9,7 +9,7 @@ interface LazyImageProps {
   aspectRatio?: string; // optional aspect ratio (like '16/9' or '3/2')
 }
 
-export default function LazyImage({ src, alt, aspectRatio = '16/9' }: LazyImageProps) {
+export default function FeatureImage({ src, alt, aspectRatio = '16/9' }: LazyImageProps) {
   const ref = useRef<HTMLDivElement>(null);
   const [isVisible, setIsVisible] = useState(false);
 
