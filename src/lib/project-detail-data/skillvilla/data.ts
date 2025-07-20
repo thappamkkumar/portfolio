@@ -614,7 +614,7 @@ export const featureProps = [
 					"About section for user's biography or introduction",
 				],
 				image: '/project-doc/skillvilla/customer/08-profile/3-other-user-profile-page.png',
-			}
+			},
 
 
 
