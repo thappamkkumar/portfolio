@@ -44,7 +44,7 @@ export default function QualificationItem({ item, index }: QualificationProps) {
           <span className="   font-medium">{item.year}</span>
 
           <Link
-            href={`/certificate/${item.id}`}
+            href={`/certificates/${item.id}`}
             className="text-sm text-red-700   mt-1  inline-flex items-center gap-1  hover:underline  w-auto"
           >
             <FileBadge size={16} /> View Certificate
