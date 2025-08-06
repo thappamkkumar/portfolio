@@ -26,12 +26,12 @@ export default function Introduction() {
         whileInView="visible"
         viewport={{ once: true }}
       >
-        <div className=" relative  w-[250px] h-[250px]  lg:w-[400px] lg:h-[400px] xl:w-[450px] xl:h-[450px]        ">
+        <div className=" relative  w-[250px] h-[250px]  lg:w-[400px] lg:h-[400px] xl:w-[450px] xl:h-[450px]         ">
           <Image
-            src="/images/profile-image.png"
+            src="/images/profile-image.jpg"
             alt="Mukesh Kumar"
             fill
-            className="object-cover   z-10    "
+            className="object-cover   z-10  bg-zinc-950   "
 						sizes="(max-width: 1024px) 100vw, 450px"
             priority
           />
