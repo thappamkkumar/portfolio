@@ -1,14 +1,14 @@
 'use client';
 
-import { motion } from 'framer-motion';
+import { motion, Variants, easeOut } from 'framer-motion';
 
 
-const fadeLeft = {
+const fadeLeft: Variants = {
   hidden: { opacity: 0, x: 30 },
   visible: (i: number) => ({
     opacity: 1,
     x: 0,
-    transition: { delay: i * 0.1, duration: 0.6, ease: 'easeOut' },
+    transition: { delay: i * 0.1, duration: 0.6, ease: easeOut },
   }),
 };
 

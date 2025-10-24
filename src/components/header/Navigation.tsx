@@ -1,18 +1,23 @@
 'use client';
 
 import React from 'react';
-import { motion } from 'framer-motion';
+import { motion, Variants } from 'framer-motion';
 import { navItems } from './navItems';
 
-const itemVariants = {
+const itemVariants: Variants = {
   hidden: { opacity: 0, y: 10, scale: 0.9 },
   visible: (i: number) => ({
     opacity: 1,
     y: 0,
     scale: 1,
-    transition: { delay: i * 0.1, duration: 0.3, ease: 'easeOut' },
+    transition: {
+      delay: i * 0.1,
+      duration: 0.3,
+      ease: [0.43, 0.13, 0.23, 0.96], // cubic bezier instead of string
+    },
   }),
 };
+
 
 interface NavProps {
   currentHash: string;

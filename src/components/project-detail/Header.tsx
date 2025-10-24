@@ -7,12 +7,14 @@ import { ArrowLeft, LayoutGrid, X } from 'lucide-react';
 interface Feature {
   title: string;
   description: string;
-  image: string;
+  image: string|null;
+	points?: string[];
 }
 
 interface FeatureCategoryData {
   category: string;
   features: Feature[];
+	
 }
 
 interface FeaturesSectionProps {

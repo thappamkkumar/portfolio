@@ -1,11 +1,13 @@
 'use client';
 
 import { useRef } from 'react';
-import { motion, useScroll, useTransform } from 'framer-motion';
+import { motion, useScroll, useTransform, Variants } from 'framer-motion';
 import { ArrowDown } from 'lucide-react';
 import HeroText from './HeroText';
 import SocialLinks from './SocialLinks';
 
+
+/*
 const arrowVariants = {
   hidden: { opacity: 0, y: 20 },
   visible: {
@@ -13,7 +15,21 @@ const arrowVariants = {
     y: 0,
     transition: { duration: 0.6, ease: 'easeOut', delay: 0.6 },
   },
+};*/
+
+const arrowVariants: Variants = {
+  hidden: { opacity: 0, y: 20 },
+  visible: {
+    opacity: 1,
+    y: 0,
+    transition: { 
+      duration: 0.6, 
+      delay: 0.6, 
+      ease: [0.43, 0.13, 0.23, 0.96], // cubic-bezier array instead of 'easeOut'
+    },
+  },
 };
+
 
 export default function Hero() {
   const sectionRef = useRef<HTMLElement>(null);

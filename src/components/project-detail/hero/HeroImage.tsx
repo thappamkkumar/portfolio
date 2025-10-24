@@ -1,15 +1,26 @@
 'use client';
 
 import { memo } from "react";
-import { motion } from "framer-motion";
+import { motion, Variants  } from "framer-motion";
 import Image from "next/image"; // import Image from Next.js
 
+/*
 const fadeRight = {
   hidden: { opacity: 0, x: 40 },
   visible: {
     opacity: 1,
     x: 0,
     transition: { duration: 0.5, ease: "easeInOut" },
+  },
+};
+*/
+
+const fadeRight: Variants = {
+  hidden: { opacity: 0, x: 40 },
+  visible: {
+    opacity: 1,
+    x: 0,
+    transition: { duration: 0.5, ease: [0.42, 0, 0.58, 1] }, // cubic-bezier for easeInOut
   },
 };
 

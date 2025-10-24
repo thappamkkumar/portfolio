@@ -1,8 +1,9 @@
 'use client';
 
-import { motion } from 'framer-motion';
+import { motion, Variants } from 'framer-motion';
 import FeatureImage from './FeatureImage';
 
+/*
 const fadeUp = {
   hidden: { opacity: 0, y: 20 },
   visible: {
@@ -20,6 +21,27 @@ const detailLi = {
     transition: { delay: i * 0.1, duration: 0.3, ease: 'easeOut' },
   }),
 };
+*/
+
+
+const fadeUp: Variants = {
+  hidden: { opacity: 0, y: 20 },
+  visible: {
+    opacity: 1,
+    y: 0,
+    transition: { duration: 0.5, ease: [0.43, 0.13, 0.23, 0.96] }, // easeOut as cubic-bezier
+  },
+};
+
+const detailLi: Variants = {
+  hidden: { opacity: 0, y: 30 },
+  visible: (i: number) => ({
+    opacity: 1,
+    y: 0,
+    transition: { delay: i * 0.1, duration: 0.3, ease: [0.43, 0.13, 0.23, 0.96] },
+  }),
+};
+
 
 interface FeatureItemProps {
   title: string;

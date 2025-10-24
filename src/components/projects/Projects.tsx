@@ -1,18 +1,18 @@
 'use client';
 
 import { useState, useMemo, useRef, useEffect } from 'react';
-import { motion } from 'framer-motion';
+import { motion, Variants, easeOut } from 'framer-motion';
 import ProjectCard from './ProjectCard';
 import TechFilter from './TechFilter';
 import projectList from './projectList';
 import allTech from './allTech';
 
-const fadeUp = {
+const fadeUp:Variants = {
   hidden: { opacity: 0, y: 30 },
   visible: {
     opacity: 1,
     y: 0,
-    transition: { duration: 0.6, ease: 'easeOut' },
+    transition: { duration: 0.6, ease: easeOut },
   },
 };
 

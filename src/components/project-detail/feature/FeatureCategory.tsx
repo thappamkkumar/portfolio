@@ -1,14 +1,25 @@
 'use client';
 
-import { motion } from 'framer-motion';
+import { motion, Variants  } from 'framer-motion';
 import FeatureCard from './FeatureCard';
 
+/*
 const fadeUp = {
   hidden: { opacity: 0, y: 20 },
   visible: {
     opacity: 1,
     y: 0,
     transition: { duration: 0.5, ease: 'easeOut' },
+  },
+};
+*/
+
+const fadeUp: Variants = {
+  hidden: { opacity: 0, y: 20 },
+  visible: {
+    opacity: 1,
+    y: 0,
+    transition: { duration: 0.5, ease: [0.43, 0.13, 0.23, 0.96] }, // cubic-bezier for easeOut
   },
 };
 

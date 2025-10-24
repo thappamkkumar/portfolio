@@ -1,15 +1,29 @@
 'use client'
 
-import { motion } from 'framer-motion'
+import { motion, Variants} from 'framer-motion'
 import { Github, Instagram, MessageCircle } from 'lucide-react'
 import { SkillvillaIcon } from '@/components/icons/SkillvillaIcon' // update path as needed
- 
+
+/*
 const iconVariants = {
   hidden: { opacity: 0, x: 10 },
 	visible: (i: number) => ({
     opacity: 1,
     x: 0, 
     transition: { delay: i * 0.2, duration: 0.6, ease: 'easeOut' },
+  }),
+};*/
+
+const iconVariants: Variants = {
+  hidden: { opacity: 0, x: 10 },
+  visible: (i: number) => ({
+    opacity: 1,
+    x: 0,
+    transition: { 
+      delay: i * 0.2, 
+      duration: 0.6, 
+      ease: [0.43, 0.13, 0.23, 0.96] // cubic-bezier equivalent of easeOut
+    },
   }),
 };
 

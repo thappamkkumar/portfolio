@@ -1,19 +1,19 @@
 'use client';
 
-import { motion } from 'framer-motion';
+import { motion, Variants, easeOut } from 'framer-motion';
 import { Wrench } from "lucide-react";
 
 const fadeUp= {
   hidden: { opacity: 0, y: 30 },
   visible: { opacity: 1, y: 0, transition: { duration: 0.6 } },
 };
- const stackLi = {
+ const stackLi: Variants = {
   hidden: { opacity: 0, y: 30,   },
   visible: (i: number) => ({
     opacity: 1,
     y: 0,
     
-    transition: { delay: i * 0.1, duration: 0.6, ease: 'easeOut' },
+    transition: { delay: i * 0.1, duration: 0.6, ease: easeOut },
   }),
 };
 

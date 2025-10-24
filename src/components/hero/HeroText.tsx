@@ -1,7 +1,7 @@
 'use client';
 
 import { useEffect, useState } from 'react';
-import { motion } from 'framer-motion';
+import { motion, Variants  } from 'framer-motion';
 import { Mail, Download } from 'lucide-react';
 
 const titles = ['Full Stack Developer', 'Web Developer','UI/UX Designer', 'Frontend Developer', 'Tech Enthusiast','Backend Developer']; 
@@ -15,10 +15,24 @@ const container = {
   },
 };
 
-const fadeUp = {
+/*const fadeUp = {
   hidden: { opacity: 0, y: 20 },
   visible: { opacity: 1, y: 0, transition: { duration: 0.5, ease: 'easeOut' } },
+};*/
+
+
+const fadeUp: Variants = {
+  hidden: { opacity: 0, y: 20 },
+  visible: { 
+    opacity: 1, 
+    y: 0, 
+    transition: { 
+      duration: 0.5, 
+      ease: [0.43, 0.13, 0.23, 0.96] // cubic-bezier equivalent of easeOut
+    } 
+  },
 };
+
 
 export default function HeroText() {
   const [text, setText] = useState('');
