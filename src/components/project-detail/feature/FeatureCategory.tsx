@@ -15,7 +15,8 @@ const fadeUp = {
 interface Feature {
   title: string;
   description: string;
-  image: string;
+  image: string|null;
+	points?: string[];
 }
 
 interface FeatureCategoryProps {

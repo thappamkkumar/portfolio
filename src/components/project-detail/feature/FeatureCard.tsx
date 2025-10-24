@@ -25,7 +25,7 @@ interface FeatureItemProps {
   title: string;
   description?: string;
   points?: string[];
-  image: string;
+  image: string|null;
   id: string;
 }
 

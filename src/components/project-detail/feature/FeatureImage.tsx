@@ -4,7 +4,7 @@ import { useEffect, useRef, useState } from 'react';
 import Image from 'next/image';
 
 interface LazyImageProps {
-  src: string;
+  src: string|null;
   alt: string;
    
 }
@@ -31,6 +31,8 @@ export default function FeatureImage({ src, alt  }: LazyImageProps) {
       if (current) observer.unobserve(current);
     };
   }, []);
+	
+	if(src === null) return null;
 
   return (
     <div
