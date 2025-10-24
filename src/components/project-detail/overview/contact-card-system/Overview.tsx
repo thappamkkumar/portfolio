@@ -36,7 +36,7 @@ export default function Overview() {
         </motion.p>
 
         <motion.p variants={fadeUp} initial="hidden" whileInView="visible" viewport={{ once: true }}>
-          The system automatically generates a visually appealing card for each contact using the submitted data, which is then displayed in the user's personal contact list. The interface is fully responsive and designed with a clean, modern layout for ease of use.
+          The system automatically generates a visually appealing card for each contact using the submitted data, which is then displayed in the user&apos;s personal contact list. The interface is fully responsive and designed with a clean, modern layout for ease of use.
         </motion.p>
 
         <motion.ul

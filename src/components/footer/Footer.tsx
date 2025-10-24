@@ -1,7 +1,6 @@
 'use client';
 
-import { motion } from 'framer-motion';
-import { Github, Linkedin, Mail } from 'lucide-react';
+import { motion } from 'framer-motion'; 
 import SocialLinks from './SocialLinks';
 import Logo from './Logo';
 import NavLinks from './NavLinks';

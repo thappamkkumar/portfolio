@@ -15,7 +15,7 @@ export async function POST(req: NextRequest) {
 		
 		// Insert into DB
     const insertQuery = `INSERT INTO message (name, email, message) VALUES ($1, $2, $3 ) RETURNING *;`;
-		const result = await pool.query(insertQuery, [name, email, message]);
+		await pool.query(insertQuery, [name, email, message]);
 
     
 		

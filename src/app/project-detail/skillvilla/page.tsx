@@ -17,14 +17,14 @@ import {
 export default function SkillVilla() {
   return (
     <>
-			<Header data={...featureProps}/>
+			<Header data={featureProps}/>
 			<main>
 				<HeroSection {...heroProps} />
 				<div className="px-6">
 					<Overview />
-					<TechStack {...techStackProps} />
+					<TechStack stack={techStackProps.stack} />
 					
-					<Feature data={...featureProps} />
+					<Feature data={featureProps} />
 
 				</div>
 				

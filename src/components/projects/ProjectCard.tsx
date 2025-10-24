@@ -4,8 +4,15 @@ import { ExternalLink, BookOpen } from 'lucide-react';
 import Image from 'next/image';
 import Link from 'next/link';
 
-
-export default function ProjectCard({ project }: { project: any }) {
+interface Project {
+  title: string;
+  description: string;
+  imageUrl: string;
+  tech: string[];
+  previewUrl?: string;
+  docsUrl?: string;
+}
+export default function ProjectCard({ project }: { project: Project  }) {
   return (
     <div className="h-full bg-zinc-900 p-6 rounded-xl   shadow-md shadow-black/30 hover:shadow-white/30 transition-shadow duration-300">
       <Image

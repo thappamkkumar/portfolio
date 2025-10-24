@@ -45,6 +45,7 @@ export default function ContactForm() {
     } catch (err) {
       setMessage('Network error. Please try again.');
       setStatus('error');
+			console.log(err);
     } finally {
       setIsSubmitting(false); // ? Stop loading
     }

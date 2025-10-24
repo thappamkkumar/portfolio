@@ -1,6 +1,6 @@
 'use client'
   
-import { SkillvillaIcon } from '@/components/icons/SkillvillaIcon' // update path as needed
+//import { SkillvillaIcon } from '@/components/icons/SkillvillaIcon' // update path as needed
   
 
 const navLinks = [

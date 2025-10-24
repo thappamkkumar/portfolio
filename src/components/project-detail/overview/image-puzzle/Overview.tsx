@@ -40,7 +40,7 @@ export default function Overview() {
           whileInView="visible"
           viewport={{ once: true }}
         >
-          The game begins with a simple interface where users can select the puzzle's <strong className="text-zinc-300">complexity</strong> (such as very easy, easy, hard, very hard) and   set a <strong className="text-zinc-300">time limit</strong> to solve it. Once configured, users are taken to the puzzle board where the image is split into pieces and scrambled.
+          The game begins with a simple interface where users can select the puzzle&apos;s <strong className="text-zinc-300">complexity</strong> (such as very easy, easy, hard, very hard) and   set a <strong className="text-zinc-300">time limit</strong> to solve it. Once configured, users are taken to the puzzle board where the image is split into pieces and scrambled.
         </motion.p>
 
         <motion.p

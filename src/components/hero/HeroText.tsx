@@ -66,7 +66,7 @@ export default function HeroText() {
         variants={fadeUp}
         className="text-4xl md:text-6xl font-extrabold text-zinc-100 leading-tight tracking-tight"
       >
-         I'm <span className="text-white">Mukesh Kumar</span>
+         I&apos;m <span className="text-white">Mukesh Kumar</span>
       </motion.h1>
 
       <motion.h2
