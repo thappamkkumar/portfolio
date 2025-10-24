@@ -21,9 +21,11 @@ const itemVariants: Variants = {
 
 interface NavProps {
   currentHash: string;
+  onLinkClick?: () => void; // optional callback
 }
 
-const Navigation: React.FC<NavProps> = ({ currentHash }) => {
+
+const Navigation: React.FC<NavProps> = ({ currentHash, onLinkClick }) => {
 	
   return (
     <nav className="flex flex-col md:flex-row w-full items-center gap-4 md:gap-0 md:justify-end">
@@ -32,7 +34,7 @@ const Navigation: React.FC<NavProps> = ({ currentHash }) => {
         <motion.a
           key={name}
           href={href}
-					
+					onClick={() => onLinkClick?.()}
           custom={i}
           variants={itemVariants}
 					initial="hidden"

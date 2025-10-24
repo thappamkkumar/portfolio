@@ -104,7 +104,10 @@ const Header: React.FC = () => {
       {/* Mobile dropdown menu */}
       {menuOpen && (
         <div className="md:hidden    px-4 py-4 mt-1  bg-zinc-950/90    ">
-          <Navigation currentHash={currentHash} />
+          <Navigation 
+						currentHash={currentHash} 
+						onLinkClick={() => setMenuOpen(false)} 
+					/>
         </div>
       )}
        
