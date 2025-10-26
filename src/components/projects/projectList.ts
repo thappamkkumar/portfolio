@@ -39,7 +39,7 @@ const projectList = [
     docsUrl: '/project-detail/job-portal',
     tech: ['HTML', 'CSS', 'JavaScript', 'PHP', 'MySQL'],
   },
-  
+  /*
   {
     id: 'contact-card',
     title: 'Contact Card System',
@@ -91,7 +91,7 @@ const projectList = [
     docsUrl: '/project-detail/image-puzzle',
     tech: ['HTML', 'CSS', 'JavaScript'],
   },
-   
+   */
 ];
 
 export default projectList;

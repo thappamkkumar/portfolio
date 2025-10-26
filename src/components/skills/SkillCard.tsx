@@ -24,7 +24,7 @@ const fadeUp: Variants = {
 const SkillCard: FC<SkillCardProps> = ({ title, icon: Icon, skills, index }) => {
   return (
     <motion.div
-      className="  bg-zinc-900 p-6 rounded-xl shadow-md shadow-black/30 hover:shadow-white/30 transition-shadow duration-300"
+      className="  bg-zinc-900 p-4 lg:p-6 rounded-xl shadow-md shadow-black/30 hover:shadow-white/30 transition-shadow duration-300"
       variants={fadeUp}
       initial="hidden"
       whileInView="visible"
@@ -32,7 +32,7 @@ const SkillCard: FC<SkillCardProps> = ({ title, icon: Icon, skills, index }) => 
       custom={index}
     >
       <div className="flex items-center gap-3 mb-5">
-        <Icon className="text-red-700" size={28} />
+        <Icon className="text-red-700" size={24} />
         <h3 className="text-2xl font-semibold text-zinc-100">{title}</h3>
       </div>
 

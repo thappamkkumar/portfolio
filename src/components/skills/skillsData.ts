@@ -9,7 +9,7 @@ const skillsData = [
   {
     name: 'Frameworks & Libraries',
     icon: Library,
-    items: ['Laravel', 'React Js', 'Next Js', 'Framer Motion', 'AOS', 'Tailwind CSS', 'Bootstrap'],
+    items: ['Laravel', 'React Js', 'Next Js', 'PHPUnit', 'Pest', 'Framer Motion', 'AOS', 'Tailwind CSS', 'Bootstrap'],
   },
   {
     name: 'Databases',
@@ -19,7 +19,7 @@ const skillsData = [
   {
     name: 'Tools & Platforms',
     icon: Settings,
-    items: ['Git', 'Axios','cURL', 'AJAX', 'WebSocket', 'WebRTC', 'phpMyAdmin'],
+    items: ['Git', 'AWS', 'Axios','cURL', 'AJAX', 'WebSocket', 'WebRTC', 'phpMyAdmin'],
   },
   {
     name: 'Soft Skills',

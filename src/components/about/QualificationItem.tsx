@@ -42,10 +42,10 @@ export default function QualificationItem({ item, index }: QualificationProps) {
       initial="hidden"
       whileInView="visible"
       viewport={{ once: true }}
-      className="bg-zinc-900 text-zinc-400 p-6 rounded-xl shadow-md shadow-black/30 hover:shadow-white/30 transition-shadow duration-300"
+      className="bg-zinc-900 text-zinc-400 p-4 lg:p-6 rounded-xl shadow-md shadow-black/30 hover:shadow-white/30 transition-shadow duration-300"
     >
       <div className="flex items-start gap-3">
-        <Icon className="text-red-700 mt-1" size={22} />
+        <Icon className="text-red-700 " size={24} />
         <div className="flex flex-col gap-1">
           <h3 className="text-xl font-semibold text-zinc-300">{item.title}</h3>
           <p>{item.org}</p>

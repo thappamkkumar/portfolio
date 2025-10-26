@@ -14,7 +14,7 @@ interface Project {
 }
 export default function ProjectCard({ project }: { project: Project  }) {
   return (
-    <div className="h-full bg-zinc-900 p-6 rounded-xl   shadow-md shadow-black/30 hover:shadow-white/30 transition-shadow duration-300">
+    <div className="h-full bg-zinc-900 p-4 lg:p-6 rounded-xl   shadow-md shadow-black/30 hover:shadow-white/30 transition-shadow duration-300">
       <Image
         src={project.imageUrl}
         alt={project.title}

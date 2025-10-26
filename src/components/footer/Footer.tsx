@@ -20,7 +20,7 @@ export default function Footer() {
 			initial="hidden"
 			whileInView="visible"
 			viewport={{ once: true }}
-      className="bg-zinc-900   py-10 px-6 mt-20"
+      className="bg-zinc-900   py-10 px-4 mt-20"
     >
       <div className="max-w-7xl mx-auto grid grid-cols-1 md:grid-cols-3 gap-10 items-center text-center md:text-left">
         {/* Brand */}

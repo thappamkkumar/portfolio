@@ -12,7 +12,7 @@ const fadeUp= {
 
 export default function Contact() {
   return (
-    <section id="contact" className="py-20 max-w-7xl mx-auto px-4 ">
+    <section id="contact" className="py-20 max-w-7xl mx-auto   ">
       <motion.h2
         className="text-center text-4xl md:text-5xl font-bold text-zinc-100 mb-16"
 				variants={fadeUp}

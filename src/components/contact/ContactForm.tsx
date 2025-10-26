@@ -65,7 +65,7 @@ export default function ContactForm() {
       )}
 
       <motion.form
-        className="space-y-6 bg-zinc-900 p-6 rounded-xl shadow-md"
+        className="space-y-6 bg-zinc-900 p-4 lg:p-6 rounded-xl shadow-md"
         variants={fadeLeft}
         initial="hidden"
         whileInView="visible"
