@@ -25,7 +25,7 @@ const projectList = [
     description:
       'A basic e-commerce website where users can browse, cart, and purchase products. Admin panel supports product and order management.',
     imageUrl: '/projects/ecommerce.png',
-    previewUrl: 'https://example.com/ecommerce',
+    previewUrl: 'https://styleloop.page.gd',
     docsUrl: '/project-detail/ecommerce',
     tech: ['HTML', 'CSS', 'Bootstrap',  'JavaScript', 'PHP', 'Laravel', 'MySQL', 'cURL'],
   },
