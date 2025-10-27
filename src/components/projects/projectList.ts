@@ -15,7 +15,7 @@ const projectList = [
     description:
       'An extended version of the e-commerce platform with vendor functionality. Includes full admin panel and vendor dashboard for managing products and orders.',
     imageUrl: '/projects/multi-vendor-ecommerse.png',
-    previewUrl: 'https://example.com/multivendor',
+    previewUrl: 'https://shophub.hstn.me',
     docsUrl: '/project-detail/multi-vendor-ecommerce',
     tech: ['HTML', 'CSS', 'Bootstrap',  'JavaScript', 'PHP', 'Laravel', 'MySQL', 'cURL'],
   },
