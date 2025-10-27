@@ -94,7 +94,7 @@ const Header: React.FC<FeaturesSectionProps> = ({ data }) => {
 						ref={boxRef}
 						className="bg-zinc-900 rounded-lg shadow-lg w-[90vw] max-w-4xl h-[80vh] overflow-hidden"
 					>
-						<div className="overflow-y-auto h-full p-6">
+						<div className="overflow-y-auto h-full p-4 lg:p-6">
 							<div className="flex justify-between items-center mb-4">
 								<h2 className="text-xl font-semibold text-zinc-200">Pages & Features</h2>
 								<button
@@ -121,7 +121,7 @@ const Header: React.FC<FeaturesSectionProps> = ({ data }) => {
 															scrollToIdWithOffset(id);
 															toggleFeatureBox();
 														}}
-														className="block text-center w-full px-4 py-2 rounded-md bg-zinc-800 text-zinc-200 hover:bg-zinc-700 hover:text-white transition-all duration-300"
+														className="block text-center w-full px-1 md:px-2 xl:px-4 py-2 rounded-md bg-zinc-800 text-zinc-200 hover:bg-zinc-700 hover:text-white transition-all duration-300"
 													>
 														{feature.title}
 													</a>
