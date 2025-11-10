@@ -9,6 +9,17 @@ const projectList = [
     docsUrl: '/project-detail/skillvilla',
     tech: ['HTML', 'CSS', 'Bootstrap',  'JavaScript', 'React Js', 'Redux', 'Axios', 'PHP', 'Laravel', 'WebSocket', 'WebRTC', 'JWT', 'MySQL', ],
   },
+	{
+		id: 'vk-salon',
+		title: 'VK Salon – Barber Shop Showcase',
+		description: 
+    'A platform for VK Salon to showcase barber services and work. Features landing page, barber profiles, service & style listings, posts with images/videos, appointment booking, and admin management.',
+			
+		imageUrl: '/projects/vk-salon.png', // replace with actual screenshot if available
+		previewUrl: 'https://vk-salon.vercel.app', // replace with actual live URL
+		docsUrl: '',
+		tech: ['Next.js', 'TypeScript', 'Tailwind CSS', 'PostgreSQL', 'Node.js'],
+	},
   {
     id: 'multi-vendor-ecommerce',
     title: 'ShopHub – Multi Vendor E-commerce Platform',
