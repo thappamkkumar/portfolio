@@ -14,7 +14,7 @@ export default function Home() {
     <main className=" bg-zinc-950">
        <Header />
 			 <Hero />
-			 <div className="px-4">
+			 <div className="px-4 overflow-hidden">
 				<About />
 				<Skills />
 				<Projects />
