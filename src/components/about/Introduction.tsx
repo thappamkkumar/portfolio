@@ -31,7 +31,7 @@ export default function Introduction() {
             src="/images/profile-image.jpg"
             alt="Mukesh Kumar"
             fill
-            className="object-cover   z-10  bg-zinc-950   "
+            className="object-cover   z-10  bg-zinc-900   "
 						sizes="(max-width: 1024px) 100vw, 450px"
             priority
           />
