@@ -1,13 +1,13 @@
 'use client';
 
-import { Mail, Phone, MapPin } from 'lucide-react';
+import { Mail, Phone, MapPin, MessageCircle } from 'lucide-react';
 import { motion } from 'framer-motion';
 
 const contactInfo = [
   {
     label: 'Address',
     value: 'Kathua, Jammu And Kashmir, India',
-    href: 'https://maps.app.goo.gl/Qanr4RMfhrTLrU4x8',
+    href: 'https://maps.app.goo.gl/3dGQeqQzTaLN5pCM9',
     icon: <MapPin size={20} />,
   },
   {
@@ -21,6 +21,12 @@ const contactInfo = [
     value: '+91-6005819576',
     href: 'tel:+916005819576',
     icon: <Phone size={20} />,
+  },
+	{
+    label: 'WhatsApp',
+    value: '+91-6005819576',
+    href: 'https://wa.me/6005819576',
+    icon: <MessageCircle size={20} />,
   },
 ];
 

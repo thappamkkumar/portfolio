@@ -4,7 +4,7 @@ const skillsData = [
   {
     name: 'Languages',
     icon: Code,
-    items: ['HTML', 'CSS', 'Sass', 'JavaScript', 'TypeScript', 'PHP', 'Java'],
+    items: ['HTML', 'CSS', 'Sass', 'JavaScript', 'TypeScript', 'PHP', ],
   },
   {
     name: 'Frameworks & Libraries',
