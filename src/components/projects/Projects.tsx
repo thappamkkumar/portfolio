@@ -110,11 +110,11 @@ export default function Projects() {
         My <span className="text-red-700">Projects</span>
       </motion.h2>
  
-      <TechFilter
+      {/*<TechFilter
         allTech={allTech}
         activeTech={activeTech}
         setActiveTech={setActiveTech}
-      />
+      />*/}
 
       <div ref={gridRef} className="grid md:grid-cols-2 gap-8 min-h-[400px]">
         {paginatedProjects.map((project) => (

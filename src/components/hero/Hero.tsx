@@ -52,7 +52,7 @@ export default function Hero() {
         backgroundPosition: bgPosition,
       }}
     >
-			<div className="relative w-full min-h-screen   bg-zinc-950/80 px-6 py-10   flex flex-col justify-end ">
+			<div className="relative w-full min-h-screen   bg-zinc-950/98 px-6 py-10   flex flex-col justify-end ">
 				{/* Hero Text */}
 				<div className="w-full max-w-7xl mx-auto">
 					<HeroText />

@@ -1,5 +1,62 @@
 const projectList = [
-  {
+ 
+ 
+ {
+  id: 'skillvilla',
+  title: 'SkillVilla – Professional Media Platform',
+  description:
+    'A full stack professional media platform featuring real-time chat, live streaming, community spaces, and job listings. Built with JWT-based authentication, WebSockets for real-time messaging, and WebRTC for live interactions. Deployed with scalable backend architecture and MySQL database management.',
+  imageUrl: '/projects/skillvilla.png',
+  previewUrl: 'http://52.53.160.90',
+  caseStudyUrl: '/project-detail/skillvilla',
+  tech: ['React', 'Redux', 'Laravel', 'WebSockets', 'WebRTC', 'JWT', 'MySQL'],
+},
+{
+  id: 'vk-salon',
+  title: 'VK Salon – Service Booking Platform',
+  description:
+    'A modern service booking platform with appointment scheduling, service management, and admin dashboard. Built using Next.js with TypeScript and PostgreSQL, focusing on clean UI architecture and optimized server-side rendering.',
+  imageUrl: '/projects/vk-salon.png',
+  previewUrl: 'https://vk-salon.vercel.app',
+  caseStudyUrl: '',
+  tech: ['Next.js', 'TypeScript', 'Node.js', 'PostgreSQL', 'Tailwind CSS'],
+},
+{
+  id: 'multi-vendor-ecommerce',
+  title: 'ShopHub – Multi Vendor E-commerce System',
+  description:
+    'A scalable multi-vendor e-commerce platform with role-based authentication, vendor dashboards, product management, and centralized admin control. Designed with modular Laravel backend architecture and relational database modeling.',
+  imageUrl: '/projects/multi-vendor-ecommerse.png',
+  previewUrl: 'https://shophub.zya.me',
+  caseStudyUrl: '/project-detail/multi-vendor-ecommerce',
+  tech: ['Laravel', 'PHP', 'MySQL', 'JavaScript', 'Bootstrap'],
+},
+{
+  id: 'ecommerce',
+  title: 'StyleLoop – E-commerce Application',
+  description:
+    'A full stack e-commerce application supporting product browsing, cart management, order processing, and administrative product control with secure backend logic.',
+  imageUrl: '/projects/ecommerce.png',
+  previewUrl: 'https://styleloop.page.gd',
+  caseStudyUrl: '/project-detail/ecommerce',
+  tech: ['Laravel', 'PHP', 'MySQL','JavaScript', 'Bootstrap'],
+},
+{
+  id: 'job-portal',
+  title: 'Job Portal – Recruitment Platform',
+  description:
+    'A recruitment platform enabling employers to post and manage job listings while allowing candidates to apply, upload resumes, and track applications with structured backend validation.',
+  imageUrl: '/projects/job-portal.png',
+  previewUrl: '',
+  caseStudyUrl: '/project-detail/job-portal',
+  tech: ['PHP', 'MySQL', 'JavaScript'],
+},
+ 
+ 
+ 
+ 
+ 
+ /* {
     id: 'skillvilla',
     title: 'SkillVilla – Professional Media Platform',
     description:
@@ -50,7 +107,7 @@ const projectList = [
     docsUrl: '/project-detail/job-portal',
     tech: ['HTML', 'CSS', 'JavaScript', 'PHP', 'MySQL'],
   },
-  /*
+   
   {
     id: 'contact-card',
     title: 'Contact Card System',

@@ -17,7 +17,7 @@ const qualifications = [
     year: '2018 - 2022',
     icon: GraduationCap,
   },
-  {
+  /*{
     id: 'higher-secondary',
     title: 'Higher Secondary Examination',
     org: 'Jammu & Kashmir State Board of School Education',
@@ -30,12 +30,12 @@ const qualifications = [
     org: 'Jammu & Kashmir State Board of School Education',
     year: '2015 - 2016',
     icon: School,
-  },
+  },*/
   {
     id: 'php-internship',
-    title: 'Web Development (PHP) – Internship',
-    org: 'Course & Certificate',
-    year: '2022',
+    title: 'Industrial Training – Web Development (PHP)',
+    org: 'Sarav Shiksha Institute, Pathankot',
+    year: 'Feb 2022 – May 2022 (4 Months)',
     icon: BadgeCheck,
   },
 ];

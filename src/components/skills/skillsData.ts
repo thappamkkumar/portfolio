@@ -1,4 +1,4 @@
-
+/*
 import { Code, Library, Database, Settings, Users } from 'lucide-react';
 const skillsData = [
   {
@@ -27,5 +27,67 @@ const skillsData = [
     items: ['Problem-solving', 'Teamwork', 'Time Management', 'Continuous Learning'],
   },
 ];
+*/
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+import { Code, Library, Database, Settings } from 'lucide-react';
+
+const skillsData = [
+  {
+    name: 'Frontend',
+    icon: Code,
+    items: [
+      'React',
+      'Next.js',
+      'TypeScript',
+      'JavaScript',
+      'Tailwind CSS',
+      'Bootstrap',
+      'Sass'
+    ],
+  },
+  {
+    name: 'Backend',
+    icon: Library,
+    items: [
+      'Laravel',
+      'PHP',
+      'REST APIs',
+      'WebSockets',
+      'WebRTC',
+      'PHPUnit',
+      
+    ],
+  },
+  {
+    name: 'Databases',
+    icon: Database,
+    items: [
+      'MySQL',
+      'PostgreSQL'
+    ],
+  },
+  {
+    name: 'Cloud & Tools',
+    icon: Settings,
+    items: [
+      'AWS',
+      'Git',
+      'Axios'
+    ],
+  },
+];
+ 
 export default skillsData;

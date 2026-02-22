@@ -1,10 +1,7 @@
 'use client';
 
-import { useEffect, useState } from 'react';
-import { motion, Variants  } from 'framer-motion';
+import { motion, Variants } from 'framer-motion';
 import { Mail, Download } from 'lucide-react';
-
-const titles = ['Full Stack Developer', 'Web Developer','UI/UX Designer', 'Frontend Developer', 'Tech Enthusiast','Backend Developer']; 
 
 const container = {
   hidden: {},
@@ -15,107 +12,92 @@ const container = {
   },
 };
 
-/*const fadeUp = {
-  hidden: { opacity: 0, y: 20 },
-  visible: { opacity: 1, y: 0, transition: { duration: 0.5, ease: 'easeOut' } },
-};*/
-
-
 const fadeUp: Variants = {
   hidden: { opacity: 0, y: 20 },
-  visible: { 
-    opacity: 1, 
-    y: 0, 
-    transition: { 
-      duration: 0.5, 
-      ease: [0.43, 0.13, 0.23, 0.96] // cubic-bezier equivalent of easeOut
-    } 
+  visible: {
+    opacity: 1,
+    y: 0,
+    transition: {
+      duration: 0.5,
+      ease: [0.43, 0.13, 0.23, 0.96],
+    },
   },
 };
 
-
 export default function HeroText() {
-  const [text, setText] = useState('');
-  const [index, setIndex] = useState(0);
-  const [subIndex, setSubIndex] = useState(0);
-  const [deleting, setDeleting] = useState(false);
-
-  useEffect(() => {
-    if (index === titles.length) setIndex(0);
-    const currentTitle = titles[index];
-
-    if (subIndex === currentTitle.length + 1 && !deleting) {
-      setTimeout(() => setDeleting(true), 1000);
-      return;
-    }
-
-    if (subIndex === 0 && deleting) {
-      setDeleting(false);
-      setIndex((prev) => (prev + 1) % titles.length);
-      return;
-    }
-
-    const timeout = setTimeout(() => {
-      setSubIndex((prev) => prev + (deleting ? -1 : 1));
-      setText(currentTitle.substring(0, subIndex));
-    }, deleting ? 50 : 100);
-
-    return () => clearTimeout(timeout);
-  }, [subIndex, deleting, index]);
-
   return (
     <motion.div
-      className="w-auto inline-block  "
+      className="w-auto inline-block"
       variants={container}
       initial="hidden"
       animate="visible"
     >
-			<motion.h3
+      {/* Top Line */}
+      <motion.h3
         variants={fadeUp}
-        className="text-2xl md:text-4xl font-extrabold text-zinc-200 leading-tight tracking-tight flex items-center gap-4"
+        className="text-md md:text-xl font-medium text-red-600 tracking-wide  "
       >
-				<span className="w-[3rem] border border-b-2 border-zinc-100"></span><span>Hello world</span>
-			</motion.h3>
+        Full Stack Developer
+      </motion.h3>
+
+      {/* Name */}
       <motion.h1
         variants={fadeUp}
-        className="text-4xl md:text-6xl font-extrabold text-zinc-100 leading-tight tracking-tight"
+        className="mt-3 text-3xl md:text-6xl font-extrabold text-zinc-100 leading-tight tracking-tight"
       >
-         I&apos;m <span className="text-white">Mukesh Kumar</span>
+        Mukesh Kumar
       </motion.h1>
 
+      {/* Value Proposition */}
       <motion.h2
         variants={fadeUp}
-        className="mt-4 text-2xl md:text-3xl font-medium text-red-700 min-h-[2.5rem]"
+        className="mt-4 text-xl md:text-2xl font-medium text-zinc-300 max-w-2xl"
       >
-        <span>{text}</span>
-        <span className="border-r-2 border-red-700 animate-pulse ml-1" />
+         Building scalable, production-ready web applications with React, Next.js & Laravel.
       </motion.h2>
 
+      {/* Supporting Line */}
       <motion.p
         variants={fadeUp}
-        className="mt-6 text-zinc-400 text-base md:text-lg"
+        className="mt-4 text-zinc-400 text-base md:text-lg max-w-2xl"
       >
-        I specialize in building seamless digital experiences with clean code and modern design.
+        Focused on performance, clean architecture, and maintainable code.
+				<br/>
+        Open to remote opportunities worldwide.
       </motion.p>
 
+      {/* Buttons */}
       <motion.div
         variants={fadeUp}
-        className="mt-8 flex  flex-wrap sm:flex-nowrap   gap-4"
+        className="mt-8 flex flex-wrap sm:flex-nowrap gap-4"
       >
         <a
-          href="#contact"
-          className="px-6  py-3 w-full flex justify-center items-center gap-2  bg-red-700 text-white  rounded-md   hover:bg-red-900 transition"
+          href="#projects"
+          className="px-6 py-3 w-full sm:w-auto flex justify-center items-center gap-2 bg-red-700 text-white rounded-md hover:bg-red-800 transition"
         >
-          <Mail /> <strong>GET IN TOUCH</strong>
+          <strong>View Projects</strong>
         </a>
-        <a
-           href="/resume/mukesh_kumar_resume.pdf"
-					download
+				 <a
+          href="/resume/mukesh_kumar_resume.pdf"
+          download
           rel="noopener noreferrer"
-          className="px-6  py-3 w-full flex justify-center items-center gap-2  border border-red-700 text-red-700  rounded-md  hover:bg-red-700/10 transition"
+          className="px-6 py-3 w-full sm:w-auto flex justify-center items-center gap-2 border border-red-700 text-red-700 rounded-md hover:bg-red-700/10 transition"
+				
         >
-          <Download /> <strong>GET MY RESUME </strong>
+          <Download size={18} />
+          <strong>Download Resume</strong>
         </a>
+				 <a
+          href="#contact"
+        	className="px-6 py-3 w-full sm:w-auto flex justify-center items-center gap-2 text-zinc-300 hover:text-white transition"
+        >
+          <Mail size={18} />
+          <strong>Contact Me</strong>
+        </a>
+				
+       
+
+       
       </motion.div>
     </motion.div>
   );

@@ -26,13 +26,13 @@ export default function Introduction() {
         whileInView="visible"
         viewport={{ once: true }}
       >
-        <div className=" relative  w-[250px] h-[250px]  lg:w-[400px] lg:h-[400px] xl:w-[450px] xl:h-[450px]         ">
+        <div className=" relative  w-64 h-64 sm:w-80 sm:h-80 md:w-90 md:h-90  ">
           <Image
             src="/images/profile-image.jpg"
             alt="Mukesh Kumar"
             fill
             className="object-cover   z-10  bg-zinc-900   "
-						sizes="(max-width: 1024px) 100vw, 450px"
+						sizes="(max-width:  768px) 80vw, 400px"
             priority
           />
 					<div className="absolute top-8  left-8 z-9 w-full h-full  border border-15 border-red-700    ">
@@ -43,33 +43,28 @@ export default function Introduction() {
 			 
 			 
 			<motion.div
-        className="w-full lg:w-1/2 text-zinc-400 text-lg leading-relaxed"
-        variants={fadeLeft}
-        initial="hidden"
-        whileInView="visible"
-        viewport={{ once: true }}
-      >
-				 
-        <p className="text-center lg:text-left  ">
-					<span className="hidden lg:inline-block w-[30px] h-[10px]  me-3 border-t-4 border-red-700"></span>
-					I’m Mukesh Kumar, a dedicated Full Stack Web Developer with a strong passion for building dynamic and user-focused web applications. Although I’m a fresher with no formal industry experience, I’ve developed several real-world projects independently that reflect the standards and complexity of production environments.
-        </p>
-        <br />
+				className="w-full lg:w-1/2 text-zinc-400 text-lg leading-relaxed"
+				variants={fadeLeft}
+				initial="hidden"
+				whileInView="visible"
+				viewport={{ once: true }}
+			>
 				<p className="text-center lg:text-left">
-					<span className="hidden lg:inline-block w-[30px] h-[10px]  me-3 border-t-4 border-red-700"></span>
-					My work includes building complete e-commerce platforms, a professional media-sharing application, and a multi-vendor marketplace — all from scratch. These projects have sharpened my ability to design scalable architectures, write clean code, and deliver responsive user interfaces.
+					I am a Full Stack Developer focused on building scalable, production-ready web applications and complex full stack systems. My experience includes developing e-commerce platforms, media-sharing applications, and multi-vendor marketplaces from the ground up.
 				</p>
-        <br />
-        <p className="text-center lg:text-left">
-					<span className="hidden lg:inline-block w-[30px] h-[10px]  me-3 border-t-4 border-red-700"></span>
-					I work confidently across the full stack, using technologies like Laravel, React.js, Next.js, Tailwind CSS, Bootstrap, MySQL, and PostgreSQL. 
-        </p>
-				 <br />
+
+				<br />
+
 				<p className="text-center lg:text-left">
-					<span className="hidden lg:inline-block w-[30px] h-[10px]  me-3 border-t-4 border-red-700"></span>
-					I’m always exploring new tools and frameworks, and I’m eager to join a team where I can contribute, learn, and grow by solving real-world problems through thoughtful and modern web development.
-        </p>
-      </motion.div>
+					I work across the full stack using React, Next.js, Laravel, and modern database systems such as MySQL and PostgreSQL. My development approach emphasizes clean architecture, reusable components, and maintainable backend structures.
+				</p>
+
+				<br />
+
+				<p className="text-center lg:text-left">
+					I am comfortable handling complete application lifecycles — from UI implementation and API design to authentication systems and database modeling — ensuring performance, scalability, and long-term maintainability.
+				</p>
+			</motion.div>
 
       
      

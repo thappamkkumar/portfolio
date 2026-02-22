@@ -10,7 +10,7 @@ interface Project {
   imageUrl: string;
   tech: string[];
   previewUrl?: string;
-  docsUrl?: string;
+  caseStudyUrl?: string;
 }
 export default function ProjectCard({ project }: { project: Project  }) {
   return (
@@ -49,12 +49,12 @@ export default function ProjectCard({ project }: { project: Project  }) {
               <ExternalLink size={16} /> Preview
             </Link>
           )}
-          {project.docsUrl && (
+          {project.caseStudyUrl && (
             <Link
-              href={project.docsUrl} 
+              href={project.caseStudyUrl} 
               className="inline-flex items-center gap-1 text-zinc-300 hover:text-red-700 transition"
             >
-              <BookOpen size={16} /> Docs
+              <BookOpen size={16} /> Case Study
             </Link>
           )}
         </div>
