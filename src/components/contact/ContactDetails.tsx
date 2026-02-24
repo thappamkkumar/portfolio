@@ -1,15 +1,9 @@
 'use client';
 
-import { Mail, Phone, MapPin, MessageCircle } from 'lucide-react';
+import { Mail, Phone, Linkedin, Github } from 'lucide-react';
 import { motion } from 'framer-motion';
 
 const contactInfo = [
-  {
-    label: 'Address',
-    value: 'Kathua, Jammu And Kashmir, India',
-    href: 'https://maps.app.goo.gl/3dGQeqQzTaLN5pCM9',
-    icon: <MapPin size={20} />,
-  },
   {
     label: 'Email',
     value: 'thappamkkumar@gmail.com',
@@ -17,16 +11,22 @@ const contactInfo = [
     icon: <Mail size={20} />,
   },
   {
+    label: 'LinkedIn',
+    value: 'linkedin.com/in/engineer-mukesh-kumar',
+    href: 'https://www.linkedin.com/in/engineer-mukesh-kumar/',
+    icon: <Linkedin size={20} />,
+  },
+  {
+    label: 'GitHub',
+    value: 'github.com/thappamkkumar', // replace with actual
+    href: 'https://github.com/thappamkkumar',
+    icon: <Github size={20} />,
+  },
+  {
     label: 'Phone',
-    value: '+91-6005819576',
+    value: '+91 60058 19576',
     href: 'tel:+916005819576',
     icon: <Phone size={20} />,
-  },
-	{
-    label: 'WhatsApp',
-    value: '+91-6005819576',
-    href: 'https://wa.me/6005819576',
-    icon: <MessageCircle size={20} />,
   },
 ];
 

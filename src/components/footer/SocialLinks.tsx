@@ -1,13 +1,13 @@
 'use client'
  
-import { Github, Instagram, MessageCircle } from 'lucide-react'
+import { Github, Linkedin, MessageCircle } from 'lucide-react'
 import { SkillvillaIcon } from '@/components/icons/SkillvillaIcon' // update path as needed
   
 
 const socialLinks = [
 	{ href: 'http://52.53.160.90/user/dev-with-mk/23/profile', icon: <SkillvillaIcon /> }, 
   { href: 'https://github.com/thappamkkumar', icon: <Github size={24} /> },
-  { href: 'https://www.instagram.com/mu_ke_sh_ku_mar/?hl=en#', icon: <Instagram size={24} /> },
+  { href: 'https://www.linkedin.com/in/engineer-mukesh-kumar/', icon: <Linkedin size={24} /> },
   { href: 'https://wa.me/6005819576', icon: <MessageCircle size={24} /> },
    
 ]

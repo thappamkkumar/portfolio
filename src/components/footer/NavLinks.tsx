@@ -3,8 +3,7 @@
 //import { SkillvillaIcon } from '@/components/icons/SkillvillaIcon' // update path as needed
   
 
-const navLinks = [
-  { label: 'Home', href: '#home' },
+const navLinks = [ 
   { label: 'Skills', href: '#skills' },
   { label: 'Projects', href: '#projects' },
   { label: 'About', href: '#about' },

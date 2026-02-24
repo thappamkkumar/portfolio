@@ -2,7 +2,7 @@
 
 import { motion } from 'framer-motion'; 
 import SocialLinks from './SocialLinks';
-import Logo from './Logo';
+//import Logo from './Logo';
 import NavLinks from './NavLinks';
 
 
@@ -24,10 +24,12 @@ export default function Footer() {
     >
       <div className="max-w-7xl mx-auto grid grid-cols-1 md:grid-cols-3 gap-10 items-center text-center md:text-left">
         {/* Brand */}
-        <div className="flex flex-col items-center md:items-start space-y-2">
-          <Logo />
-          <p className="text-sm text-zinc-400">
-            Focused on delivering quality through design and code.
+       <div className="text-center md:text-left">
+          <h3 className="text-lg font-semibold text-zinc-100">
+            Mukesh Kumar
+          </h3>
+          <p className="text-sm text-zinc-400 mt-1">
+            Full Stack Developer
           </p>
         </div>
 

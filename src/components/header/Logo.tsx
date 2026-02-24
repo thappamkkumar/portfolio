@@ -1,23 +1,27 @@
-'use client'; 
-import { motion } from 'framer-motion';
+'use client';
 
-const fadeRight= {
+import { motion } from 'framer-motion';
+import Link from 'next/link';
+
+const fadeRight = {
   hidden: { opacity: 0, x: -30 },
-  visible: { opacity: 1, x: 0, transition: { delay:0.3, duration: 0.3 } },
+  visible: { opacity: 1, x: 0, transition: { delay: 0.2, duration: 0.4 } },
 };
 
 const Logo = () => (
- <motion.h1
-  className="text-xl font-bold flex items-center gap-1"
-  variants={fadeRight}
-	initial="hidden"
-	whileInView="visible"
-	viewport={{ once: true }}
->
-  <span className="text-lg bg-red-700 text-white rounded-md px-2 py-1">Mk</span>
-  <span>Portfolio</span>
-</motion.h1>
-
+  <motion.div
+    variants={fadeRight}
+    initial="hidden"
+    whileInView="visible"
+    viewport={{ once: true }}
+  >
+    <Link href="/" className="flex flex-col leading-tight">
+      <span className="text-lg font-semibold text-zinc-100 tracking-tight">
+        Mukesh  Kumar 
+      </span>
+       
+    </Link>
+  </motion.div>
 );
 
 export default Logo;
