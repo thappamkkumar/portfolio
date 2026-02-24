@@ -3,9 +3,9 @@
 import { useState, useMemo, useRef, useEffect } from 'react';
 import { motion, Variants, easeOut } from 'framer-motion';
 import ProjectCard from './ProjectCard';
-import TechFilter from './TechFilter';
+//import TechFilter from './TechFilter';
 import projectList from './projectList';
-import allTech from './allTech';
+//import allTech from './allTech';
 
 const fadeUp:Variants = {
   hidden: { opacity: 0, y: 30 },

@@ -1,7 +1,7 @@
 'use client';
 
 import { motion } from 'framer-motion';
-import { GraduationCap, School, BadgeCheck } from 'lucide-react';
+import { GraduationCap,  BadgeCheck } from 'lucide-react';
 import QualificationItem from './QualificationItem';
 
 const fadeUp= {
