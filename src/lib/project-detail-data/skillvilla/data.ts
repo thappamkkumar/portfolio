@@ -54,3 +54,53 @@ export const problemRoleData = {
     "Handled deployment on AWS EC2 with manual server configuration",
   ],
 };
+
+export const architectureData = {
+  title: "System Architecture",
+
+  description:
+    "SkillVilla follows a monolithic full-stack architecture extended with real-time communication layers. The system combines REST APIs with persistent connections to support both standard operations and real-time interaction.",
+
+  layers: [
+    {
+      title: "Frontend",
+      points: [
+        "Built with React and Redux for centralized state management",
+        "Handles API communication and real-time updates",
+        "Manages WebSocket connections and WebRTC signaling",
+      ],
+    },
+    {
+      title: "Backend",
+      points: [
+        "Laravel-based REST API architecture",
+        "JWT authentication for secure access",
+        "Event broadcasting for real-time updates",
+      ],
+    },
+    {
+      title: "Real-Time Layer",
+      points: [
+        "WebSockets (Laravel Reverb and Echo) for messaging and live updates",
+        "WebRTC for audio/video calls and live streaming",
+        "Backend used as signaling server for peer connections",
+      ],
+    },
+    {
+      title: "Database",
+      points: [
+        "MySQL relational schema for users, messages, jobs, and content",
+        "Persistent storage for chat and platform data",
+      ],
+    },
+    {
+      title: "Deployment",
+      points: [
+        "Hosted on AWS EC2 with manual configuration",
+        "Backend, frontend, WebSocket server, and database on single instance",
+      ],
+    },
+  ],
+
+  image: "/project-doc/skillvilla/architecture.png", // optional but recommended
+};
