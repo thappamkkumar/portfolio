@@ -45,7 +45,6 @@ export default function HeroSection({
   image,
   liveDemoUrl,
   codeUrl,
-  scrollToId,
 }: HeroSectionProps) {
   return (
     <section
