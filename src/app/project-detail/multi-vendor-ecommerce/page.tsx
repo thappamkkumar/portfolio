@@ -26,13 +26,13 @@ export default function MultiVendorEcommerce() {
     <>
 			<Header />
 			<main className=" bg-zinc-950">
-				 <HeroSection {...heroData} />
-                <OverviewSection {...overviewData} />
-                <ProblemRoleSection {...problemRoleData} />
-                <ArchitectureSection {...architectureData} />
-                <CoreSystemsSection {...coreSystemsData} />
-                <TechnicalChallengesSection {...technicalChallengesData} />
-                <DeploymentSection {...deploymentData} />
+				  <HeroSection {...heroData} />
+          <OverviewSection {...overviewData} />
+          <ProblemRoleSection {...problemRoleData} />
+          <ArchitectureSection {...architectureData} />
+          <CoreSystemsSection {...coreSystemsData} />
+          <TechnicalChallengesSection {...technicalChallengesData} />
+          <DeploymentSection {...deploymentData} />
 				 
 			</main>
     </>

@@ -11,19 +11,7 @@ const projectList = [
   caseStudyUrl: '/project-detail/skillvilla',
   tech: ['React', 'Redux', 'Laravel', 'WebSockets', 'WebRTC', 'JWT', 'MySQL'],
 },
-{
-  id: 'multi-vendor-ecommerce',
-  title: 'ShopHub – Multi Vendor E-commerce System',
-  description:
-    'A scalable multi-vendor e-commerce platform with role-based authentication, vendor dashboards, product management, and centralized admin control. Designed with modular Laravel backend architecture and relational database modeling.',
-  imageUrl: '/projects/multi-vendor-ecommerse.png',
-  previewUrl: 'https://shophub.zya.me',
-  caseStudyUrl: '/project-detail/multi-vendor-ecommerce',
-  tech: ['Laravel', 'PHP', 'MySQL', 'JavaScript', 'Bootstrap'],
-},
 
-
-/*
 {
   id: 'vk-salon',
   title: 'VK Salon – Service Booking Platform',
@@ -36,6 +24,17 @@ const projectList = [
 },
 
 {
+  id: 'multi-vendor-ecommerce',
+  title: 'ShopHub – Multi Vendor E-commerce System',
+  description:
+    'A scalable multi-vendor e-commerce platform with role-based authentication, vendor dashboards, product management, and centralized admin control. Designed with modular Laravel backend architecture and relational database modeling.',
+  imageUrl: '/projects/multi-vendor-ecommerse.png',
+  previewUrl: 'https://shophub.zya.me',
+  caseStudyUrl: '/project-detail/multi-vendor-ecommerce',
+  tech: ['Laravel', 'PHP', 'MySQL', 'JavaScript', 'Bootstrap'],
+},
+
+{
   id: 'ecommerce',
   title: 'StyleLoop – E-commerce Application',
   description:
@@ -45,6 +44,9 @@ const projectList = [
   caseStudyUrl: '/project-detail/ecommerce',
   tech: ['Laravel', 'PHP', 'MySQL','JavaScript', 'Bootstrap'],
 },
+
+/*
+
 {
   id: 'job-portal',
   title: 'Job Portal – Recruitment Platform',
