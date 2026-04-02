@@ -104,3 +104,77 @@ export const architectureData = {
 
   image: "/project-doc/skillvilla/architecture.png", // optional but recommended
 };
+
+
+
+export const coreSystemsData = {
+  title: "Core Systems",
+
+  systems: [
+    {
+      title: "Content Engine",
+      description:
+        "The platform supports multiple content types within a unified system, allowing users to create, interact, and share different forms of professional content.",
+      points: [
+        "Supports posts, problems (Q&A), workfolio, jobs, and freelance gigs",
+        "Shared interaction model (like, comment, share)",
+        "Consistent data handling across content types",
+      ],
+    },
+
+    {
+      title: "Real-Time Messaging System",
+      description:
+        "A persistent messaging system built using WebSockets to enable real-time communication between users.",
+      points: [
+        "Private and public chat channels",
+        "Messages stored in database for persistence",
+        "Real-time updates using WebSockets (Laravel Reverb and Echo)",
+      ],
+    },
+
+    {
+      title: "Communication Layer",
+      description:
+        "Supports both peer-to-peer and broadcast communication using WebRTC.",
+      points: [
+        "1-to-1 audio and video calls",
+        "1-to-many live streaming system",
+        "Backend used as signaling server",
+      ],
+    },
+
+    {
+      title: "Feed & Discovery System",
+      description:
+        "Dynamic content delivery system that adapts based on user behavior and interactions.",
+      points: [
+        "Interest-based and follow-based feed generation",
+        "Search across users, jobs, posts, and content",
+        "Unified explorer for multiple content types",
+      ],
+    },
+
+    {
+      title: "Infinite Scroll System",
+      description:
+        "Content loading mechanism optimized for continuous browsing without traditional pagination.",
+      points: [
+        "Dynamic data loading on scroll",
+        "Controlled API calls using offsets/limits",
+        "Prevents duplicate and redundant fetches",
+      ],
+    },
+
+    {
+      title: "Community System",
+      description:
+        "Allows users to create and interact within structured groups.",
+      points: [
+        "Public and private communities",
+        "Separate content sections inside communities",
+        "Community-based discussions and interactions",
+      ],
+    },
+  ],
+};
