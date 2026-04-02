@@ -30,3 +30,27 @@ export const overviewData = {
 
   image: "/projects/skillvilla/overview.png", // replace
 };
+
+export const problemRoleData = {
+  problemTitle: "Problem",
+  problems: [
+    "Professional workflows like job discovery, freelance work, and content sharing are fragmented across multiple platforms",
+    "Lack of real-time interaction in job and professional platforms reduces engagement",
+    "Users often need to switch roles (hirer vs job seeker) across different systems",
+    "No unified system to showcase work, interact, and access opportunities in one place",
+  ],
+
+  roleTitle: "My Role",
+  roleDescription:
+    "I designed and developed the complete user-facing system end-to-end, focusing on integrating multiple domains into a single platform while maintaining consistency and performance.",
+
+  responsibilities: [
+    "Designed REST API architecture using Laravel",
+    "Implemented JWT-based authentication and authorization",
+    "Built a modular frontend using React and Redux",
+    "Integrated WebSockets for real-time messaging",
+    "Implemented WebRTC for audio/video calls and live streaming",
+    "Designed relational database schema (MySQL)",
+    "Handled deployment on AWS EC2 with manual server configuration",
+  ],
+};
