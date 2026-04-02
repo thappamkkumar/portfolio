@@ -178,3 +178,50 @@ export const coreSystemsData = {
     },
   ],
 };
+
+
+export const technicalChallengesData = {
+  title: "Technical Challenges",
+
+  challenges: [
+    {
+      title: "Managing Multiple Content Types in a Unified System",
+      problem:
+        "The platform includes different content types such as posts, jobs, problems, workfolio, and freelance gigs. Each required different data structures while maintaining consistent interaction behavior.",
+      solution:
+        "Designed a unified content handling approach with shared interaction patterns (like, comment, share) and feature-specific extensions to maintain consistency across the system.",
+    },
+
+    {
+      title: "Synchronizing REST APIs with Real-Time Updates",
+      problem:
+        "The system uses both REST APIs and WebSockets, making it challenging to keep frontend state consistent between API responses and real-time events.",
+      solution:
+        "Used Redux as a centralized state layer where API responses initialize state and WebSocket events update the same store, ensuring consistency across the UI.",
+    },
+
+    {
+      title: "Implementing WebRTC Without Third-Party Services",
+      problem:
+        "Establishing reliable peer-to-peer connections for audio/video calls and live streaming without external services added complexity in connection setup.",
+      solution:
+        "Used the Laravel backend as a signaling server to exchange SDP and ICE candidates, enabling direct peer-to-peer connections using WebRTC.",
+    },
+
+    {
+      title: "Handling Infinite Scroll with Data Consistency",
+      problem:
+        "Replacing pagination with infinite scroll introduced issues such as duplicate data, inconsistent ordering, and excessive API calls.",
+      solution:
+        "Implemented controlled API requests using offsets and limits, managed frontend state carefully, and prevented redundant fetches during rapid scrolling.",
+    },
+
+    {
+      title: "Managing System Complexity in a Single Application",
+      problem:
+        "Combining multiple domains (jobs, content, chat, streaming) in a single application increased complexity in routing, state management, and code organization.",
+      solution:
+        "Structured the application into modular sections, separated content creation flows, and organized APIs by domain to maintain scalability and clarity.",
+    },
+  ],
+};
