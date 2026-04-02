@@ -1,10 +1,12 @@
  
 import Header from "@/components/project-detail/Header";
 import HeroSection from "@/components/project-detail/HeroSection"; 
+import OverviewSection from "@/components/project-detail/OverviewSection"; 
   
 
 import {
   heroData,   
+	overviewData,
 } from "@/lib/project-detail-data/skillvilla/data";
 
 
@@ -14,10 +16,9 @@ export default function SkillVilla() {
 			<Header  />
 			<main>
 				<HeroSection {...heroData} />
-				<div className="px-6">
-					 
+				<OverviewSection {...overviewData} />
 
-				</div>
+			 
 				 
 				 
 			</main>
