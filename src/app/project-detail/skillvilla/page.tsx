@@ -6,7 +6,7 @@ import ProblemRoleSection from "@/components/project-detail/ProblemRoleSection";
 import ArchitectureSection from "@/components/project-detail/ArchitectureSection"; 
 import CoreSystemsSection from "@/components/project-detail/CoreSystemsSection";
 import TechnicalChallengesSection from "@/components/project-detail/TechnicalChallengesSection";
-
+import DeploymentSection from "@/components/project-detail/DeploymentSection"; 
 
 
 import {
@@ -15,7 +15,8 @@ import {
 	problemRoleData,
 	architectureData,
 	coreSystemsData,
-	technicalChallengesData
+	technicalChallengesData,
+	deploymentData
 } from "@/lib/project-detail-data/skillvilla/data";
 
 
@@ -30,7 +31,7 @@ export default function SkillVilla() {
 				<ArchitectureSection {...architectureData} />
 				<CoreSystemsSection {...coreSystemsData} />
 				<TechnicalChallengesSection {...technicalChallengesData} />
-				 
+				<DeploymentSection {...deploymentData} />
 			</main>
     </>
   );

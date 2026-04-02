@@ -225,3 +225,33 @@ export const technicalChallengesData = {
     },
   ],
 };
+
+export const deploymentData = {
+  title: "Deployment & Outcome",
+
+  deployment: {
+    description:
+      "The application was deployed on an AWS EC2 instance with manual configuration, handling both backend and frontend within a single environment.",
+
+    points: [
+      "Hosted on AWS EC2 instance",
+      "Manual setup of Laravel backend and React frontend",
+      "WebSocket server configured on same environment",
+      "MySQL database managed within the instance",
+      "Environment variables used for configuration and security",
+    ],
+  },
+
+  outcome: {
+    description:
+      "This project demonstrates the ability to design and build a complex full-stack system with real-time capabilities, integrating multiple domains into a unified platform.",
+
+    points: [
+      "Designed and implemented real-time systems using WebSockets and WebRTC",
+      "Handled complex state management using Redux",
+      "Built a multi-domain platform combining jobs, content, and communication",
+      "Developed and structured scalable REST APIs",
+      "Deployed and managed a full-stack application independently",
+    ],
+  },
+};
