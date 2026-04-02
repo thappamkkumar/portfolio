@@ -24,7 +24,7 @@ export default function SkillVilla() {
   return (
     <>
 			<Header  />
-			<main>
+			<main className=" bg-zinc-950">
 				<HeroSection {...heroData} />
 				<OverviewSection {...overviewData} />
 				<ProblemRoleSection {...problemRoleData} />

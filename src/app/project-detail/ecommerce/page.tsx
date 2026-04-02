@@ -6,7 +6,7 @@ export default function Ecommerce() {
   return (
     <>
 			<Header  />
-			<main>
+			<main className=" bg-zinc-950">
 				 
 				 
 			</main>
