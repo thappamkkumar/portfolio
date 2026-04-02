@@ -1,4 +1,28 @@
  
+ 
+ 
+ 
+ 
+ export const heroData = {
+  projectName: "SkillVilla",
+  headline: "Professional media platform ",
+  description:
+    "A full-stack system combining job marketplace, freelance workflows, content sharing, and real-time interaction using WebSockets and WebRTC.",
+  techStack: [
+    "React",
+    "Redux",
+    "Laravel",
+    "MySQL",
+    "WebSockets",
+    "WebRTC",
+    "AWS EC2",
+  ],
+  image: "/project-doc/skillvilla/hero.png", // 👈 add this
+  liveDemoUrl: "http://52.53.160.90/",
+  codeUrl: "", 
+};
+ 
+ /*
 export const heroProps = {	
 	title: "SkillVilla",
   tagline: "A professional media platform to showcase work, find jobs, and connect with opportunities",
@@ -1372,4 +1396,4 @@ export const featureProps = [
  
  
  
-];		
+];		*/

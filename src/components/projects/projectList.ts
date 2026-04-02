@@ -11,6 +11,8 @@ const projectList = [
   caseStudyUrl: '/project-detail/skillvilla',
   tech: ['React', 'Redux', 'Laravel', 'WebSockets', 'WebRTC', 'JWT', 'MySQL'],
 },
+
+/*
 {
   id: 'vk-salon',
   title: 'VK Salon – Service Booking Platform',
@@ -51,7 +53,7 @@ const projectList = [
   caseStudyUrl: '/project-detail/job-portal',
   tech: ['PHP', 'MySQL', 'JavaScript'],
 },
- 
+ */
  
  
  

@@ -1,81 +1,160 @@
 "use client";
 
-import { useEffect, useMemo, useState } from "react";
-import HeroText from "./hero/HeroText";
-import HeroImage from "./hero/HeroImage";
+import Image from "next/image";
+import { motion, Variants } from "framer-motion";
+import {  ExternalLink, Github } from "lucide-react";
 
 interface HeroSectionProps {
-  title: string;
-  tagline: string;
-  titles: string[]; // fixed type
-  images: string[];
+  projectName: string;
+  headline: string;
+  description: string;
+  techStack: string[];
+  image: string;
   liveDemoUrl?: string;
   codeUrl?: string;
   scrollToId?: string;
 }
 
+/* Animation System */
+const container: Variants = {
+  hidden: {},
+  visible: {
+    transition: {
+      staggerChildren: 0.15,
+    },
+  },
+};
+
+const fadeUp: Variants = {
+  hidden: { opacity: 0, y: 25 },
+  visible: {
+    opacity: 1,
+    y: 0,
+    transition: {
+      duration: 0.5,
+      ease: [0.42, 0, 0.58, 1],
+    },
+  },
+};
+
 export default function HeroSection({
-  title,
-  tagline,
-  titles,
-  images,
+  projectName,
+  headline,
+  description,
+  techStack,
+  image,
   liveDemoUrl,
   codeUrl,
-  scrollToId = "#overview",
+  scrollToId,
 }: HeroSectionProps) {
-  const [currentImage, setCurrentImage] = useState(0);
-  const [text, setText] = useState("");
-  const [index, setIndex] = useState(0);
-  const [subIndex, setSubIndex] = useState(0);
-  const [deleting, setDeleting] = useState(false);
-
-  // ??? Memoize images to avoid re-renders
-  const memoizedImages = useMemo(() => images, [images]);
-
-  // Slideshow logic
-  useEffect(() => {
-    const interval = setInterval(() => {
-      setCurrentImage((prev) => (prev + 1) % memoizedImages.length);
-    }, 3000);
-    return () => clearInterval(interval);
-  }, [memoizedImages]);
-
-  // Typing animation
-  useEffect(() => {
-    const currentTitle = titles[index];
-
-    if (subIndex === currentTitle.length + 1 && !deleting) {
-      setTimeout(() => setDeleting(true), 1000);
-      return;
-    }
-
-    if (subIndex === 0 && deleting) {
-      setDeleting(false);
-      setIndex((prev) => (prev + 1) % titles.length);
-      return;
-    }
-
-    const timeout = setTimeout(() => {
-      setSubIndex((prev) => prev + (deleting ? -1 : 1));
-      setText(currentTitle.substring(0, subIndex));
-    }, deleting ? 40 : 80);
-
-    return () => clearTimeout(timeout);
-  }, [subIndex, deleting, index, titles]);
-
   return (
-    <section className="  w-full max-w-7xl     min-h-[95vh] mx-auto px-6 py-12 bg-zinc-950   overflow-hidden flex items-end lg:items-center justify-between gap-10">
-       
-        <HeroText
-          title={title}
-          text={text}
-          tagline={tagline}
-          liveDemoUrl={liveDemoUrl}
-          codeUrl={codeUrl}
-          scrollToId={scrollToId}
-        />
-        <HeroImage currentImage={currentImage} images={memoizedImages} />
-       
+    <section
+      id="hero"
+      className="w-full max-w-7xl mx-auto px-6 py-16 min-h-[95vh] flex flex-col lg:flex-row items-center justify-between gap-12 bg-zinc-950 overflow-hidden"
+    >
+      {/* LEFT SIDE */}
+      <motion.div
+        variants={container}
+        initial="hidden"
+        animate="visible"
+        className="flex-1    text-left"
+      >
+        {/* Intro Label */}
+        <motion.h3
+          variants={fadeUp}
+          className="text-xl md:text-3xl font-extrabold text-zinc-300 flex items-center  justify-start gap-4"
+        >
+          <span className="w-12 border-b-2 border-red-700"></span>
+          Introducing
+        </motion.h3>
+
+        {/* Title */}
+        <motion.h1
+          variants={fadeUp}
+          className="text-4xl md:text-6xl font-extrabold text-zinc-100 mt-3 leading-tight"
+        >
+          {projectName}
+        </motion.h1>
+
+        {/* Headline */}
+        <motion.h2
+          variants={fadeUp}
+          className="mt-4 text-xl md:text-3xl font-medium text-red-700"
+        >
+          {headline}
+        </motion.h2>
+
+        {/* Description */}
+        <motion.p
+          variants={fadeUp}
+          className="mt-6 text-zinc-400 text-base md:text-lg max-w-xl mx-auto lg:mx-0"
+        >
+          {description}
+        </motion.p>
+
+        {/* Tech Stack */}
+        <motion.div
+          variants={fadeUp}
+          className="mt-6 flex flex-wrap  justify-start gap-2"
+        >
+          {techStack.map((tech, i) => (
+            <span
+              key={i}
+              className="text-sm px-3 py-1 bg-zinc-800 text-zinc-200 rounded-full border border-zinc-700"
+            >
+              {tech}
+            </span>
+          ))}
+        </motion.div>
+
+        {/* Buttons */}
+        <motion.div
+          variants={fadeUp}
+          className="mt-8 flex flex-wrap sm:flex-nowrap gap-4 justify-center lg:justify-start"
+        >
+          {liveDemoUrl && (
+            <a
+              href={liveDemoUrl}
+              target="_blank"
+              rel="noopener noreferrer"
+              className="px-6 py-3 w-full sm:w-auto flex justify-center items-center gap-2 bg-red-700 text-white rounded-md hover:bg-red-900 transition"
+            >
+              <ExternalLink size={18} /> <strong>Live Demo</strong>
+            </a>
+          )}
+
+          {codeUrl && (
+            <a
+              href={codeUrl}
+              target="_blank"
+              rel="noopener noreferrer"
+              className="px-6 py-3 w-full sm:w-auto flex justify-center items-center gap-2 border border-red-700 text-red-700 rounded-md hover:bg-red-700/10 transition"
+            >
+              <Github size={18} /> <strong>View Code</strong>
+            </a>
+          )}
+        </motion.div>
+
+         
+      </motion.div>
+
+      {/* RIGHT SIDE IMAGE */}
+      <motion.div
+        initial={{ opacity: 0, scale: 0.95 }}
+        animate={{ opacity: 1, scale: 1 }}
+        transition={{ duration: 0.6, ease: "easeOut" }}
+        className="flex-1 w-full"
+      >
+        <div className="relative w-full h-[260px] sm:h-[360px] md:h-[460px] lg:h-[520px]">
+          <Image
+            src={image}
+            alt={`${projectName} project preview`}
+            fill
+            priority
+            className="object-contain rounded-xl"
+          />
+        </div>
+      </motion.div>
     </section>
   );
 }
