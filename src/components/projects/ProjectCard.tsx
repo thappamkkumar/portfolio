@@ -46,7 +46,7 @@ export default function ProjectCard({ project }: { project: Project  }) {
               target="_blank"
               className="inline-flex items-center gap-1 text-red-700 hover:underline"
             >
-              <ExternalLink size={16} /> Preview
+              <ExternalLink size={16} /> Live Demo
             </Link>
           )}
           {project.caseStudyUrl && (

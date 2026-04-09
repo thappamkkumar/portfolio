@@ -28,7 +28,7 @@ const projectList = [
   title: 'ShopHub – Multi Vendor E-commerce System',
   description:
     'A scalable multi-vendor e-commerce platform with role-based authentication, vendor dashboards, product management, and centralized admin control. Designed with modular Laravel backend architecture and relational database modeling.',
-  imageUrl: '/projects/multi-vendor-ecommerse.png',
+  imageUrl: '/projects/multi-vendor-ecommerce.png',
   previewUrl: 'https://shophub.zya.me',
   caseStudyUrl: '/project-detail/multi-vendor-ecommerce',
   tech: ['Laravel', 'PHP', 'MySQL', 'JavaScript', 'Bootstrap'],

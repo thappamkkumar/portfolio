@@ -11,13 +11,13 @@ export const heroData = {
 		"Javascript",
 		"Bootstrap"
   ],
-  image: "/project-doc/shophub/hero.png",
+  image: "/project-doc/multi-vendor-ecommerse/hero.png",
   liveDemoUrl: "https://shophub.zya.me",
   codeUrl: "https://github.com/thappamkkumar/multi-vendor-ecommerse",
 };
 
 export const overviewData = {
-  title: "Product Overview",
+  title: "Project Overview",
   description:
     "ShopHub is a multi-vendor e-commerce platform designed to simulate real-world marketplace systems like Amazon. It enables vendors to manage products and orders, customers to discover and purchase items, and administrators to oversee the entire platform including transactions, users, and product lifecycle management.",
 
@@ -29,7 +29,7 @@ export const overviewData = {
     "Complete order, transaction, and user management system",
   ],
 
-  image: "/project-doc/shophub/overview.png",
+  image: "/project-doc/multi-vendor-ecommerse/overview.png",
 };
 
 export const problemRoleData = {

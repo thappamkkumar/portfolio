@@ -19,7 +19,7 @@
 };
   
 export const overviewData = {
-  title: "Product Overview",
+  title: "Project Overview",
   description: "SkillVilla is a professional media platform designed to unify professional workflows such as job discovery, freelance bidding, content sharing, and real-time communication into a single system. Instead of separating these into different platforms, it provides a consistent user experience where users can showcase work, interact with others, and access opportunities without switching contexts.",
   points: [
     "Unified platform combining jobs, freelance, content, and communication",
@@ -28,7 +28,7 @@ export const overviewData = {
     "Multiple content systems: posts, problems, workfolio, jobs, and gigs",
   ],
 
-  image: "/projects/skillvilla/overview.png", // replace
+  image: "/project-doc/skillvilla/overview.png", // replace
 };
 
 export const problemRoleData = {

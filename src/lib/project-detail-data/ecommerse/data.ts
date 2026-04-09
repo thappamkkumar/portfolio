@@ -12,13 +12,13 @@ export const heroData = {
 		"Bootstrap"
 
   ],
-  image: "/project-doc/styleloop/hero.png",
+  image: "/project-doc/ecommerse/hero.png",
   liveDemoUrl: "https://styleloop.page.gd",
   codeUrl: "https://github.com/thappamkkumar/E-commerse",
 };
 
 export const overviewData = {
-  title: "Product Overview",
+  title: "Project Overview",
   description:
     "StyleLoop is a single-vendor e-commerce platform designed to handle end-to-end online shopping workflows. It allows customers to browse products, manage carts, and place orders, while administrators control inventory, categories, and transactions through a centralized dashboard.",
 
@@ -30,7 +30,7 @@ export const overviewData = {
     "Complete order lifecycle and transaction tracking",
   ],
 
-  image: "/project-doc/styleloop/overview.png",
+  image: "/project-doc/ecommerse/overview.png",
 };
 
 export const problemRoleData = {

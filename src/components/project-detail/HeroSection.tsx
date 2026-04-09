@@ -145,13 +145,13 @@ export default function HeroSection({
         transition={{ duration: 0.6, ease: "easeOut" }}
         className="flex-1 w-full"
       >
-        <div className="relative w-full h-[260px] sm:h-[360px] md:h-[460px] lg:h-[520px]">
+        <div className="relative w-full h-[260px] sm:h-[360px] md:h-[460px] lg:h-[520px] overflow-hidden rounded-xl">
           <Image
             src={image}
             alt={`${projectName} project preview`}
             fill
             priority
-            className="object-contain rounded-xl"
+            className="object-contain "
           />
         </div>
       </motion.div>

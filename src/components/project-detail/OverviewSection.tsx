@@ -99,13 +99,13 @@ export default function OverviewSection({
           className="w-full"
         >
           <div className="relative w-full h-[260px] sm:h-[360px] md:h-[460px]">
-            <div className="absolute inset-0 bg-gradient-to-tr from-red-700/10 to-transparent rounded-xl" />
+            <div className="absolute inset-0   rounded-xl" />
 
             <Image
               src={image}
-              alt="SkillVilla overview"
+              alt="overview"
               fill
-              className="object-contain rounded-xl border border-zinc-800"
+              className="object-contain rounded-xl  "
             />
           </div>
         </motion.div>
