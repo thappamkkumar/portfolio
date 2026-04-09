@@ -19,7 +19,7 @@ const projectList = [
     'A modern service booking platform with appointment scheduling, service management, and admin dashboard. Built using Next.js with TypeScript and PostgreSQL, focusing on clean UI architecture and optimized server-side rendering.',
   imageUrl: '/projects/vk-salon.png',
   previewUrl: 'https://vk-salon.vercel.app',
-  caseStudyUrl: '',
+  caseStudyUrl: '/project-detail/vk-salon',
   tech: ['Next.js', 'TypeScript', 'Node.js', 'PostgreSQL', 'Tailwind CSS'],
 },
 
